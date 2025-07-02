@@ -5,7 +5,6 @@ import 'package:vocab_learning/custome_text_filed.dart';
 import 'package:vocab_learning/search_meaning/controller/search_meaning_controller.dart';
 import 'package:vocab_learning/search_meaning/model/onlinewordclass.dart';
 
-
 class DictionaryScreen extends StatefulWidget {
   @override
   _DictionaryScreenState createState() => _DictionaryScreenState();
@@ -21,17 +20,17 @@ class _DictionaryScreenState extends State<DictionaryScreen> {
       appBar: AppBar(
         title: const Text('Search Meaning'),
       ),
-       floatingActionButton: FloatingActionButton(
-        backgroundColor: Colors.green,
+      floatingActionButton: FloatingActionButton.small(
+        backgroundColor: Colors.blue,
         onPressed: () {
-        Get.to(AddWordPage());
+          Get.to(AddWordPage());
         },
+        shape: RoundedRectangleBorder(
+          borderRadius: BorderRadius.circular(100.0),
+        ),
         child: Icon(
           Icons.add,
           color: Colors.white,
-        ),
-        shape: RoundedRectangleBorder(
-          borderRadius: BorderRadius.circular(100.0),
         ),
       ),
       body: Padding(
@@ -103,4 +102,3 @@ class _DictionaryScreenState extends State<DictionaryScreen> {
     );
   }
 }
-

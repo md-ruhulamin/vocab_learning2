@@ -8,7 +8,7 @@ class EditWordPage extends StatelessWidget {
   final Word word;
   final int index;
 
-  EditWordPage({required this.word, required this.index});
+  EditWordPage({super.key, required this.word, required this.index});
 
   final controller = Get.find<WordController>();
   final wordCtrl = TextEditingController();
@@ -30,6 +30,8 @@ class EditWordPage extends StatelessWidget {
         final updated = Word(
           id: word.id, // Assuming id is part of the Word model
           word: wordCtrl.text,
+          isBookmarked: word.isBookmarked,
+          isIdiom: word.isIdiom, // Assuming isIdiom is part of the
           meaning: meaningCtrl.text,
           synonyms: synonymCtrl.text.isNotEmpty
               ? synonymCtrl.text.split(',').map((e) => e.trim()).toList()
@@ -41,10 +43,10 @@ class EditWordPage extends StatelessWidget {
               ? sentenceCtrl.text.split('|').map((e) => e.trim()).toList()
               : [],
         );
-       controller.updateWord(index, updated);
-    print(index);
-       Navigator.pop(context);
-      }else{
+        controller.updateWord(updated);
+        print(index);
+        Navigator.pop(context);
+      } else {
         Get.snackbar("Failed", "Word or Meaning cann't be empty");
       }
     }
@@ -64,6 +66,7 @@ class EditWordPage extends StatelessWidget {
               controller: meaningCtrl,
               hintText: 'Meaning',
             ),
+           
             CustomTextField(
                 hintText: 'Synonyms (comma separated)',
                 controller: synonymCtrl),

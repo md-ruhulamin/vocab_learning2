@@ -1,11 +1,15 @@
 import 'package:flip_card/flip_card.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:vocab_learning/controller.dart';
+import 'package:vocab_learning/quiz_page.dart';
 import 'package:vocab_learning/search_meaning/screen/search_meaning_view.dart';
 import 'package:vocab_learning/word_list_page.dart';
 
 class QuizHomePage extends StatelessWidget {
-  const QuizHomePage({super.key});
+  QuizHomePage({super.key});
+
+  final controller = Get.put(WordController());
 
   @override
   Widget build(BuildContext context) {
@@ -31,7 +35,7 @@ class QuizHomePage extends StatelessWidget {
               Row(
                 children: [
                   const CircleAvatar(
-                    radius: 24,
+                    radius: 20,
                     backgroundImage: NetworkImage(
                         'https://i.pravatar.cc/150?img=1'), // Placeholder image
                   ),
@@ -71,7 +75,7 @@ class QuizHomePage extends StatelessWidget {
                       ),
                       SizedBox(height: 5),
                       Text(
-                        "De Finibus Bonorum et Malorum for use",
+                        "Enrich your Vocabulary & Grow your Skills",
                         style: TextStyle(color: Colors.white70),
                       ),
                     ],
@@ -82,7 +86,7 @@ class QuizHomePage extends StatelessWidget {
                   width: double.infinity,
                   padding: const EdgeInsets.all(20),
                   decoration: BoxDecoration(
-                    color: Colors.blue,
+                    color: Colors.blue.shade700,
                     borderRadius: BorderRadius.circular(20),
                     image: const DecorationImage(
                       image: NetworkImage(
@@ -104,7 +108,7 @@ class QuizHomePage extends StatelessWidget {
                       ),
                       SizedBox(height: 5),
                       Text(
-                        "  Word of the Day Quiz",
+                        " Play quizzes to earn coins and rewards",
                         style: TextStyle(color: Colors.white70),
                       ),
                     ],
@@ -159,21 +163,25 @@ class QuizHomePage extends StatelessWidget {
                         Get.to(WordListPage(type: 3));
                       }),
                   CategoryTile(
-                    icon: Icons.brush,
-                    label: "Art & Craft",
-                    onTap: () {},
+                    icon: Icons.quiz,
+                    label: "Quiz",
+                    onTap: () {
+                      Get.to(QuizPage(userWords: controller.words));
+                    },
                   ),
                   CategoryTile(
-                    icon: Icons.broadcast_on_personal_outlined,
+                    icon: Icons.language,
                     label: "Search Online",
                     onTap: () {
                       Get.to(DictionaryScreen());
                     },
                   ),
                   CategoryTile(
-                    icon: Icons.language,
-                    label: "Language",
-                    onTap: () {},
+                    icon: Icons.text_snippet,
+                    label: "Sample Words",
+                    onTap: () {
+                      Get.to(WordListPage(type: 0));
+                    },
                   ),
                 ],
               )

@@ -16,6 +16,8 @@ class AddWordPage extends StatelessWidget {
   void addWord() {
     if (wordController.text.isNotEmpty && meaningController.text.isNotEmpty) {
       final word = Word(
+        isIdiom: controller.isIdiom.value, // Use the controller's isIdiom value
+        isBookmarked: false,
         id: DateTime.now().millisecondsSinceEpoch, // Unique ID based on timestamp
         word: wordController.text.trim(),
         meaning: meaningController.text.trim(),
@@ -46,7 +48,7 @@ class AddWordPage extends StatelessWidget {
     return Scaffold(
 
       resizeToAvoidBottomInset: false,
-      appBar: AppBar(title: Text('Vocabulary App')),
+      appBar: AppBar(title: Text('Add Word')),
       body: Padding(
         padding: const EdgeInsets.all(12.0),
         child: Column(
@@ -65,6 +67,28 @@ class AddWordPage extends StatelessWidget {
             CustomTextField(
                 controller: antonymController,
                 hintText: 'Antonyms (comma separated)'),
+                Row(
+                  children: [
+                    SizedBox(width: 10), Text('Is Idiom?', style: TextStyle(fontSize: 16)),
+                    SizedBox(width: 10),
+                    Obx(() => Row(
+                      children: [
+                        Radio<bool>(
+                          value: false,
+                          groupValue: controller.isIdiom.value,
+                          onChanged: (val) => controller.isIdiom.value = val!,
+                        ),
+                        Text('Yes'),
+                        Radio<bool>(
+                          value: true,
+                          groupValue: controller.isIdiom.value,
+                          onChanged: (val) => controller.isIdiom.value = val!,
+                        ),
+                        Text('No'),
+                      ],
+                    )),
+                  ],
+                ),
             CustomTextField(
                 maxLines: 3,
                 controller: sentenceController,

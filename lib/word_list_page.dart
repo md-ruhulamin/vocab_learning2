@@ -1,3 +1,4 @@
+import 'package:flip_card/flip_card.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:vocab_learning/add_word.dart';
@@ -5,6 +6,7 @@ import 'package:vocab_learning/audio/audio_view.dart';
 import 'package:vocab_learning/book_mark.dart';
 import 'package:vocab_learning/controller.dart';
 import 'package:vocab_learning/custom_text.dart';
+import 'package:vocab_learning/edit_word.dart';
 import 'package:vocab_learning/quiz_page.dart';
 import 'package:vocab_learning/wordModel.dart';
 import 'package:vocab_learning/word_card.dart';
@@ -20,29 +22,40 @@ class WordListPage extends StatefulWidget {
 class _WordListPageState extends State<WordListPage> {
   final controller = Get.put(WordController());
   String searchQuery = "";
- @override
+  @override
   void initState() {
-    if(widget.type == 2) {
+    if (widget.type == 1) {
+      controller.changeType(1);
+    } else if (widget.type == 2) {
+      controller.changeType(2); // Load bookmarked words if type is not 1
+    } else if (widget.type == 3) {
+      controller.changeType(3); // Load synonym words if type is 3
+    } else if (widget.type == 0) {
+      controller.changeType(0); // Load sample words if type is 0
+    } else {
       controller.loadWords(); // Load words when the widget is initialized
-    } else if(widget.type == 2) {
-      controller.loadBookmarkedWords(); // Load bookmarked words if type is not 1
     }
-    else if(widget.type == 3) {
-      controller.loadIdioms(); // Load synonym words if type is 3
-    }
-    else{
-       controller.loadWords(); // Load words when the widget is initialized
-    }
-  
+
     super.initState();
   }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Vocabulary List'),
+        title: widget.type==0? Text("Sample Words") :  widget.type==1?   Text('Vocabulary List'):widget.type==2? Text('Bookmarked Words') : Text('Idioms'),
         actions: [
-          ElevatedButton(
+         
+          TextButton(
+            style: TextButton.styleFrom(
+              backgroundColor: Colors.lightBlueAccent,
+              foregroundColor: Colors.blue,
+              padding: const EdgeInsets.symmetric(horizontal: 30, vertical: 14),
+              shape: RoundedRectangleBorder(
+                side: const BorderSide(color: Colors.blue),
+                borderRadius: BorderRadius.circular(10),
+              ),
+            ),
             onPressed: () {
               // Ensure userWords is not empty to prevent stuck behavior
               if (controller.words.length < 5) {
@@ -56,14 +69,13 @@ class _WordListPageState extends State<WordListPage> {
                   context,
                   MaterialPageRoute(
                     builder: (context) =>
-                      
-                       QuizPage(userWords: controller.words.value),
+                        QuizPage(userWords: controller.words.value),
                   ),
                 );
               }
             },
-            child: Text("Start Quiz"),
-          ),
+            child: Text("Start Quiz", style: TextStyle(color: Colors.white)),
+          ),SizedBox(width: 10),
         ],
       ),
       body: Column(
@@ -71,7 +83,14 @@ class _WordListPageState extends State<WordListPage> {
           Padding(
             padding: EdgeInsets.all(12),
             child: TextField(
-              decoration: InputDecoration(hintText: "Search word..."),
+              decoration: InputDecoration(
+                hintText: "Search words...",
+                filled: true,
+                fillColor: Colors.white,
+                enabledBorder: OutlineInputBorder(
+                  borderSide: BorderSide(color: Colors.grey.shade400, width: 1),
+                ),
+              ),
               onChanged: (value) =>
                   setState(() => searchQuery = value.toLowerCase()),
             ),
@@ -90,23 +109,26 @@ class _WordListPageState extends State<WordListPage> {
                     children: [
                       InkWell(
                         onTap: () {
+                          print(realIndex);
                           Navigator.push(
                             context,
                             MaterialPageRoute(
-                              builder: (_) =>
-                                  WordDetailPage(word: word, index: realIndex),
+                              builder: (_) => WordCard(
+                                  words: controller.words.value,
+                                  realIndex: realIndex),
                             ),
                           );
                         },
                         onLongPress: () {
                           print("Deleting word at index $realIndex");
-                          controller.deleteWord(realIndex);
+                          controller.deleteWord(word);
                           ScaffoldMessenger.of(context).showSnackBar(
                             SnackBar(content: Text("Word deleted")),
                           );
                         },
                         child: Container(
-                          padding: const EdgeInsets.symmetric(horizontal: 10,vertical: 5),
+                          padding: const EdgeInsets.symmetric(
+                              horizontal: 10, vertical: 5),
                           decoration: BoxDecoration(
                             color: Colors.white,
                             borderRadius: BorderRadius.circular(10),
@@ -135,7 +157,7 @@ class _WordListPageState extends State<WordListPage> {
                                   SizedBox(width: 10),
                                   BookMarkWIdget(
                                       onTap: () {
-                                        controller.toggleBookmark(realIndex);
+                                        controller.toggleBookmark(word);
                                         ScaffoldMessenger.of(context)
                                             .showSnackBar(
                                           SnackBar(
@@ -148,22 +170,23 @@ class _WordListPageState extends State<WordListPage> {
                                       realIndex: realIndex,
                                       word: word),
                                   SizedBox(width: 10),
-                                  InkWell(
-                                    onTap: () {
-                                      Navigator.push(
-                                        context,
-                                        MaterialPageRoute(
-                                          builder: (_) => WordCard(
-                                              word: word, realIndex: realIndex),
-                                        ),
-                                      );
-                                    },
-                                    child: Icon(
-                                      Icons.edit,
-                                      size: 20,
-                                      color: Colors.blue.shade800,
+                                  if (widget.type != 0)
+                                    InkWell(
+                                      onTap: () {
+                                        Navigator.push(
+                                          context,
+                                          MaterialPageRoute(
+                                            builder: (_) => EditWordPage(
+                                                word: word, index: realIndex),
+                                          ),
+                                        );
+                                      },
+                                      child: Icon(
+                                        Icons.edit,
+                                        size: 20,
+                                        color: Colors.blue.shade800,
+                                      ),
                                     ),
-                                  ),
                                 ],
                               ),
                               Text("-${word.meaning}",
@@ -190,7 +213,7 @@ class _WordListPageState extends State<WordListPage> {
         ],
       ),
       floatingActionButton: FloatingActionButton.small(
-        backgroundColor: Colors.amber,
+        backgroundColor: Colors.blue,
         shape: CircleBorder(),
         onPressed: () {
           Navigator.push(
@@ -198,7 +221,10 @@ class _WordListPageState extends State<WordListPage> {
             MaterialPageRoute(builder: (_) => AddWordPage()),
           );
         },
-        child: Icon(Icons.add),
+        child: Icon(
+          Icons.add,
+          color: Colors.white,
+        ),
       ),
     );
   }
