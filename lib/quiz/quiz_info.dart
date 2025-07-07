@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:vocab_learning/controller.dart';
+import 'package:vocab_learning/controller/word_controller.dart';
 import 'package:vocab_learning/data/sample_words.dart';
 import 'package:vocab_learning/quiz/quiz_page.dart';
 import 'package:vocab_learning/widget/custom_button.dart';
@@ -17,14 +17,15 @@ class QuizPageInfo extends StatefulWidget {
 
 class _QuizPageInfoState extends State<QuizPageInfo> {
   final TextEditingController MCQNumberController =
-      new TextEditingController(text: "10");
+      new TextEditingController(text: "5");
   late WordController wordController = Get.put(WordController());
 
-  int _selectedValue = 1;
+  int _selectedValue = -1;
   @override
   void initState() {
     super.initState();
     wordController.loadWords();
+    wordController.changeType(1);
   }
 
   List<Word> _wordlist = [];
@@ -44,7 +45,7 @@ class _QuizPageInfoState extends State<QuizPageInfo> {
                 children: [
                   CustomTextField(
                     controller: MCQNumberController,
-                    hintText: "Number of MCQ (Greater than 5)",
+                    hintText: "Number of MCQ (Greater than 4)",
                     keyboardType: TextInputType.number,
                     labelText: "Ex. 10,15,20 ",
                   ),
@@ -114,15 +115,23 @@ class _QuizPageInfoState extends State<QuizPageInfo> {
                       width: context.width * 0.8,
                       onPressed: () {
                         if (MCQNumberController.text.isNotEmpty && int.parse(MCQNumberController.text.toString()) >
-                            5) {
+                            4) {
                           if (_selectedValue == 1) {
-                            _wordlist = wordController.words.value;
+                         setState(() {
+                              _wordlist = wordController.words;
+                         });
                           } else if (_selectedValue == 2) {
-                            _wordlist = wordController.bookmarkedWords;
+                          setState(() {
+                              _wordlist = wordController.bookmarkedWords;
+                          });
                           } else if (_selectedValue == 3) {
-                            _wordlist = wordController.idioms;
+                          setState(() {
+                              _wordlist = wordController.idioms;
+                          });
                           } else if (_selectedValue == 4) {
-                            _wordlist = sampleWords;
+                          setState(() {
+                              _wordlist = sampleWords;
+                          });
                           }
                           if (_wordlist.length <
                               int.parse(MCQNumberController.text.toString())) {
@@ -141,7 +150,7 @@ class _QuizPageInfoState extends State<QuizPageInfo> {
                         } else {
                           showCustomSnackBar(
                             context,
-                            "Please enter a number greater than 5",
+                            "Please enter a number greater than 4",
                           );
                         }
                       },

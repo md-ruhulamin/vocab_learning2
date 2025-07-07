@@ -6,7 +6,7 @@ import 'package:vocab_learning/quiz/quiz_model.dart';
 class AnswerSheetScreen extends StatefulWidget {
   AnswerSheetScreen({super.key, required this.quizList, required this.userAnswers});
 
-  List<QuizQuestion> quizList;
+  Set<QuizQuestion> quizList;
     final Map<int, String> userAnswers;
   @override
   State<AnswerSheetScreen> createState() => _AnswerSheetScreenState();
@@ -40,36 +40,36 @@ class _AnswerSheetScreenState extends State<AnswerSheetScreen> {
                           children: [
                             CustomText(
                               text:
-                                  "Q${index + 1} ${widget.quizList[index].question}",
+                                  "Q${index + 1} ${widget.quizList.elementAt(index).question}",
                               fontSize: 22,
                             ),
                             OptionWidget(
                                 optionChar: "A",
                                 optionText:
-                                    "${widget.quizList[index].options[0]}",
+                                    "${widget.quizList.elementAt(index).options[0]}",
                                 correctAnswer:
-                                    "${widget.quizList[index].correctAnswer}",
+                                    "${widget.quizList.elementAt(index).correctAnswer}",
                                 myanswer:widget.userAnswers[index]),
                             OptionWidget(
                                 optionChar: "B",
                                 optionText:
-                                    "${widget.quizList[index].options[1]}",
+                                    "${widget.quizList.elementAt(index).options[1]}",
                                 correctAnswer:
-                                    "${widget.quizList[index].correctAnswer}",
+                                    "${widget.quizList.elementAt(index).correctAnswer}",
                                  myanswer:widget.userAnswers[index]),
                             OptionWidget(
                                 optionChar: "C",
                                 optionText:
-                                    "${widget.quizList[index].options[2]}",
+                                    "${widget.quizList.elementAt(index).options[2]}",
                                 correctAnswer:
-                                    "${widget.quizList[index].correctAnswer}",
+                                    "${widget.quizList.elementAt(index).correctAnswer}",
                                  myanswer:widget.userAnswers[index]),
                             OptionWidget(
                                 optionChar: "D",
                                 optionText:
-                                    "${widget.quizList[index].options[3]}",
+                                    "${widget.quizList.elementAt(index).options[3]}",
                                 correctAnswer:
-                                    "${widget.quizList[index].correctAnswer}",
+                                    "${widget.quizList.elementAt(index).correctAnswer}",
                                  myanswer:widget.userAnswers[index]),
                           ],
                         ),

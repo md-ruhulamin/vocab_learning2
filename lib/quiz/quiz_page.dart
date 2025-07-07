@@ -5,7 +5,7 @@ import 'package:get/get.dart';
 import 'package:get/get_core/get_core.dart';
 import 'package:get/get_instance/get_instance.dart';
 import 'package:vocab_learning/answer.dart';
-import 'package:vocab_learning/controller.dart';
+import 'package:vocab_learning/controller/word_controller.dart';
 import 'package:vocab_learning/quiz/quiz_model.dart';
 import 'package:vocab_learning/quiz/quiz_result.dart';
 import 'package:vocab_learning/widget/custom_snakebar.dart';
@@ -14,7 +14,8 @@ import 'package:vocab_learning/wordModel.dart';
 class QuizPage extends StatefulWidget {
   final List<Word> userWords;
   final int numberofMCQ;
-  const QuizPage({required this.userWords, Key? key, required this.numberofMCQ}) : super(key: key);
+  const QuizPage({required this.userWords, Key? key, required this.numberofMCQ})
+      : super(key: key);
 
   @override
   State<QuizPage> createState() => _QuizePageState();
@@ -22,14 +23,13 @@ class QuizPage extends StatefulWidget {
 
 class _QuizePageState extends State<QuizPage> {
   final List<Word> wordList = [];
-  final List<QuizQuestion> questions = [];
-
+  final Set<QuizQuestion> questions = {};
   final Map<int, String> userAnswers = {};
-
+  Set<Word> usedwords = {};
   int currentIndex = 0;
   int selectedIndex = 1; // No option selected initially
   bool showResult = false;
-
+  bool isGenerating = true;
   @override
   void initState() {
     super.initState();
@@ -51,18 +51,39 @@ class _QuizePageState extends State<QuizPage> {
     }
     wordList.addAll(userWords);
   }
+ Word getUniqueWord() {
+        final random = Random();
 
+      Set<String> usedWordTexts = usedwords.map((w) => w.word).toSet();
+
+      // Filter userWords to only those not yet used
+      List<Word> availableWords = widget.userWords
+          .where((word) => !usedWordTexts.contains(word.word))
+          .toList();
+
+      if (availableWords.isEmpty) {
+        throw Exception("No more unique words available.");
+      }
+
+      return availableWords[random.nextInt(availableWords.length)];
+    }
   void generateQuestions() {
+   setState(() {
+      isGenerating = true;
+   });
     if (wordList.isEmpty) {
       print("No words available to generate questions");
-
+      isGenerating = false;
       return;
     }
     // No words to generate questions
     final random = Random();
-
-    for (var word in wordList) {
+try{
+    while (questions.length < widget.numberofMCQ) {
       // Skip if no data at all
+      Word word = getUniqueWord();
+      usedwords.add(word);
+
       if ((word.synonyms.isEmpty && word.antonyms.isEmpty) ||
           word.meaning.trim().isEmpty) continue;
 
@@ -130,6 +151,15 @@ class _QuizePageState extends State<QuizPage> {
         ));
       }
     }
+    print("Generated ${questions.length} questions");
+    } catch (e) {
+      print("Error generating questions: $e");
+    } finally {
+      setState(() {
+        isGenerating = false;
+      });
+    }
+
   }
 
   void submitAnswer(String answer) {
@@ -204,7 +234,7 @@ class _QuizePageState extends State<QuizPage> {
       // );
     }
 
-    final q = questions[currentIndex];
+    QuizQuestion q = questions.elementAt(currentIndex);
     return Scaffold(
       backgroundColor: const Color(0xFF10162E),
       body: SafeArea(

@@ -4,7 +4,7 @@ import 'package:get/get.dart';
 import 'package:vocab_learning/add_word.dart';
 import 'package:vocab_learning/audio/audio_view.dart';
 import 'package:vocab_learning/book_mark.dart';
-import 'package:vocab_learning/controller.dart';
+import 'package:vocab_learning/controller/word_controller.dart';
 import 'package:vocab_learning/widget/custom_button.dart';
 import 'package:vocab_learning/widget/custom_text.dart';
 import 'package:vocab_learning/edit_word.dart';
@@ -67,7 +67,7 @@ class _WordListPageState extends State<WordListPage> {
                   MaterialPageRoute(
                     builder: (context) => QuizPage(
                       userWords: controller.words.value,
-                      numberofMCQ: controller.words.length,
+                      numberofMCQ: 5,
                     ),
                   ),
                 );

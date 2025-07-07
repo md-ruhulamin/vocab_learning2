@@ -1,8 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:lottie/lottie.dart';
+import 'package:vocab_learning/controller/user_controller.dart';
 import 'package:vocab_learning/homepage.dart';
 import 'package:vocab_learning/quiz/quiz_result.dart';
 import 'package:vocab_learning/widget/custom_button.dart';
+import 'package:vocab_learning/widget/custom_snakebar.dart';
+import 'package:vocab_learning/widget/custome_text_filed.dart';
 import 'package:vocab_learning/word_list_page.dart';
 
 class Onboarding extends StatefulWidget {
@@ -19,6 +23,9 @@ class _OnboardingState extends State<Onboarding> {
     // Get.put(AuthController());
   }
 
+  final TextEditingController nameController = TextEditingController();
+  final UserController userController = Get.put(UserController());
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -33,18 +40,32 @@ class _OnboardingState extends State<Onboarding> {
 // “Expand Your Lexicon.”
 // “Word by Word, We Grow.”\
           children: [
-            const Text("Expand Your Lexicon Discover Learn and Remember.",
+            const Text("Expand Your Lexicon\nDiscover, Learn and Remember.",
                 style: TextStyle(fontSize: 23)),
+
             //     SizedBox(height: 10,),
             Image.asset(
               "assets/images/icon.png",
               height: 300,
             ),
+            CustomTextField(
+              controller: nameController,
+              hintText: "",
+              labelText: "Enter Your Name",
+            ),
 
             CustomButton(
               width: 340,
               text: "Let's Practice",
-              onPressed: () {
+              onPressed: () async{
+                if (nameController.text.isEmpty) {
+                  showCustomSnackBar(
+                    context,
+                    "Please enter your name",
+                  );
+                  return;
+                }
+             await userController.saveUser(nameController.text);
                 Get.off(QuizHomePage());
               },
             )

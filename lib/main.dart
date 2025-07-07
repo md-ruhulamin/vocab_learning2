@@ -1,16 +1,22 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import 'package:get/get_navigation/src/root/get_material_app.dart';
+import 'package:vocab_learning/controller/user_controller.dart';
 import 'package:vocab_learning/homepage.dart';
 import 'package:vocab_learning/onboarding_screen.dart';
 import 'package:vocab_learning/word_list_page.dart';
 
-void main() {
+void main() async{
   WidgetsFlutterBinding.ensureInitialized();
-  runApp(const MyApp());
+    final userController = Get.put(UserController());
+  await userController.loadUser();
+  runApp( MyApp(userController: userController,));
 }
 
 class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+    final UserController userController;
+
+   MyApp({super.key, required this.userController});
 
   @override
   Widget build(BuildContext context) {
@@ -21,7 +27,11 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: Onboarding(),
+        home: Obx(() {
+        return userController.userName.value == null
+            ? Onboarding()
+            :  QuizHomePage();
+      }),
     );
   }
 }

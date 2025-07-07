@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:vocab_learning/controller.dart';
+import 'package:vocab_learning/controller/word_controller.dart';
 import 'package:vocab_learning/widget/custom_button.dart';
 import 'package:vocab_learning/widget/custom_snakebar.dart';
 import 'package:vocab_learning/widget/custome_text_filed.dart';

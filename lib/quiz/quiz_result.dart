@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:vocab_learning/answer.dart';
-import 'package:vocab_learning/controller.dart';
+import 'package:vocab_learning/controller/word_controller.dart';
 import 'package:vocab_learning/homepage.dart';
 import 'package:vocab_learning/quiz/quiz_model.dart';
 
@@ -11,14 +11,17 @@ class QuizResultPage extends StatelessWidget {
   QuizResultPage(
       {super.key, required this.quizList, required this.userAnswers});
 
-  List<QuizQuestion> quizList;
+  Set<QuizQuestion> quizList;
   final Map<int, String> userAnswers;
   @override
   Widget build(BuildContext context) {
     int correct = 0;
     for (int i = 0; i < quizList.length; i++) {
-      if (quizList[i].correctAnswer == userAnswers[i]) correct++;
+      if (quizList.elementAt(i).correctAnswer == userAnswers[i]) correct++;
     }
+    int totalQuestions = quizList.length;
+    int incorrect = totalQuestions - correct;
+
     return Scaffold(
       backgroundColor: const Color(0xFF10162E),
       body: SafeArea(
@@ -84,7 +87,12 @@ class QuizResultPage extends StatelessWidget {
                   textAlign: TextAlign.center,
                   style: TextStyle(color: Colors.white60, fontSize: 14),
                 ),
-                const SizedBox(height: 32),
+                Text(
+                  "Correct answers: $correct | Incorrect answers: $incorrect",
+                  textAlign: TextAlign.center,
+                  style: TextStyle(color: Colors.white60, fontSize: 14),
+                ),
+                const SizedBox(height: 20),
 
                 // Score
                 const Text(
@@ -92,8 +100,8 @@ class QuizResultPage extends StatelessWidget {
                   style: TextStyle(color: Colors.white54, fontSize: 12),
                 ),
                 const SizedBox(height: 6),
-                 Text(
-                  "${correct} / ${quizList.length}",
+                Text(
+                  "${(correct - incorrect * .25)} / ${quizList.length}",
                   style: TextStyle(
                     fontSize: 28,
                     color: Colors.cyan,
@@ -110,7 +118,7 @@ class QuizResultPage extends StatelessWidget {
                 const SizedBox(height: 6),
                 Row(
                   mainAxisAlignment: MainAxisAlignment.center,
-                  children:  [
+                  children: [
                     Icon(Icons.monetization_on, color: Colors.amber, size: 24),
                     SizedBox(width: 6),
                     Text(

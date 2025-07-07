@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:vocab_learning/controller.dart';
+import 'package:vocab_learning/controller/word_controller.dart';
 import 'package:vocab_learning/wordModel.dart';
 
 class BookMarkWIdget extends StatelessWidget {

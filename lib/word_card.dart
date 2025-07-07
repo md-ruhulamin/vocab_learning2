@@ -5,8 +5,9 @@ import 'package:get/get_core/src/get_main.dart';
 import 'package:get/get_rx/src/rx_typedefs/rx_typedefs.dart';
 import 'package:vocab_learning/audio/audio_view.dart';
 import 'package:vocab_learning/book_mark.dart';
-import 'package:vocab_learning/controller.dart';
+import 'package:vocab_learning/controller/word_controller.dart';
 import 'package:vocab_learning/edit_word.dart';
+import 'package:vocab_learning/widget/add_to_dictionary_btn.dart';
 import 'package:vocab_learning/widget/custom_snakebar.dart';
 import 'package:vocab_learning/wordModel.dart';
 import 'package:vocab_learning/word_list_page.dart';
@@ -131,7 +132,7 @@ class _WordCardState extends State<WordCard> {
                               child: Row(
                                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                                 children: [
-                                  InkWell(
+                                if(controller.type.value!=0)  InkWell(
                                     onTap: () {
                                       controller.toggleBookmark(word);
                                       ScaffoldMessenger.of(context).showSnackBar(
@@ -156,6 +157,7 @@ class _WordCardState extends State<WordCard> {
                                       ),
                                     ),
                                   ),
+                                  if(controller.type==0) AddtoDictionaryButton(word: word, controller: controller),
                                   SpeakTheWord(text: word.word),
                                 ],
                               ),

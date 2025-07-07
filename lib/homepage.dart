@@ -1,10 +1,16 @@
 import 'package:flip_card/flip_card.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:vocab_learning/controller.dart';
+import 'package:vocab_learning/controller/word_controller.dart';
+import 'package:vocab_learning/controller/user_controller.dart';
+import 'package:vocab_learning/default_words_list.dart';
+import 'package:vocab_learning/pdf_view_page.dart';
 import 'package:vocab_learning/quiz/quiz_info.dart';
 import 'package:vocab_learning/quiz/quiz_page.dart';
+import 'package:vocab_learning/scramble_game.dart';
 import 'package:vocab_learning/search_meaning/screen/search_meaning_view.dart';
+import 'package:vocab_learning/syno_anto_list_page.dart';
+import 'package:vocab_learning/widget/greeting_text.dart';
 import 'package:vocab_learning/word_list_page.dart';
 
 class QuizHomePage extends StatelessWidget {
@@ -14,18 +20,21 @@ class QuizHomePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+      final userController = Get.find<UserController>();
+    final name = userController.userName.value ?? "";
+
     return Scaffold(
       backgroundColor: Colors.grey[200],
-      bottomNavigationBar: BottomNavigationBar(
-        currentIndex: 0,
-        selectedItemColor: Colors.blue,
-        unselectedItemColor: Colors.grey,
-        items: const [
-          BottomNavigationBarItem(icon: Icon(Icons.home), label: 'Home'),
-          BottomNavigationBarItem(icon: Icon(Icons.category), label: ''),
-          BottomNavigationBarItem(icon: Icon(Icons.settings), label: ''),
-        ],
-      ),
+      // bottomNavigationBar: BottomNavigationBar(
+      //   currentIndex: 0,
+      //   selectedItemColor: Colors.blue,
+      //   unselectedItemColor: Colors.grey,
+      //   items: const [
+      //     BottomNavigationBarItem(icon: Icon(Icons.home), label: 'Home'),
+      //     BottomNavigationBarItem(icon: Icon(Icons.category), label: ''),
+      //     BottomNavigationBarItem(icon: Icon(Icons.settings), label: ''),
+      //   ],
+      // ),
       body: SafeArea(
         child: SingleChildScrollView(
           padding: const EdgeInsets.all(16),
@@ -35,22 +44,49 @@ class QuizHomePage extends StatelessWidget {
               // Profile Row
               Row(
                 children: [
-                  const CircleAvatar(
-                    radius: 20,
-                    backgroundImage: NetworkImage(
-                        'https://i.pravatar.cc/150?img=1'), // Placeholder image
-                  ),
+                  const Icon(Icons.account_circle, size: 40),
                   const SizedBox(width: 12),
-                  const Text(
-                    "Jonathan Smith",
-                    style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
-                  ),
+                   InkWell(
+                    onTap: () {
+                      userController.nameController.text = name;
+                      // Show dialog to change name
+                      showDialog(context: context, builder: (context) {
+                        return AlertDialog(
+                          title: const Text("Change Name"),
+                          content: TextField(
+                            controller: userController.nameController,
+                            decoration: const InputDecoration(
+                              hintText: "Enter your name",
+                            ),
+                          ),
+                          actions: [
+                          
+                            OutlinedButton(
+                              onPressed: () => Navigator.pop(context),
+                              child: const Text("Cancel"),
+                            ),
+                              OutlinedButton(
+                              onPressed: () {
+                                userController.updateUser( userController.nameController.text);
+                                Navigator.pop(context);
+                              },
+                              child: const Text("Save"),
+                            ),
+                          ],
+                        );
+                      });
+                    },
+                     child: Text(
+                      "$name",
+                      style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+                                       ),
+                   ),
                 ],
               ),
               const SizedBox(height: 20),
               FlipCard(
                 front: Container(
-                  height: 180,
+                  height: 200,
                   width: double.infinity,
                   padding: const EdgeInsets.all(20),
                   decoration: BoxDecoration(
@@ -65,25 +101,27 @@ class QuizHomePage extends StatelessWidget {
                     ),
                   ),
                   child: const Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
+              
+                    crossAxisAlignment: CrossAxisAlignment.center,
                     children: [
-                      Text(
-                        "Play & Win",
-                        style: TextStyle(
-                            fontSize: 22,
-                            fontWeight: FontWeight.bold,
-                            color: Colors.white),
-                      ),
-                      SizedBox(height: 5),
-                      Text(
-                        "Enrich your Vocabulary & Grow your Skills",
-                        style: TextStyle(color: Colors.white70),
-                      ),
+                      GreetingText(),
+                      // Text(
+                      //   "Play & Win",
+                      //   style: TextStyle(
+                      //       fontSize: 22,
+                      //       fontWeight: FontWeight.bold,
+                      //       color: Colors.white),
+                      // ),
+                      // SizedBox(height: 5),
+                      // Text(
+                      //   "Enrich your Vocabulary & Grow your Skills",
+                      //   style: TextStyle(color: Colors.white70),
+                      // ),
                     ],
                   ),
                 ),
                 back: Container(
-                  height: 180,
+                  height: 200,
                   width: double.infinity,
                   padding: const EdgeInsets.all(20),
                   decoration: BoxDecoration(
@@ -100,6 +138,7 @@ class QuizHomePage extends StatelessWidget {
                   child: const Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
+                      
                       Text(
                         "Learn & Earn",
                         style: TextStyle(
@@ -118,7 +157,7 @@ class QuizHomePage extends StatelessWidget {
               )
               // Banner
               ,
-              const SizedBox(height: 10),
+              const SizedBox(height: 15),
 
               // Top Quiz Categories
               Row(
@@ -128,10 +167,10 @@ class QuizHomePage extends StatelessWidget {
                     "Top Quiz Categories",
                     style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
                   ),
-                  TextButton(
-                    onPressed: () {},
-                    child: const Text("View All"),
-                  ),
+                  // TextButton(
+                  //   onPressed: () {},
+                  //   child: const Text("View All"),
+                  // ),
                 ],
               ),
               const SizedBox(height: 12),
@@ -147,22 +186,41 @@ class QuizHomePage extends StatelessWidget {
                 children: [
                   CategoryTile(
                       icon: Icons.menu_book_sharp,
-                      label: "Word List",
+                      label: "My Word List",
                       onTap: () {
                         Get.to(WordListPage(type: 1));
                       }),
                   CategoryTile(
                       icon: Icons.bookmark,
-                      label: "BookMark",
+                      label: "Bookmark",
                       onTap: () {
                         Get.to(WordListPage(type: 2));
                       }),
                   CategoryTile(
                       icon: Icons.edit_document,
-                      label: "Idioms",
+                      label: "Idioms & Phrases",
                       onTap: () {
                         Get.to(WordListPage(type: 3));
-                      }),
+                      }),   CategoryTile(
+                    icon: Icons.sync_alt_rounded,
+                    label: "Synonym & Antonym",
+                    onTap: () {
+                      Get.to(SynAntonymListPage(type: 5,));
+                    },
+                  ),  CategoryTile(
+                    icon: Icons.text_snippet,
+                    label: "Sample Words",
+                    onTap: () {
+                      Get.to(DefaultWordsList(type: 0));
+                    },
+                  ),
+                  CategoryTile(
+                    icon: Icons.smart_toy_rounded,
+                    label: "Learn via Stories",
+                    onTap: () {
+                      Get.to(PDFScreen());
+                    },
+                  ),
                   CategoryTile(
                     icon: Icons.quiz,
                     label: "Quiz",
@@ -177,11 +235,13 @@ class QuizHomePage extends StatelessWidget {
                       Get.to(DictionaryScreen());
                     },
                   ),
-                  CategoryTile(
-                    icon: Icons.text_snippet,
-                    label: "Sample Words",
+                
+                 
+                    CategoryTile(
+                    icon: Icons.games,
+                    label: "Learn via Games",
                     onTap: () {
-                      Get.to(WordListPage(type: 0));
+                      Get.to(WordScrambleGame());
                     },
                   ),
                 ],

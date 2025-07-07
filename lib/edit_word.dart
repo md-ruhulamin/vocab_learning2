@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:vocab_learning/controller.dart';
+import 'package:vocab_learning/controller/word_controller.dart';
 import 'package:vocab_learning/widget/custom_button.dart';
 import 'package:vocab_learning/widget/custome_text_filed.dart';
 import 'package:vocab_learning/wordModel.dart';
@@ -74,6 +74,29 @@ class EditWordPage extends StatelessWidget {
             CustomTextField(
                 controller: antonymCtrl,
                 hintText: 'Antonyms (comma separated)'),
+                 Row(
+              children: [
+                SizedBox(width: 10),
+                Text('Is Idiom?', style: TextStyle(fontSize: 16)),
+                SizedBox(width: 10),
+                Obx(() => Row(
+                      children: [
+                        Radio<bool>(
+                          value: word.isIdiom? true : false,
+                          groupValue: controller.isIdiom.value,
+                          onChanged: (val) => controller.isIdiom.value = val!,
+                        ),
+                        Text('Yes'),
+                        Radio<bool>(
+                          value: word.isIdiom? false : true,
+                          groupValue: controller.isIdiom.value,
+                          onChanged: (val) => controller.isIdiom.value = val!,
+                        ),
+                        Text('No'),
+                      ],
+                    )),
+              ],
+            ),
             CustomTextField(
                 maxLines: 3,
                 controller: sentenceCtrl,
