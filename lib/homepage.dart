@@ -2,7 +2,8 @@ import 'package:flip_card/flip_card.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:vocab_learning/controller.dart';
-import 'package:vocab_learning/quiz_page.dart';
+import 'package:vocab_learning/quiz/quiz_info.dart';
+import 'package:vocab_learning/quiz/quiz_page.dart';
 import 'package:vocab_learning/search_meaning/screen/search_meaning_view.dart';
 import 'package:vocab_learning/word_list_page.dart';
 
@@ -166,7 +167,7 @@ class QuizHomePage extends StatelessWidget {
                     icon: Icons.quiz,
                     label: "Quiz",
                     onTap: () {
-                      Get.to(QuizPage(userWords: controller.words));
+                      Get.to(QuizPageInfo());
                     },
                   ),
                   CategoryTile(

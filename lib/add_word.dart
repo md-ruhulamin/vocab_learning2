@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:vocab_learning/controller.dart';
-import 'package:vocab_learning/custome_text_filed.dart';
+import 'package:vocab_learning/widget/custom_button.dart';
+import 'package:vocab_learning/widget/custom_snakebar.dart';
+import 'package:vocab_learning/widget/custome_text_filed.dart';
 import 'package:vocab_learning/wordModel.dart';
 
 class AddWordPage extends StatelessWidget {
@@ -18,7 +20,8 @@ class AddWordPage extends StatelessWidget {
       final word = Word(
         isIdiom: controller.isIdiom.value, // Use the controller's isIdiom value
         isBookmarked: false,
-        id: DateTime.now().millisecondsSinceEpoch, // Unique ID based on timestamp
+        id: DateTime.now()
+            .millisecondsSinceEpoch, // Unique ID based on timestamp
         word: wordController.text.trim(),
         meaning: meaningController.text.trim(),
         synonyms: synonymController.text.isNotEmpty
@@ -39,14 +42,18 @@ class AddWordPage extends StatelessWidget {
       antonymController.clear();
       sentenceController.clear();
     } else {
-      Get.snackbar("Failed", "Word or Meaning cann't be empty");
+      showCustomSnackBar(
+        Get.context!,
+        "Invalid input!",
+        backgroundColor: Colors.red.shade200,
+      );
     }
   }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-
+   
       resizeToAvoidBottomInset: false,
       appBar: AppBar(title: Text('Add Word')),
       body: Padding(
@@ -56,22 +63,27 @@ class AddWordPage extends StatelessWidget {
             CustomTextField(
               controller: wordController,
               hintText: 'Word',
+              labelText: 'Enter the word',
             ),
             CustomTextField(
               controller: meaningController,
               hintText: 'Meaning',
+              labelText: 'Enter the meaning',
             ),
             CustomTextField(
-                hintText: 'Synonyms (comma separated)',
-                controller: synonymController),
+                hintText: 'Synonyms comma(,) separated',
+                controller: synonymController,
+                labelText: 'Ex: Syn1, Syn2, Syn3,......'),
             CustomTextField(
+                labelText: 'Ex: Ant1, Ant2, Ant3,......',
                 controller: antonymController,
                 hintText: 'Antonyms (comma separated)'),
-                Row(
-                  children: [
-                    SizedBox(width: 10), Text('Is Idiom?', style: TextStyle(fontSize: 16)),
-                    SizedBox(width: 10),
-                    Obx(() => Row(
+            Row(
+              children: [
+                SizedBox(width: 10),
+                Text('Is Idiom?', style: TextStyle(fontSize: 16)),
+                SizedBox(width: 10),
+                Obx(() => Row(
                       children: [
                         Radio<bool>(
                           value: false,
@@ -87,14 +99,19 @@ class AddWordPage extends StatelessWidget {
                         Text('No'),
                       ],
                     )),
-                  ],
-                ),
+              ],
+            ),
             CustomTextField(
                 maxLines: 3,
+                labelText: ' Ex: Sentence1 | Sentence2 | Sentence3...',
                 controller: sentenceController,
                 hintText: 'Sentences (separate by |)'),
             SizedBox(height: 10),
-            ElevatedButton(onPressed: addWord, child: Text('Add Word')),
+            CustomButton(
+              onPressed: addWord,
+              text: 'Add Word',
+              width: 340,
+            ),
             SizedBox(height: 20),
           ],
         ),

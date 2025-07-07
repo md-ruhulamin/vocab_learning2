@@ -5,9 +5,10 @@ import 'package:vocab_learning/add_word.dart';
 import 'package:vocab_learning/audio/audio_view.dart';
 import 'package:vocab_learning/book_mark.dart';
 import 'package:vocab_learning/controller.dart';
-import 'package:vocab_learning/custom_text.dart';
+import 'package:vocab_learning/widget/custom_button.dart';
+import 'package:vocab_learning/widget/custom_text.dart';
 import 'package:vocab_learning/edit_word.dart';
-import 'package:vocab_learning/quiz_page.dart';
+import 'package:vocab_learning/quiz/quiz_page.dart';
 import 'package:vocab_learning/wordModel.dart';
 import 'package:vocab_learning/word_card.dart';
 import 'package:vocab_learning/word_details.dart';
@@ -43,19 +44,15 @@ class _WordListPageState extends State<WordListPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: widget.type==0? Text("Sample Words") :  widget.type==1?   Text('Vocabulary List'):widget.type==2? Text('Bookmarked Words') : Text('Idioms'),
+        title: widget.type == 0
+            ? Text("Sample Words")
+            : widget.type == 1
+                ? Text('Vocabulary List')
+                : widget.type == 2
+                    ? Text('Bookmarked Words')
+                    : Text('Idioms'),
         actions: [
-         
-          TextButton(
-            style: TextButton.styleFrom(
-              backgroundColor: Colors.lightBlueAccent,
-              foregroundColor: Colors.blue,
-              padding: const EdgeInsets.symmetric(horizontal: 30, vertical: 14),
-              shape: RoundedRectangleBorder(
-                side: const BorderSide(color: Colors.blue),
-                borderRadius: BorderRadius.circular(10),
-              ),
-            ),
+          CustomButton(
             onPressed: () {
               // Ensure userWords is not empty to prevent stuck behavior
               if (controller.words.length < 5) {
@@ -68,14 +65,17 @@ class _WordListPageState extends State<WordListPage> {
                 Navigator.push(
                   context,
                   MaterialPageRoute(
-                    builder: (context) =>
-                        QuizPage(userWords: controller.words.value),
+                    builder: (context) => QuizPage(
+                      userWords: controller.words.value,
+                      numberofMCQ: controller.words.length,
+                    ),
                   ),
                 );
               }
             },
-            child: Text("Start Quiz", style: TextStyle(color: Colors.white)),
-          ),SizedBox(width: 10),
+            text: 'Start Quiz',
+          ),
+          SizedBox(width: 10),
         ],
       ),
       body: Column(

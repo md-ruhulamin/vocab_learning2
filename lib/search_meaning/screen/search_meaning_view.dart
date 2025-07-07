@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:vocab_learning/add_word.dart';
-import 'package:vocab_learning/custome_text_filed.dart';
+import 'package:vocab_learning/widget/custome_text_filed.dart';
 import 'package:vocab_learning/search_meaning/controller/search_meaning_controller.dart';
 import 'package:vocab_learning/search_meaning/model/onlinewordclass.dart';
 

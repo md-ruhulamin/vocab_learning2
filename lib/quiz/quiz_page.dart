@@ -6,14 +6,15 @@ import 'package:get/get_core/get_core.dart';
 import 'package:get/get_instance/get_instance.dart';
 import 'package:vocab_learning/answer.dart';
 import 'package:vocab_learning/controller.dart';
-import 'package:vocab_learning/quiz_model.dart';
-import 'package:vocab_learning/quiz_result.dart';
+import 'package:vocab_learning/quiz/quiz_model.dart';
+import 'package:vocab_learning/quiz/quiz_result.dart';
+import 'package:vocab_learning/widget/custom_snakebar.dart';
 import 'package:vocab_learning/wordModel.dart';
 
 class QuizPage extends StatefulWidget {
   final List<Word> userWords;
-
-  const QuizPage({required this.userWords, Key? key}) : super(key: key);
+  final int numberofMCQ;
+  const QuizPage({required this.userWords, Key? key, required this.numberofMCQ}) : super(key: key);
 
   @override
   State<QuizPage> createState() => _QuizePageState();
@@ -34,12 +35,10 @@ class _QuizePageState extends State<QuizPage> {
     super.initState();
     print("Initializing Quiz Page");
     wordList.addAll(widget.userWords);
-   
 
     print("User words: ${widget.userWords.length}");
     generateQuestions();
     print("Generated ${questions.length} questions");
-
   }
 
   void fetchwords() {
@@ -314,7 +313,6 @@ class _QuizePageState extends State<QuizPage> {
                 children: [
                   TextButton(
                     style: TextButton.styleFrom(
-                      
                       foregroundColor: Colors.white54,
                       padding: const EdgeInsets.symmetric(
                           horizontal: 30, vertical: 14),
@@ -344,12 +342,16 @@ class _QuizePageState extends State<QuizPage> {
                     onPressed: () {
                       if (currentIndex < questions.length - 1 &&
                           selectedIndex == -1) {
-                        // Last question and no option selected
-                        ScaffoldMessenger.of(context).showSnackBar(
-                          const SnackBar(
-                            content: Text("Please select an answer"),
-                          ),
+                        showCustomSnackBar(
+                          Get.context!,
+                          "Please select an answer",
+                          backgroundColor: Colors.red.shade200,
                         );
+                        // ScaffoldMessenger.of(context).showSnackBar(
+                        //   const SnackBar(
+                        //     content: Text("Please select an answer"),
+                        //   ),
+                        // );
                         return;
                       }
                       if (currentIndex == questions.length - 1) {

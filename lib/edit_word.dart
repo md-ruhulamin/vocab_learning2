@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:vocab_learning/controller.dart';
-import 'package:vocab_learning/custome_text_filed.dart';
+import 'package:vocab_learning/widget/custom_button.dart';
+import 'package:vocab_learning/widget/custome_text_filed.dart';
 import 'package:vocab_learning/wordModel.dart';
 
 class EditWordPage extends StatelessWidget {
@@ -78,7 +79,8 @@ class EditWordPage extends StatelessWidget {
                 controller: sentenceCtrl,
                 hintText: 'Sentences (separate by |)'),
             SizedBox(height: 16),
-            ElevatedButton(onPressed: update, child: Text("Update")),
+            
+            CustomButton(onPressed: update, text: 'Update Word', width: 340),
           ],
         ),
       ),

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:vocab_learning/custom_text.dart';
-import 'package:vocab_learning/quiz_model.dart';
+import 'package:vocab_learning/widget/custom_text.dart';
+import 'package:vocab_learning/quiz/quiz_model.dart';
 
 class AnswerSheetScreen extends StatefulWidget {
   AnswerSheetScreen({super.key, required this.quizList, required this.userAnswers});

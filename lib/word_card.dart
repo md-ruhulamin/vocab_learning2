@@ -7,6 +7,7 @@ import 'package:vocab_learning/audio/audio_view.dart';
 import 'package:vocab_learning/book_mark.dart';
 import 'package:vocab_learning/controller.dart';
 import 'package:vocab_learning/edit_word.dart';
+import 'package:vocab_learning/widget/custom_snakebar.dart';
 import 'package:vocab_learning/wordModel.dart';
 import 'package:vocab_learning/word_list_page.dart';
 
@@ -23,7 +24,8 @@ class _WordCardState extends State<WordCard> {
   final WordController controller = Get.put(WordController());
   List<Word> words = [];
   late Word word;
-
+  bool showFlipCard = true;
+  bool showDetails = true;
   @override
   void didChangeDependencies() {
     super.didChangeDependencies();
@@ -32,7 +34,7 @@ class _WordCardState extends State<WordCard> {
   }
 
   // Load words when the widget is initialized
-  @override 
+  @override
   void initState() {
     controller.loadWords(); // Fetch words when the widget is initialized
     super.initState();
@@ -42,128 +44,186 @@ class _WordCardState extends State<WordCard> {
   Widget build(BuildContext context) {
     print(widget.realIndex);
     Word word = controller.words[widget.realIndex];
+
     return Scaffold(
       appBar: AppBar(
-        title: Text("(${widget.realIndex+1}) ${word.word}"),
+        title: Text("(${widget.realIndex + 1}) ${word.word}"),
         actions: [
-         if(controller.type!=0)   IconButton(
-            icon: const Icon(Icons.edit),
-            onPressed: () {
-              Navigator.push(
-                context,
-                MaterialPageRoute(
-                  builder: (_) => EditWordPage(
+          if (controller.type != 0)
+            IconButton(
+              icon: const Icon(Icons.edit),
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (_) => EditWordPage(
                       word: word,
-                      index: widget
-                          .realIndex), // Assuming index is 0 for simplicity
-                ),
-              );
-            },
-          )
+                      index: widget.realIndex,
+                    ),
+                  ),
+                );
+              },
+            ),
         ],
       ),
       body: Padding(
         padding: const EdgeInsets.all(10.0),
         child: Column(
+         // mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Expanded(
-              child: Padding(
-                padding: const EdgeInsets.all(10.0),
-                child: FlipCard(
-                  direction: FlipDirection.HORIZONTAL, // or VERTICAL
-                  front: Card(
-                    elevation: 6,
-                    color: Colors.blue.shade100,
-                    shape: RoundedRectangleBorder(
-                        borderRadius: BorderRadius.circular(16)),
-                    child: Column(
-                      children: [
-                        Padding(
-                          padding: const EdgeInsets.symmetric(
-                            vertical: 10,
-                            horizontal: 10,
-                          ),
-                          child: Row(
-                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                            children: [
-                              InkWell(
-                                onTap: () {
-                                  controller.toggleBookmark(word);
-                                  ScaffoldMessenger.of(context).showSnackBar(
-                                    SnackBar(
-                                      content: Text(controller
-                                              .words[widget.realIndex]
-                                              .isBookmarked
-                                          ? "Bookmarked"
-                                          : "Bookmark removed"),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Row(
+                  children: [
+                    Text("Hide FlipCard"),
+                    Switch(
+                      value: !showFlipCard,
+                      onChanged: (value) {
+                        setState(() {
+                          showFlipCard = !value;
+                          if (!showFlipCard && !showDetails) {
+                            showDetails = true;
+                          }
+                        });
+                      },
+                    ),
+                  ],
+                ),
+                Row(
+                  children: [
+                    Text("Hide Details"),
+                    Switch(
+                      value: !showDetails,
+                      onChanged: (value) {
+                        setState(() {
+                          showDetails = !value;
+                          if (!showFlipCard && !showDetails) {
+                            showFlipCard = true;
+                          }
+                        });
+                      },
+                    ),
+                  ],
+                ),
+              ],
+            ),
+            if (showFlipCard)
+              SizedBox(
+                height: MediaQuery.of(context).size.height * 0.3,
+                child: Center(
+                  child: Padding(
+                    padding: const EdgeInsets.all(10.0),
+                    child: FlipCard(
+                      direction: FlipDirection.HORIZONTAL,
+                      front: Card(
+                        elevation: 6,
+                        color: Colors.blue.shade100,
+                        shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(16),
+                        ),
+                        child: Column(
+                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                          children: [
+                            Padding(
+                              padding: const EdgeInsets.symmetric(
+                                  vertical: 10, horizontal: 10),
+                              child: Row(
+                                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                children: [
+                                  InkWell(
+                                    onTap: () {
+                                      controller.toggleBookmark(word);
+                                      ScaffoldMessenger.of(context).showSnackBar(
+                                        SnackBar(
+                                          content: Text(
+                                            controller.words[widget.realIndex]
+                                                    .isBookmarked
+                                                ? "Bookmarked"
+                                                : "Bookmark removed",
+                                          ),
+                                        ),
+                                      );
+                                    },
+                                    child: Obx(
+                                      () => Icon(
+                                        controller.words[widget.realIndex]
+                                                .isBookmarked
+                                            ? Icons.bookmark
+                                            : Icons.bookmark_add_outlined,
+                                        size: 25,
+                                        color: Colors.blue.shade800,
+                                      ),
                                     ),
-                                  );
-                                },
-                                child: Obx(
-                                  () => Icon(
-                                    controller.words[widget.realIndex]
-                                            .isBookmarked
-                                        ? Icons.bookmark
-                                        : Icons.bookmark_add_outlined,
-                                    size: 25,
-                                    color: Colors.blue.shade800,
                                   ),
+                                  SpeakTheWord(text: word.word),
+                                ],
+                              ),
+                            ),
+                            Center(
+                              child: Text(
+                                word.word,
+                                textAlign: TextAlign.center,
+                                style: const TextStyle(
+                                  fontSize: 24,
+                                  fontWeight: FontWeight.bold,
                                 ),
                               ),
-                              SpeakTheWord(text: word.word),
-                            ],
-                          ),
+                            ),
+                            const SizedBox(height: 40),
+                          ],
                         ),
-                        const SizedBox(height: 30),
-                        Center(
-                          child: Text(
-                            word.word,
-                            textAlign: TextAlign.center,
-                            style: const TextStyle(
-                                fontSize: 24, fontWeight: FontWeight.bold),
-                          ),
+                      ),
+                      back: Card(
+                        elevation: 6,
+                        color: Colors.green.shade100,
+                        shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(16),
                         ),
-                      ],
-                    ),
-                  ),
-                  back: Card(
-                    elevation: 6,
-                    color: Colors.green.shade100,
-                    shape: RoundedRectangleBorder(
-                        borderRadius: BorderRadius.circular(16)),
-                    child: Padding(
-                      padding: const EdgeInsets.all(16.0),
-                      child: Center(
-                        child: Text(
-                          word.meaning,
-                          textAlign: TextAlign.center,
-                          style: const TextStyle(
-                              fontSize: 22, fontWeight: FontWeight.bold),
+                        child: Padding(
+                          padding: const EdgeInsets.all(16.0),
+                          child: Center(
+                            child: Text(
+                              word.meaning,
+                              textAlign: TextAlign.center,
+                              style: const TextStyle(
+                                fontSize: 22,
+                                fontWeight: FontWeight.bold,
+                              ),
+                            ),
+                          ),
                         ),
                       ),
                     ),
                   ),
                 ),
               ),
-            ),
-            SizedBox(
-              height: 380,
-              child: Padding(
-                padding: const EdgeInsets.all(16.0),
-                child: ListView(
-                  children: [
-                    Text("~${word.word}",
-                        style: TextStyle(
-                            fontSize: 24, fontWeight: FontWeight.bold)),
-                    Text("Meaning: ${word.meaning}",style: TextStyle(fontSize: 16),),
-                    SizedBox(height: 12),
-                    buildList("Synonyms", word.synonyms),
-                    buildList("Antonyms", word.antonyms),
-                    buildList("Sentences", word.sentences),
-                  ],
+            if (showDetails)
+              Expanded(
+                child: Padding(
+                  padding: const EdgeInsets.symmetric(horizontal: 16,vertical: 5),
+                  child: ListView(
+                    children: [
+                      Text(
+                        "~${word.word}",
+                        style: const TextStyle(
+                          fontSize: 24,
+                          fontWeight: FontWeight.bold,
+                        ),
+                      ),
+                      Text(
+                        "Meaning: ${word.meaning}",
+                        style: const TextStyle(fontSize: 16),
+                      ),
+                      const SizedBox(height: 12),
+                      buildList("Synonyms", word.synonyms),
+                      buildList("Antonyms", word.antonyms),
+                      buildList("Sentences", word.sentences),
+                    ],
+                  ),
                 ),
               ),
-            ),
+            const SizedBox(height: 5),
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
@@ -173,31 +233,34 @@ class _WordCardState extends State<WordCard> {
                   icon: Icons.arrow_back,
                   isLeft: true,
                   onPressed: () {
-                    print('Previous button tapped');
                     if (widget.realIndex > 0) {
                       widget.realIndex--;
-                      setState(() {}); // Refresh the UI
+                      setState(() {});
                     } else {
-                      Get.snackbar(
-                          "Start of List", "No previous words to show");
+                      showCustomSnackBar(
+                        context,
+                        "Start of List, No previous words to show",
+                      );
                     }
                   },
                 ),
-                SizedBox(width: 20),
+                const SizedBox(width: 20),
                 NavigationButton(
-                  onPressed: () {
-                    print('Next button tapped');
-                    if (widget.realIndex < controller.words.length - 1) {
-                      widget.realIndex++;
-                      setState(() {}); // Refresh the UI
-                    } else {
-                      Get.snackbar("End of List", "No more words to show");
-                    }
-                  },
                   text: 'NEXT',
                   color: Colors.green,
                   icon: Icons.arrow_forward,
                   isLeft: false,
+                  onPressed: () {
+                    if (widget.realIndex < controller.words.length - 1) {
+                      widget.realIndex++;
+                      setState(() {});
+                    } else {
+                      showCustomSnackBar(
+                        context,
+                        "End of List, No more words to show",
+                      );
+                    }
+                  },
                 ),
               ],
             ),

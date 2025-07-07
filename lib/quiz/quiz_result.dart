@@ -3,7 +3,7 @@ import 'package:get/get.dart';
 import 'package:vocab_learning/answer.dart';
 import 'package:vocab_learning/controller.dart';
 import 'package:vocab_learning/homepage.dart';
-import 'package:vocab_learning/quiz_model.dart';
+import 'package:vocab_learning/quiz/quiz_model.dart';
 
 import 'quiz_page.dart' as quiz_page;
 
