@@ -25,6 +25,7 @@ class WordController extends GetxController {
     final prefs = await SharedPreferences.getInstance();
     final data = prefs.getStringList('words') ?? [];
     _allWords.value = data.map((e) => Word.decode(e)).toList();
+    _allWords.sort((a, b) => a.word.compareTo(b.word)); // Sort words alphabetically
     _filterWords();
  
   }
@@ -54,7 +55,8 @@ class WordController extends GetxController {
     final prefs = await SharedPreferences.getInstance();
     final data = _allWords.map((e) => e.encode()).toList();
     await prefs.setStringList('words', data);
-    _filterWords(); // Update filtered list after saving
+    loadWords(); // Reload words to update UI
+
   }
 
   void _filterWords() {

@@ -1,7 +1,7 @@
 import 'dart:convert';
 
 class Word {
-  int id;
+  int? id;
   String word;
   String meaning;
   bool isBookmarked;

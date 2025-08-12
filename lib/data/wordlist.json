@@ -928,5 +928,297 @@
       "She seemed averse to discussing her personal life.",
       "The committee was not averse to considering alternative proposals."
     ]
-  }
+  },{
+      "id": 41,
+      "word": "Banal (adj)",
+      "meaning": "গতানুগতিক, একঘেঁয়ে",
+      "isIdiom": false,
+      "isBookmarked": false,
+      "synonyms": ["Trite", "Hackneyed", "Prosaic", "Pedestrian"],
+      "antonyms": ["Stimulating", "New", "Novel", "Original"],
+      "sentences": [
+        "The movie's plot was so banal that many viewers left the theater early.",
+        "His banal observations about the weather failed to impress anyone.",
+        "The speech was full of banal phrases and clichéd expressions."
+      ]
+    },
+    {
+      "id": 42,
+      "word": "Belittle (v)",
+      "meaning": "ছোট/অবজ্ঞা করা",
+      "isIdiom": false,
+      "isBookmarked": false,
+      "synonyms": ["Deride", "Jeer", "Scorn", "Despise"],
+      "antonyms": ["Praise", "Magnify", "Glorify"],
+      "sentences": [
+        "She never tried to belittle her colleagues' achievements.",
+        "Don't belittle yourself - your contributions are valuable.",
+        "The teacher warned students not to belittle others' efforts."
+      ]
+    },
+    {
+      "id": 43,
+      "word": "Boisterous (adj)",
+      "meaning": "চিচ্চিপূর্ণ",
+      "isIdiom": false,
+      "isBookmarked": false,
+      "synonyms": ["Clamorous", "Uproarious"],
+      "antonyms": ["Peaceful", "Tranquil"],
+      "sentences": [
+        "The boisterous children played loudly in the playground.",
+        "The boisterous celebration lasted until dawn.",
+        "His boisterous laughter filled the entire room."
+      ]
+    },
+    {
+      "id": 44,
+      "word": "Barrier (n)",
+      "meaning": "বাধা, প্রতিবন্ধকতা",
+      "isIdiom": false,
+      "isBookmarked": false,
+      "synonyms": ["Bar", "Hindrance", "Barricade"],
+      "antonyms": ["Help", "Aid", "Support", "Assistance", "Backing"],
+      "sentences": [
+        "Language can be a significant barrier to communication.",
+        "The concrete barrier prevented cars from entering the pedestrian area.",
+        "Economic barriers often prevent access to quality education."
+      ]
+    },
+    {
+      "id": 45,
+      "word": "Baleful (adj)",
+      "meaning": "ভীতিকর, ক্ষতিকর",
+      "isIdiom": false,
+      "isBookmarked": false,
+      "synonyms": ["Ominous", "Malevolent"],
+      "antonyms": ["Salutary", "Benevolent"],
+      "sentences": [
+        "She gave him a baleful look that made him uncomfortable.",
+        "The baleful influence of the corrupt leader affected the entire organization.",
+        "Dark clouds cast a baleful shadow over the landscape."
+      ]
+    },
+    {
+      "id": 46,
+      "word": "Bellicose (adj)",
+      "meaning": "মারমুখো/যুদ্ধবাজ",
+      "isIdiom": false,
+      "isBookmarked": false,
+      "synonyms": ["Belligerent", "Hostile"],
+      "antonyms": ["Peaceful", "Pacify"],
+      "sentences": [
+        "His bellicose attitude made negotiations extremely difficult.",
+        "The bellicose nation threatened its neighbors with military action.",
+        "She avoided the bellicose customer who was shouting at the staff."
+      ]
+    },
+    {
+      "id": 47,
+      "word": "Bigotry (n)",
+      "meaning": "গোঁড়ামি/অসহিষ্ণুতা",
+      "isIdiom": false,
+      "isBookmarked": false,
+      "synonyms": ["Intolerance", "Prejudice"],
+      "antonyms": ["Broad-mindedness"],
+      "sentences": [
+        "Religious bigotry has caused many conflicts throughout history.",
+        "The organization works to combat racial bigotry and discrimination.",
+        "His bigotry prevented him from appreciating different cultures."
+      ]
+    },
+    {
+      "id": 48,
+      "word": "Benevolent (adj)",
+      "meaning": "দয়ালু/বদান্য",
+      "isIdiom": false,
+      "isBookmarked": false,
+      "synonyms": ["Kind", "Unselfish"],
+      "antonyms": ["Cruel", "Selfish", "Greedy"],
+      "sentences": [
+        "The benevolent king was loved by all his subjects.",
+        "Her benevolent nature led her to donate generously to charity.",
+        "The benevolent organization provides free healthcare to the poor."
+      ]
+    },
+    {
+      "id": 49,
+      "word": "Ban (n)",
+      "meaning": "নিষেধাজ্ঞা",
+      "isIdiom": false,
+      "isBookmarked": false,
+      "synonyms": ["Prohibition", "Restriction"],
+      "antonyms": ["Unrestricted", "Induct", "Unprohibited"],
+      "sentences": [
+        "The government imposed a ban on smoking in public places.",
+        "The ban on plastic bags has reduced environmental pollution.",
+        "There is a complete ban on cell phone use during the exam."
+      ]
+    },
+    {
+      "id": 50,
+      "word": "Brief (adj)",
+      "meaning": "সংক্ষিপ্ত",
+      "isIdiom": false,
+      "isBookmarked": false,
+      "synonyms": ["Short", "Succinct", "Concise", "Laconic"],
+      "antonyms": ["Loquacious", "Prolix", "Copious"],
+      "sentences": [
+        "Please keep your presentation brief - we have limited time.",
+        "The meeting was brief but very productive.",
+        "He gave a brief summary of the main points."
+      ]
+    },
+    {
+      "id": 51,
+      "word": "Brutal (adj)",
+      "meaning": "নিষ্ঠুর/পাশবিক",
+      "isIdiom": false,
+      "isBookmarked": false,
+      "synonyms": ["Cruel", "Inhuman"],
+      "antonyms": ["Kind", "Soft-hearted"],
+      "sentences": [
+        "The brutal attack shocked the entire community.",
+        "The prisoners faced brutal conditions in the old jail.",
+        "His brutal honesty sometimes hurt people's feelings."
+      ]
+    },
+    {
+      "id": 52,
+      "word": "Brittle (adj)",
+      "meaning": "ভঙ্গুর",
+      "isIdiom": false,
+      "isBookmarked": false,
+      "synonyms": ["Fragile", "Frangible", "Tenuous"],
+      "antonyms": ["Strong", "Enduring", "Resistible"],
+      "sentences": [
+        "The old paper was so brittle that it crumbled when touched.",
+        "Brittle bones are more prone to fractures in elderly people.",
+        "The brittle relationship between the two countries finally collapsed."
+      ]
+    },{
+      "id": 53,
+      "word": "Belligerent (adj)",
+      "meaning": "যুদ্ধমান/যুদ্ধবাজ",
+      "isIdiom": false,
+      "isBookmarked": false,
+      "synonyms": ["Militant", "Combatant"],
+      "antonyms": ["Calm", "Peaceful", "Cooperative"],
+      "sentences": [
+        "The belligerent customer refused to listen to the manager's explanation.",
+        "His belligerent behavior made it impossible to have a civil conversation.",
+        "The two nations maintained belligerent attitudes despite peace negotiations."
+      ]
+    },
+    {
+      "id": 54,
+      "word": "Bondage (n)",
+      "meaning": "দাসত্ব",
+      "isIdiom": false,
+      "isBookmarked": false,
+      "synonyms": ["Slavery"],
+      "antonyms": ["Liberty", "Freedom"],
+      "sentences": [
+        "The abolitionists fought to end the bondage of enslaved people.",
+        "She felt trapped in emotional bondage to her past mistakes.",
+        "The country struggled to break free from economic bondage to foreign powers."
+      ]
+    },
+    {
+      "id": 55,
+      "word": "Brevity (n)",
+      "meaning": "১. সংক্ষিপ্ততা ২. ক্ষণস্থায়ী",
+      "isIdiom": false,
+      "isBookmarked": false,
+      "synonyms": ["Shortness", "Pithiness", "Temporality", "Evanescence"],
+      "antonyms": ["Prolixity", "Verbosity", "Permanence"],
+      "sentences": [
+        "The brevity of his speech impressed the audience who expected a long lecture.",
+        "She appreciated the brevity of life and tried to make every moment count.",
+        "The report's brevity made it easy to read and understand quickly."
+      ]
+    },
+    {
+      "id": 56,
+      "word": "Barren (adj)",
+      "meaning": "অনুর্বর, বন্ধ্যা",
+      "isIdiom": false,
+      "isBookmarked": false,
+      "synonyms": ["Arid", "Infertile", "Sterile", "Unproductive", "Unfruitful"],
+      "antonyms": ["Fertile", "Fruitful", "Lush", "Productive", "Prolific"],
+      "sentences": [
+        "The barren desert stretched for miles without a single tree in sight.",
+        "The barren land could not support any crops despite the farmers' efforts.",
+        "Her barren imagination prevented her from writing creative stories."
+      ]
+    },
+    {
+      "id": 57,
+      "word": "Benefactor (n)",
+      "meaning": "উপকারক, দাতা",
+      "isIdiom": false,
+      "isBookmarked": false,
+      "synonyms": ["Donor", "Patron", "Sponsor", "Supporter"],
+      "antonyms": ["Malefactor", "Mischief Maker"],
+      "sentences": [
+        "The anonymous benefactor donated millions to build the new hospital.",
+        "She became a benefactor to many young artists struggling to make a living.",
+        "The university honored its greatest benefactor with a scholarship program."
+      ]
+    },
+    {
+      "id": 58,
+      "word": "Beneficial (adj)",
+      "meaning": "উপকারী, সহায়ক",
+      "isIdiom": false,
+      "isBookmarked": false,
+      "synonyms": ["Advantageous", "Conducive", "Congenial", "Favourable", "Helpful", "Useful"],
+      "antonyms": ["Dangerous", "Injurious", "Destructive", "Deleterious", "Detrimental", "Harmful"],
+      "sentences": [
+        "Regular exercise is beneficial for both physical and mental health.",
+        "The new policy proved beneficial for small business owners.",
+        "Eating vegetables is beneficial to maintaining a balanced diet."
+      ]
+    },
+    {
+      "id": 59,
+      "word": "Blame (v)",
+      "meaning": "দোষারোপ করা",
+      "isIdiom": false,
+      "isBookmarked": false,
+      "synonyms": ["Hold Responsible", "Condemn", "Censure", "Criticize", "Denounce"],
+      "antonyms": ["Praise", "Admire", "Thank"],
+      "sentences": [
+        "Don't blame others for your own mistakes and failures.",
+        "The investigation will determine who to blame for the accident.",
+        "She refused to blame anyone without having all the facts."
+      ]
+    },
+    {
+      "id": 60,
+      "word": "Blameworthy (adj)",
+      "meaning": "নিন্দনীয়",
+      "isIdiom": false,
+      "isBookmarked": false,
+      "synonyms": ["Responsible", "Guilty", "Culpable"],
+      "antonyms": ["Spotless", "Innocent"],
+      "sentences": [
+        "His blameworthy actions led to the company's financial losses.",
+        "The committee found the manager's conduct blameworthy and unprofessional.",
+        "While mistakes happen, deliberate negligence is truly blameworthy."
+      ]
+    },
+    {
+      "id": 61,
+      "word": "Boast (v)",
+      "meaning": "দর্প, অহমিকা",
+      "isIdiom": false,
+      "isBookmarked": false,
+      "synonyms": ["Brag", "Pride"],
+      "antonyms": ["Gentle", "Deprecate"],
+      "sentences": [
+        "He would often boast about his achievements to anyone who would listen.",
+        "The team could rightfully boast about their undefeated season.",
+        "She never liked to boast, preferring to let her work speak for itself."
+      ]
+    }
 ]
