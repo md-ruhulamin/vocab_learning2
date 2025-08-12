@@ -13,7 +13,7 @@ class WordController extends GetxController {
   final RxList<Word> _allWords = <Word>[].obs;
   final RxList<Word> words = <Word>[].obs;
   final RxInt type = 1.obs; // 1: All, 2: Bookmarked, 3: Idioms
-  RxBool isIdiom = true.obs;
+
   @override
   void onInit() {
     super.onInit();
@@ -64,6 +64,7 @@ class WordController extends GetxController {
       words.value = _allWords.where((w) => w.isBookmarked).toList();
     } else if (type.value == 3) {
       words.value = _allWords.where((w) => w.isIdiom).toList();
+  
     }else if (type.value == 0) {
       words.value =sampleWords;
     } else {

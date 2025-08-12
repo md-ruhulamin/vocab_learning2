@@ -1,4 +1,3 @@
-import 'package:flip_card/flip_card.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:vocab_learning/add_word.dart';
@@ -10,9 +9,6 @@ import 'package:vocab_learning/widget/custom_button.dart';
 import 'package:vocab_learning/widget/custom_text.dart';
 import 'package:vocab_learning/edit_word.dart';
 import 'package:vocab_learning/quiz/quiz_page.dart';
-import 'package:vocab_learning/wordModel.dart';
-import 'package:vocab_learning/word_card.dart';
-import 'package:vocab_learning/word_details.dart';
 
 // ignore: must_be_immutable
 class SynAntonymListPage extends StatefulWidget {
@@ -56,7 +52,7 @@ class _SynAntonymListPageState extends State<SynAntonymListPage> {
                   context,
                   MaterialPageRoute(
                     builder: (context) => QuizPage(
-                      userWords: controller.words.value,
+                      userWords: controller.words,
                       numberofMCQ: 5,
                     ),
                   ),
@@ -104,13 +100,12 @@ class _SynAntonymListPageState extends State<SynAntonymListPage> {
                             MaterialPageRoute(
                               builder: (_) => SynAntFlashCard(
                                 type: widget.type,
-                                  words: controller.words.value,
+                                  words: controller.words,
                                   realIndex: realIndex),
                             ),
                           );
                         },
                         onLongPress: () {
-                          print("Deleting word at index $realIndex");
                           controller.deleteWord(word);
                           ScaffoldMessenger.of(context).showSnackBar(
                             SnackBar(content: Text("Word deleted")),

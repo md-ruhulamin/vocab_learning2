@@ -48,7 +48,7 @@ class _WordCardState extends State<WordCard> {
 
     return Scaffold(
       appBar: AppBar(
-        title: Text("(${widget.realIndex + 1}) ${word.word}"),
+        title: Text("${widget.realIndex + 1}. ${word.word}"),
         actions: [
           if (controller.type != 0)
             IconButton(

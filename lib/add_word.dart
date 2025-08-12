@@ -6,19 +6,30 @@ import 'package:vocab_learning/widget/custom_snakebar.dart';
 import 'package:vocab_learning/widget/custome_text_filed.dart';
 import 'package:vocab_learning/wordModel.dart';
 
-class AddWordPage extends StatelessWidget {
+class AddWordPage extends StatefulWidget {
+  @override
+  State<AddWordPage> createState() => _AddWordPageState();
+}
+
+class _AddWordPageState extends State<AddWordPage> {
   final WordController controller = Get.put(WordController());
 
   final wordController = TextEditingController();
+
   final meaningController = TextEditingController();
+
   final synonymController = TextEditingController();
+
   final antonymController = TextEditingController();
+
   final sentenceController = TextEditingController();
 
+  bool isIdiom = false; 
+ // Local variable
   void addWord() {
     if (wordController.text.isNotEmpty && meaningController.text.isNotEmpty) {
       final word = Word(
-        isIdiom: controller.isIdiom.value, // Use the controller's isIdiom value
+        isIdiom:isIdiom, 
         isBookmarked: false,
         id: DateTime.now()
             .millisecondsSinceEpoch, // Unique ID based on timestamp
@@ -40,7 +51,9 @@ class AddWordPage extends StatelessWidget {
       meaningController.clear();
       synonymController.clear();
       antonymController.clear();
-      sentenceController.clear();
+      sentenceController.clear(); setState(() {
+        isIdiom = false; // Reset after adding
+      });
     } else {
       showCustomSnackBar(
         Get.context!,
@@ -54,66 +67,70 @@ class AddWordPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
    
-      resizeToAvoidBottomInset: false,
+    //  resizeToAvoidBottomInset: false,
       appBar: AppBar(title: Text('Add Word')),
-      body: Padding(
-        padding: const EdgeInsets.all(12.0),
-        child: Column(
-          children: [
-            CustomTextField(
-              controller: wordController,
-              hintText: 'Word',
-              labelText: 'Enter the word',
-            ),
-            CustomTextField(
-              controller: meaningController,
-              hintText: 'Meaning',
-              labelText: 'Enter the meaning',
-            ),
-            CustomTextField(
-                hintText: 'Synonyms comma(,) separated',
-                controller: synonymController,
-                labelText: 'Ex: Syn1, Syn2, Syn3,......'),
-            CustomTextField(
-                labelText: 'Ex: Ant1, Ant2, Ant3,......',
-                controller: antonymController,
-                hintText: 'Antonyms (comma separated)'),
-            Row(
-              children: [
-                SizedBox(width: 10),
-                Text('Is Idiom?', style: TextStyle(fontSize: 16)),
-                SizedBox(width: 10),
-                Obx(() => Row(
-                      children: [
-                        Radio<bool>(
-                          value: false,
-                          groupValue: controller.isIdiom.value,
-                          onChanged: (val) => controller.isIdiom.value = val!,
-                        ),
-                        Text('Yes'),
-                        Radio<bool>(
-                          value: true,
-                          groupValue: controller.isIdiom.value,
-                          onChanged: (val) => controller.isIdiom.value = val!,
-                        ),
-                        Text('No'),
-                      ],
-                    )),
-              ],
-            ),
-            CustomTextField(
-                maxLines: 3,
-                labelText: ' Ex: Sentence1 | Sentence2 | Sentence3...',
-                controller: sentenceController,
-                hintText: 'Sentences (separate by |)'),
-            SizedBox(height: 10),
-            CustomButton(
-              onPressed: addWord,
-              text: 'Add Word',
-              width: 340,
-            ),
-            SizedBox(height: 20),
-          ],
+      body: SingleChildScrollView(
+        child: Padding(
+          padding: const EdgeInsets.all(12.0),
+          child: Column(
+            children: [
+              CustomTextField(
+                controller: wordController,
+                hintText: 'Word',
+                labelText: 'Enter the word',
+              ),
+              CustomTextField(
+                controller: meaningController,
+                hintText: 'Meaning',
+                labelText: 'Enter the meaning',
+              ),
+              CustomTextField(
+                  hintText: 'Synonyms comma(,) separated',
+                  controller: synonymController,
+                  labelText: 'Ex: Syn1, Syn2, Syn3,......'),
+              CustomTextField(
+                  labelText: 'Ex: Ant1, Ant2, Ant3,......',
+                  controller: antonymController,
+                  hintText: 'Antonyms (comma separated)'),
+              Row(
+                children: [
+                  SizedBox(width: 10),
+                  Text('Is Idiom?', style: TextStyle(fontSize: 16)),
+                  SizedBox(width: 10),
+                  Checkbox(
+                    value: isIdiom,
+                    onChanged: (val) {
+                      setState(() {
+                        isIdiom = true;
+                      });
+                    },
+                  ),
+                  Text('Yes'),
+                  Checkbox(
+                    value: !isIdiom,
+                    onChanged: (val) {
+                      setState(() {
+                        isIdiom = false;
+                      });
+                    },
+                  ),
+                  Text('No'),
+                ],
+              ),
+              CustomTextField(
+                  maxLines: 3,
+                  labelText: ' Ex: Sentence1 | Sentence2 | Sentence3...',
+                  controller: sentenceController,
+                  hintText: 'Sentences (separate by |)'),
+              SizedBox(height: 10),
+              CustomButton(
+                onPressed: addWord,
+                text: 'Add Word',
+                width: 340,
+              ),
+              SizedBox(height: 20),
+            ],
+          ),
         ),
       ),
     );

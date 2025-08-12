@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "word": "Gay",
+    "meaning": "প্রফুল্ল, সপ্রতিভ",
+    "synonyms": ["Cheerful", "Joyful", "Merry", "Lewd"],
+    "antonyms": ["Depressed", "Glum", "Mournful", "Sullen"],
+    "sentences": ["She looked gay and full of life at the party."]
+  },
+  {
+    "id": 2,
+    "word": "Gallant",
+    "meaning": "সাহসী",
+    "synonyms": ["Brave", "Valiant", "Valorous"],
+    "antonyms": ["Craven", "Fearful"],
+    "sentences": ["The gallant soldier saved his comrades from danger."]
+  },
+  {
+    "id": 3,
+    "word": "Gargantuan",
+    "meaning": "প্রচণ্ড বড়",
+    "synonyms": ["Colossal", "Gigantic", "Massive"],
+    "antonyms": ["Minuscule", "Tiny", "Minute"],
+    "sentences": ["They served a gargantuan meal at the festival."]
+  },
+  {
+    "id": 4,
+    "word": "Gesture",
+    "meaning": "অঙ্গভঙ্গি",
+    "synonyms": ["Emblem", "Omen", "Symptom"],
+    "antonyms": ["(N) Explication", "(V) Explicate"],
+    "sentences": ["He made a kind gesture to help the old man cross the road."]
+  },
+  {
+    "id": 5,
+    "word": "Glamorous",
+    "meaning": "আকর্ষণীয়",
+    "synonyms": ["Fascinating", "Captivating", "Charming"],
+    "antonyms": ["Unattractive", "Dull"],
+    "sentences": ["She looked glamorous in her evening gown."]
+  },
+  {
+    "id": 6,
+    "word": "Gloom",
+    "meaning": "অন্ধকার, বিষণ্নতা",
+    "synonyms": ["Darkness", "Sadness"],
+    "antonyms": ["Light", "Brightness", "Joy", "Happiness"],
+    "sentences": ["The news cast a shadow of gloom over the city."]
+  },
+  {
+    "id": 7,
+    "word": "Glut",
+    "meaning": "যথেষ্টের বেশি খাওয়া",
+    "synonyms": ["Overeat", "Overdose", "Gorge"],
+    "antonyms": ["Starve", "Diet", "Fast"],
+    "sentences": ["They had a glut of food after the celebration."]
+  },
+  {
+    "id": 8,
+    "word": "Gluttony",
+    "meaning": "অতিভোজন",
+    "synonyms": ["Voracity", "Overeating"],
+    "antonyms": ["Dieting", "Starving", "Fasting"],
+    "sentences": ["His gluttony was evident at the buffet."]
+  },
+  {
+    "id": 9,
+    "word": "Gracious",
+    "meaning": "সদয়, বিনয়ী",
+    "synonyms": ["Courteous", "Polite"],
+    "antonyms": ["Haughty", "Arrogant"],
+    "sentences": ["She was gracious enough to invite everyone to her home."]
+  },
+  {
+    "id": 10,
+    "word": "Grandiloquent",
+    "meaning": "বাগাড়ম্বরপূর্ণ",
+    "synonyms": ["Pompous", "Showy", "Bombastic"],
+    "antonyms": ["Simple", "Humble", "Plain"],
+    "sentences": ["The politician's grandiloquent speech impressed few."]
+  },
+  {
+    "id": 11,
+    "word": "Gratify",
+    "meaning": "তৃপ্ত করা",
+    "synonyms": ["Please", "Satisfy", "Gladden", "Reward"],
+    "antonyms": ["Displease", "Dissatisfy", "Disappoint"],
+    "sentences": ["It will gratify him to know his efforts were appreciated."]
+  },
+  {
+    "id": 12,
+    "word": "Greedy",
+    "meaning": "প্রচণ্ড অর্থলোভী",
+    "synonyms": ["Money-Hungry"],
+    "antonyms": ["Generous", "Benevolent"],
+    "sentences": ["The greedy businessman exploited his workers."]
+  },
+  {
+    "id": 13,
+    "word": "Gullible",
+    "meaning": "বিশ্বাসপ্রবণ",
+    "synonyms": ["Credulous", "Susceptible", "Trusting", "Dupe"],
+    "antonyms": ["Suspicious", "Untrusting", "Hard to Convince"],
+    "sentences": ["He was so gullible that he believed every rumor."]
+  },
+  {
+    "id": 14,
+    "word": "Gregarious",
+    "meaning": "সামাজিক",
+    "synonyms": ["Sociable", "Friendly"],
+    "antonyms": ["Reclusive", "Lonely"],
+    "sentences": ["She is gregarious and loves attending parties."]
+  },
+  {
+    "id": 15,
+    "word": "Hypocrisy",
+    "meaning": "ভণ্ডামী",
+    "synonyms": ["Insincerity"],
+    "antonyms": ["Candor", "Sincerity"],
+    "sentences": ["His hypocrisy was revealed when he broke his own rules."]
+  }
+]

@@ -5,106 +5,119 @@ import 'package:vocab_learning/widget/custom_button.dart';
 import 'package:vocab_learning/widget/custome_text_filed.dart';
 import 'package:vocab_learning/wordModel.dart';
 
-class EditWordPage extends StatelessWidget {
+class EditWordPage extends StatefulWidget {
   final Word word;
   final int index;
 
   EditWordPage({super.key, required this.word, required this.index});
 
+  @override
+  State<EditWordPage> createState() => _EditWordPageState();
+}
+
+class _EditWordPageState extends State<EditWordPage> {
   final controller = Get.find<WordController>();
-  final wordCtrl = TextEditingController();
-  final meaningCtrl = TextEditingController();
-  final synonymCtrl = TextEditingController();
-  final antonymCtrl = TextEditingController();
-  final sentenceCtrl = TextEditingController();
+  late TextEditingController wordCtrl;
+  late TextEditingController meaningCtrl;
+  late TextEditingController synonymCtrl;
+  late TextEditingController antonymCtrl;
+  late TextEditingController sentenceCtrl;
+
+  late bool isIdiom;
+
+  @override
+  void initState() {
+    super.initState();
+    wordCtrl = TextEditingController(text: widget.word.word);
+    meaningCtrl = TextEditingController(text: widget.word.meaning);
+    synonymCtrl = TextEditingController(text: widget.word.synonyms.join(', '));
+    antonymCtrl = TextEditingController(text: widget.word.antonyms.join(', '));
+    sentenceCtrl = TextEditingController(text: widget.word.sentences.join('| '));
+    isIdiom = widget.word.isIdiom;
+  }
+
+  void update() {
+    if (meaningCtrl.text.isNotEmpty && wordCtrl.text.isNotEmpty) {
+      final updated = Word(
+        id: widget.word.id,
+        word: wordCtrl.text,
+        isBookmarked: widget.word.isBookmarked,
+        isIdiom: isIdiom, // Use local variable
+        meaning: meaningCtrl.text,
+        synonyms: synonymCtrl.text.isNotEmpty
+            ? synonymCtrl.text.split(',').map((e) => e.trim()).toList()
+            : [],
+        antonyms: antonymCtrl.text.isNotEmpty
+            ? antonymCtrl.text.split(',').map((e) => e.trim()).toList()
+            : [],
+        sentences: sentenceCtrl.text.isNotEmpty
+            ? sentenceCtrl.text.split('|').map((e) => e.trim()).toList()
+            : [],
+      );
+      controller.updateWord(updated);
+      Navigator.pop(context);
+    } else {
+      Get.snackbar("Failed", "Word or Meaning can't be empty");
+    }
+  }
 
   @override
   Widget build(BuildContext context) {
-    wordCtrl.text = word.word;
-    meaningCtrl.text = word.meaning;
-    synonymCtrl.text = word.synonyms.join(', ');
-    antonymCtrl.text = word.antonyms.join(', ');
-    sentenceCtrl.text = word.sentences.join('| ');
-
-    void update() {
-      if (meaningCtrl.text.isNotEmpty && wordCtrl.text.isNotEmpty) {
-        final updated = Word(
-          id: word.id, // Assuming id is part of the Word model
-          word: wordCtrl.text,
-          isBookmarked: word.isBookmarked,
-          isIdiom: word.isIdiom, // Assuming isIdiom is part of the
-          meaning: meaningCtrl.text,
-          synonyms: synonymCtrl.text.isNotEmpty
-              ? synonymCtrl.text.split(',').map((e) => e.trim()).toList()
-              : [],
-          antonyms: antonymCtrl.text.isNotEmpty
-              ? antonymCtrl.text.split(',').map((e) => e.trim()).toList()
-              : [],
-          sentences: sentenceCtrl.text.isNotEmpty
-              ? sentenceCtrl.text.split('|').map((e) => e.trim()).toList()
-              : [],
-        );
-        controller.updateWord(updated);
-        print(index);
-        Navigator.pop(context);
-      } else {
-        Get.snackbar("Failed", "Word or Meaning cann't be empty");
-      }
-    }
-
     return Scaffold(
-      resizeToAvoidBottomInset: false,
+    //  resizeToAvoidBottomInset: false,
       appBar: AppBar(title: Text("Edit Word")),
-      body: Padding(
-        padding: const EdgeInsets.all(16.0),
-        child: Column(
-          children: [
-            CustomTextField(
-              controller: wordCtrl,
-              hintText: 'Word',
-            ),
-            CustomTextField(
-              controller: meaningCtrl,
-              hintText: 'Meaning',
-            ),
-           
-            CustomTextField(
-                hintText: 'Synonyms (comma separated)',
-                controller: synonymCtrl),
-            CustomTextField(
-                controller: antonymCtrl,
-                hintText: 'Antonyms (comma separated)'),
-                 Row(
-              children: [
-                SizedBox(width: 10),
-                Text('Is Idiom?', style: TextStyle(fontSize: 16)),
-                SizedBox(width: 10),
-                Obx(() => Row(
-                      children: [
-                        Radio<bool>(
-                          value: word.isIdiom? true : false,
-                          groupValue: controller.isIdiom.value,
-                          onChanged: (val) => controller.isIdiom.value = val!,
-                        ),
-                        Text('Yes'),
-                        Radio<bool>(
-                          value: word.isIdiom? false : true,
-                          groupValue: controller.isIdiom.value,
-                          onChanged: (val) => controller.isIdiom.value = val!,
-                        ),
-                        Text('No'),
-                      ],
-                    )),
-              ],
-            ),
-            CustomTextField(
-                maxLines: 3,
-                controller: sentenceCtrl,
-                hintText: 'Sentences (separate by |)'),
-            SizedBox(height: 16),
-            
-            CustomButton(onPressed: update, text: 'Update Word', width: 340),
-          ],
+      body: SingleChildScrollView(
+        child: Padding(
+          padding: const EdgeInsets.all(16.0),
+          child: Column(
+            children: [
+              CustomTextField(
+                controller: wordCtrl,
+                hintText: 'Word',
+              ),
+              CustomTextField(
+                controller: meaningCtrl,
+                hintText: 'Meaning',
+              ),
+              CustomTextField(
+                  hintText: 'Synonyms (comma separated)',
+                  controller: synonymCtrl),
+              CustomTextField(
+                  controller: antonymCtrl,
+                  hintText: 'Antonyms (comma separated)'),
+              Row(
+                children: [
+                  SizedBox(width: 10),
+                  Text('Is Idiom?', style: TextStyle(fontSize: 16)),
+                  SizedBox(width: 10),
+                  Checkbox(
+                    value: isIdiom,
+                    onChanged: (val) {
+                      setState(() {
+                        isIdiom = true;
+                      });
+                    },
+                  ),
+                  Text('Yes'),
+                  Checkbox(
+                    value: !isIdiom,
+                    onChanged: (val) {
+                      setState(() {
+                        isIdiom = false;
+                      });
+                    },
+                  ),
+                  Text('No'),
+                ],
+              ),
+              CustomTextField(
+                  maxLines: 3,
+                  controller: sentenceCtrl,
+                  hintText: 'Sentences (separate by |)'),
+              SizedBox(height: 16),
+              CustomButton(onPressed: update, text: 'Update Word', width: 340),
+            ],
+          ),
         ),
       ),
     );

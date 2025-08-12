@@ -25,6 +25,7 @@ class _WordListPageState extends State<WordListPage> {
   String searchQuery = "";
   @override
   void initState() {
+    print(widget.type);
     if (widget.type == 1) {
       controller.changeType(1);
     } else if (widget.type == 2) {
