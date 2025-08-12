@@ -118,5 +118,815 @@
     "synonyms": ["Insincerity"],
     "antonyms": ["Candor", "Sincerity"],
     "sentences": ["His hypocrisy was revealed when he broke his own rules."]
+  },
+  {
+    "id": 16,
+    "word": "Absurd",
+    "meaning": "অযৌক্তিক/ হাস্যকর",
+    "synonyms": ["Unreasonable", "Illogical"],
+    "antonyms": ["Reasonable", "Sensible"],
+    "sentences": ["The idea of pigs flying is completely absurd."]
+  },
+  {
+    "id": 17,
+    "word": "Abandon",
+    "meaning": "ত্যাগ করা",
+    "synonyms": ["Discard", "Drop", "Forsake", "Quit", "Leave"],
+    "antonyms": ["Pursuit", "Quest"],
+    "sentences": ["They decided to abandon the old house."]
+  },
+  {
+    "word": "Abate",
+    "meaning": "হ্রাস করা/ সঞ্চার কমানো",
+    "synonyms": ["Subside", "Decrease", "Lessen", "Diminish"],
+    "antonyms": ["Magnify", "Increase", "Enlarge", "Ameliorate"],
+    "sentences": ["The storm began to abate after midnight."]
+  },
+  {
+    "word": "Abbreviate",
+    "meaning": "সংক্ষেপিত করা",
+    "synonyms": ["Shorten", "Abridge", "Trim", "Condense"],
+    "antonyms": ["Enlarge", "Expand", "Amplify"],
+    "sentences": ["We abbreviate 'Doctor' as 'Dr.'"]
+  },
+  {
+    "word": "Adulterate",
+    "meaning": "ভেজাল মেশানো",
+    "synonyms": ["Contaminate", "Pollute", "Amalgamate"],
+    "antonyms": ["Purify", "Clean", "Smoothen"],
+    "sentences": ["The milk was found to be adulterated with water."]
+  },
+  {
+    "word": "Accord",
+    "meaning": "সম্মতি হওয়া",
+    "synonyms": ["Admit", "Allow", "Grant", "Agree"],
+    "antonyms": ["Oppose", "Challenge", "Disallow"],
+    "sentences": ["The two sides finally reached an accord."]
+  },
+  {
+    "word": "Accumulate",
+    "meaning": "জমা হওয়া/ একত্র করা",
+    "synonyms": ["Gather", "Amass", "Assemble"],
+    "antonyms": ["Scatter", "Disperse", "Disseminate"],
+    "sentences": ["He managed to accumulate a lot of wealth over the years."]
+  },
+  {
+    "word": "Acknowledge",
+    "meaning": "স্বীকার করা",
+    "synonyms": ["Admit", "Certify", "Accept", "Endorse"],
+    "antonyms": ["Deny", "Refuse"],
+    "sentences": ["She refused to acknowledge her mistake."]
+  },
+  {
+    "word": "Assist",
+    "meaning": "সহায়তা করা",
+    "synonyms": ["Help", "Aid", "Support"],
+    "antonyms": ["Oppose", "Obstruct"],
+    "sentences": ["He assisted the old man to cross the road."]
+  },
+  {
+    "word": "Acme",
+    "meaning": "সর্বোচ্চ সীমা",
+    "synonyms": ["Summit", "Pinnacle", "Zenith"],
+    "antonyms": ["Lower Point", "Base", "Nadir"],
+    "sentences": ["Winning the championship was the acme of his career."]
+  },
+  {
+    "word": "Admiration",
+    "meaning": "প্রশংসা/ ভক্তি",
+    "synonyms": ["Appreciation", "Praise", "Glorification"],
+    "antonyms": ["Hate", "Contempt", "Disgust"],
+    "sentences": ["Her courage earned the admiration of the entire town."]
+  },
+  {
+    "word": "Anxious",
+    "meaning": "উদ্বিগ্ন",
+    "synonyms": ["Worried", "Alarmed", "Scared"],
+    "antonyms": ["Assured", "Content", "Unworried"],
+    "sentences": ["She was anxious about the exam results."]
+  },
+  {
+    "word": "Adopt",
+    "meaning": "স্থায়ীভাবে গ্রহণ করা",
+    "synonyms": ["Assume", "Accept", "Approve"],
+    "antonyms": ["Reject", "Disapprove"],
+    "sentences": ["They decided to adopt a child from the orphanage."]
+  },
+  {
+    "word": "Ambiguous",
+    "meaning": "অস্পষ্ট/ দ্ব্যর্থক",
+    "synonyms": ["Doubtful", "Dubious", "Enigmatic", "Puzzling"],
+    "antonyms": ["Clear", "Understandable", "Lucid"],
+    "sentences": ["His reply was ambiguous and left everyone confused."]
+  },
+  {
+    "word": "Anonymous",
+    "meaning": "নামহীন",
+    "synonyms": ["Nameless", "Unnamed"],
+    "antonyms": ["Named", "Signed"],
+    "sentences": ["The donation was made by an anonymous benefactor."]
+  },
+  {
+    "word": "Antipathy",
+    "meaning": "বিদ্বেষ/ ঘৃণা",
+    "synonyms": ["Hatred", "Hostility", "Revulsion"],
+    "antonyms": ["Admiration", "Respect", "Love"],
+    "sentences": ["He felt a deep antipathy toward dishonesty."]
+  },
+  {
+    "word": "Authentic",
+    "meaning": "প্রকৃত, খাঁটি",
+    "synonyms": ["Real", "Genuine", "Accredited"],
+    "antonyms": ["Spurious", "False", "Unauthorized"],
+    "sentences": ["The document was verified as authentic."]
+  },
+  {
+    "word": "Awkward",
+    "meaning": "আনাড়ি/ অপ্রস্তুত",
+    "synonyms": ["Ungainly", "Slovenly", "Not Skillful"],
+    "antonyms": ["Artful", "Adroit", "Skillful"],
+    "sentences": ["He felt awkward during the meeting."]
+  },
+  {
+    "word": "Amorphous",
+    "meaning": "নিরাকার/ অনিয়তাকার",
+    "synonyms": ["Formless", "Unembodied", "Incorporeal", "Unformed"],
+    "antonyms": ["Definite", "Distinctive", "Shaped"],
+    "sentences": ["The plan was still amorphous and lacked clear structure."]
+  },
+  {
+    "word": "Antecedent",
+    "meaning": "পূর্ববর্তী",
+    "synonyms": ["Anterior", "Precedent", "Precursory", "Foregoing"],
+    "antonyms": ["Current", "Following", "Subsequent"],
+    "sentences": ["Historical antecedents often shape modern decisions."]
+  },
+  {
+    "word": "Annuity",
+    "meaning": "বার্ষিক ভাতা",
+    "synonyms": ["Annual", "Anniversary"],
+    "antonyms": ["Monthly", "Daily"],
+    "sentences": ["He receives an annuity from his retirement fund."]
+  },
+  {
+    "word": "Anarchy",
+    "meaning": "অরাজকতা",
+    "synonyms": ["Harmony", "Lawfulness"],
+    "antonyms": ["Chaos", "Disorder", "Mess"],
+    "sentences": ["The collapse of the government led to anarchy."]
+  },
+  {
+    "word": "Atheist",
+    "meaning": "নাস্তিক",
+    "synonyms": ["Skeptic", "Infidel", "Misbeliever"],
+    "antonyms": ["Credent", "Believer"],
+    "sentences": ["An atheist does not believe in the existence of God."]
+  },
+  {
+    "word": "Autonomous",
+    "meaning": "স্বশাসিত",
+    "synonyms": ["Independent", "Self-explanatory"],
+    "antonyms": ["Subservient", "Dependent"],
+    "sentences": ["The region became autonomous after the peace agreement."]
+  },
+  {
+    "word": "Adept",
+    "meaning": "অত্যন্ত দক্ষ/ সুদক্ষ",
+    "synonyms": [
+      "Adroit",
+      "Dexterous",
+      "Proficient",
+      "Skilled",
+      "Expert",
+      "Deft"
+    ],
+    "antonyms": ["Awkward", "Unskilled", "Clumsy", "Inept", "Inexpert"],
+    "sentences": ["She is adept at solving complex problems."]
+  },
+  {
+    "word": "Admire",
+    "meaning": "প্রশংসা করা, উচ্চ মর্যাদায় রাখা",
+    "synonyms": ["Esteem", "Respect", "Praise", "Extol", "Eulogize", "Commend"],
+    "antonyms": ["Blame", "Censure", "Condemn"],
+    "sentences": ["I truly admire her dedication to work."]
+  },
+  {
+    "word": "Alert",
+    "meaning": "সতর্ক, মনোযোগী",
+    "synonyms": [
+      "Aware",
+      "Observant",
+      "Cautious",
+      "Vigilant",
+      "Watchful",
+      "Wary"
+    ],
+    "antonyms": ["Careless", "Unaware", "Ignorant", "Uninformed"],
+    "sentences": ["The guard stayed alert throughout the night."]
+  },
+
+  {
+    "id": 1,
+    "word": "Annoy",
+    "meaning": "জ্বালাতন/বিরক্ত করা",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Bother", "Disturb", "Irritate", "Perturb"],
+    "antonyms": ["Calm", "Pacify", "Soothe"],
+    "sentences": [
+      "The constant noise from construction work began to annoy the residents.",
+      "Please don't annoy your sister while she's studying.",
+      "His habit of interrupting others tends to annoy people during meetings."
+    ]
+  },
+  {
+    "id": 2,
+    "word": "Abridge",
+    "meaning": "সংক্ষেপ করা",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Shorten", "Condense"],
+    "antonyms": ["Expand", "Enlarge"],
+    "sentences": [
+      "The editor decided to abridge the novel for younger readers.",
+      "Due to time constraints, we had to abridge the presentation.",
+      "The abridged version of the dictionary contains only essential words."
+    ]
+  },
+  {
+    "id": 3,
+    "word": "Adamant",
+    "meaning": "অনমনীয়, সগোঁয়ার",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Insistent", "Obstinate", "Obdurate"],
+    "antonyms": ["Flexible", "Compliant"],
+    "sentences": [
+      "She was adamant about finishing the project on time.",
+      "Despite the opposition, he remained adamant in his decision.",
+      "The teacher was adamant that all assignments must be submitted by Friday."
+    ]
+  },
+  {
+    "id": 4,
+    "word": "Adverse",
+    "meaning": "প্রতিকূল, বিরোধী",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Unfavorable", "Antagonistic"],
+    "antonyms": ["Beneficial", "Auspicious"],
+    "sentences": [
+      "The adverse weather conditions forced the cancellation of the outdoor event.",
+      "The medicine may have adverse effects on some patients.",
+      "Despite adverse circumstances, the team managed to succeed."
+    ]
+  },
+  {
+    "id": 5,
+    "word": "Alienate",
+    "meaning": "সমর্থন করা (v), সমর্থক (n), বিরাগ সৃষ্টি করা",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Estrange", "Isolate"],
+    "antonyms": ["Reconcile", "Settle", "Reunite"],
+    "sentences": [
+      "His rude behavior tends to alienate potential friends.",
+      "The new policies may alienate some of the company's loyal customers.",
+      "She didn't want to alienate her family by moving so far away."
+    ]
+  },
+  {
+    "id": 6,
+    "word": "Advocate",
+    "meaning": "সমর্থন করা (v), সমর্থক (n)",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Support", "Supporter", "Proponent"],
+    "antonyms": ["Oppose", "Attack", "Opponent", "Enemy"],
+    "sentences": [
+      "She advocates for environmental protection in her community.",
+      "The lawyer will advocate for his client in court.",
+      "He is a strong advocate of renewable energy solutions."
+    ]
+  },
+  {
+    "id": 7,
+    "word": "Altruism",
+    "meaning": "পরোপকারিতা, পার্থিবাদ",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": [
+      "Benevolence",
+      "Generosity",
+      "Bounty",
+      "Charity",
+      "Munificence"
+    ],
+    "antonyms": ["Selfishness"],
+    "sentences": [
+      "Her altruism was evident in her volunteer work at the shelter.",
+      "The billionaire's altruism led him to donate most of his fortune.",
+      "Acts of altruism make the world a better place for everyone."
+    ]
+  },
+  {
+    "id": 8,
+    "word": "Animosity",
+    "meaning": "শত্রুতা",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Antagonism", "Hostility", "Rivalry"],
+    "antonyms": ["Amity", "Harmony"],
+    "sentences": [
+      "There was deep animosity between the two rival companies.",
+      "Despite their animosity, they managed to work together professionally.",
+      "The animosity between the neighbors escalated over the property dispute."
+    ]
+  },
+  {
+    "id": 9,
+    "word": "Apathy",
+    "meaning": "উদাসীনতা",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Indifference", "Callousness"],
+    "antonyms": ["Attention", "Concern", "Care"],
+    "sentences": [
+      "The voter apathy was evident in the low election turnout.",
+      "His apathy towards his studies resulted in poor grades.",
+      "We need to overcome public apathy about climate change."
+    ]
+  },
+  {
+    "id": 10,
+    "word": "Appease",
+    "meaning": "শান্ত করা, প্রশমিত করা",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": [
+      "Pacify",
+      "Placate",
+      "Soothe",
+      "Allay",
+      "Alleviate",
+      "Mitigate"
+    ],
+    "antonyms": ["Annoy", "Irritate", "Enrage", "Aggravate", "Worsen"],
+    "sentences": [
+      "The manager tried to appease the angry customers with a discount.",
+      "Nothing could appease his hunger after the long journey.",
+      "The government made concessions to appease the protesters."
+    ]
+  },
+  {
+    "id": 11,
+    "word": "Astute",
+    "meaning": "চতুর, কৌশলী",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Shrewd", "Keen", "Sly"],
+    "antonyms": ["Unintelligent", "Dull"],
+    "sentences": [
+      "Her astute business sense helped the company grow rapidly.",
+      "The astute investor recognized the potential of the startup early.",
+      "His astute observations impressed everyone at the meeting."
+    ]
+  },
+  {
+    "id": 12,
+    "word": "Audacious",
+    "meaning": "দুঃসাহসী, যুষ্ট",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Bold", "Daring", "Intrepid", "Insolent", "Haughty"],
+    "antonyms": ["Timid", "Cowardly", "Polite", "Courteous"],
+    "sentences": [
+      "It was audacious of him to challenge the company's CEO publicly.",
+      "The audacious plan to climb the mountain without proper equipment was risky.",
+      "Her audacious fashion choices always made her stand out in a crowd."
+    ]
+  },
+  {
+    "id": 13,
+    "word": "Avarice",
+    "meaning": "অর্থলিপ্সা, লোভ",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Lust For Money"],
+    "antonyms": ["Bounty", "Generosity"],
+    "sentences": [
+      "His avarice led him to make unethical business decisions.",
+      "The king's avarice caused suffering among his people.",
+      "Avarice is often considered one of the most destructive human traits."
+    ]
+  },
+  {
+    "id": 14,
+    "word": "Aver (v)",
+    "meaning": "নিশ্চয়তা সহকারে বলা",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Affirm", "Assert", "Avow"],
+    "antonyms": ["Repudiate", "Disavow"],
+    "sentences": [
+      "The witness averred that he saw the defendant at the scene.",
+      "She averred her innocence despite the evidence against her.",
+      "The scientist averred that his theory was based on solid research."
+    ]
+  },
+  {
+    "id": 15,
+    "word": "Abdicate (v)",
+    "meaning": "পদত্যাগ করা",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Renounce", "Relinquish"],
+    "antonyms": ["Claim"],
+    "sentences": [
+      "The king decided to abdicate his throne for love.",
+      "The CEO chose to abdicate his responsibilities during the crisis.",
+      "She refused to abdicate her role as team leader."
+    ]
+  },
+  {
+    "id": 16,
+    "word": "Abolish (v)",
+    "meaning": "১. নিশ্চিহ্ন করা, ২. বাতিল করা",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": [
+      "Eradicate",
+      "Obliterate",
+      "Exterminate",
+      "Annihilate",
+      "Repeal",
+      "Revoke",
+      "Annul"
+    ],
+    "antonyms": [
+      "Establish",
+      "Set Up",
+      "Found",
+      "Institute",
+      "Validate",
+      "Legalize"
+    ],
+    "sentences": [
+      "The government decided to abolish the old tax system.",
+      "Many countries have abolished the death penalty.",
+      "The new law will abolish discrimination in the workplace."
+    ]
+  },
+  {
+    "id": 17,
+    "word": "Abortive (adj)",
+    "meaning": "নিস্ফল, বর্থ",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Futile", "Vain", "Useless", "Fruitless"],
+    "antonyms": ["Fruitful", "Productive"],
+    "sentences": [
+      "Their abortive attempt to climb the mountain ended in failure.",
+      "The abortive peace talks left both sides frustrated.",
+      "After several abortive efforts, they finally succeeded."
+    ]
+  },
+  {
+    "id": 18,
+    "word": "Abrogate (v)",
+    "meaning": "বাতিল করা",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Annul", "Abolish", "Eliminate", "Rescind", "Repeal", "Quash"],
+    "antonyms": ["Enact", "Pass", "Ratify"],
+    "sentences": [
+      "The new government plans to abrogate the controversial treaty.",
+      "The court's decision will abrogate the previous ruling.",
+      "Parliament voted to abrogate the outdated legislation."
+    ]
+  },
+  {
+    "id": 19,
+    "word": "Acumen (n)",
+    "meaning": "তীক্ষ্ণ বুদ্ধি",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Sagacity", "Judiciousness"],
+    "antonyms": ["Ignorance", "Stupidity"],
+    "sentences": [
+      "Her business acumen helped the startup become profitable quickly.",
+      "His political acumen was evident in how he handled the crisis.",
+      "The investor's financial acumen made him very wealthy."
+    ]
+  },
+  {
+    "id": 20,
+    "word": "Adversary (n)",
+    "meaning": "বিপক্ষ, শত্রু",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Foe", "Antagonist", "Enemy"],
+    "antonyms": ["Support", "Advocate"],
+    "sentences": [
+      "In chess, you must study your adversary's moves carefully.",
+      "The lawyer prepared thoroughly to face his adversary in court.",
+      "Despite being adversaries in business, they maintained personal respect."
+    ]
+  },
+  {
+    "id": 21,
+    "word": "Affluent (adj)",
+    "meaning": "ধনবান",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Rich", "Wealthy", "Well-to-do"],
+    "antonyms": ["Impoverished", "Destitute"],
+    "sentences": [
+      "The affluent neighborhood had beautiful mansions and manicured lawns.",
+      "She came from an affluent family but chose to live modestly.",
+      "The city's most affluent residents live in the uptown area."
+    ]
+  },
+  {
+    "id": 22,
+    "word": "Aggravate (v)",
+    "meaning": "অবনতি হওয়া",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Deteriorate", "Intensify", "Worsen"],
+    "antonyms": ["Improve", "Mitigate"],
+    "sentences": [
+      "The loud music will only aggravate your headache.",
+      "His rude comments served to aggravate the already tense situation.",
+      "Don't aggravate the wound by touching it repeatedly."
+    ]
+  },
+  {
+    "id": 23,
+    "word": "Agitate (v)",
+    "meaning": "বিক্ষুব্ধ করা",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Excite", "Incite", "Stimulate"],
+    "antonyms": ["Pacify", "Appease", "Soothe"],
+    "sentences": [
+      "The protesters tried to agitate the crowd with their speeches.",
+      "Don't agitate the washing machine while it's running.",
+      "The controversial news report served to agitate public opinion."
+    ]
+  },
+  {
+    "id": 24,
+    "word": "Alleviate (v)",
+    "meaning": "তীব্রতা হ্রাস করা",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Mitigate", "Allay", "Temper"],
+    "antonyms": ["Aggravate", "Worsen"],
+    "sentences": [
+      "The medicine helped alleviate her pain significantly.",
+      "The new policy aims to alleviate poverty in rural areas.",
+      "A warm bath can alleviate stress after a long day."
+    ]
+  },
+  {
+    "id": 25,
+    "word": "Ameliorate (v)",
+    "meaning": "উন্নতি হওয়া",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Improve", "Get Better"],
+    "antonyms": ["Deteriorate", "Worsen"],
+    "sentences": [
+      "The new management plans to ameliorate working conditions.",
+      "Time and proper treatment will ameliorate the patient's condition.",
+      "Education can help ameliorate social inequality."
+    ]
+  },
+  {
+    "id": 26,
+    "word": "Amity (n)",
+    "meaning": "বন্ধুত্ব",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Friendship", "Harmony"],
+    "antonyms": ["Enmity", "Hostility"],
+    "sentences": [
+      "The two countries signed a treaty of amity and cooperation.",
+      "Despite their differences, they maintained amity throughout their partnership.",
+      "The spirit of amity prevailed during the peace negotiations."
+    ]
+  },
+  {
+    "id": 27,
+    "word": "Anemic (adj)",
+    "meaning": "১. রক্তাল্পতাগ্রস্ত ২. দুর্বল/বিবর্ণ",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Hemoglobin Deficiency", "Pale"],
+    "antonyms": ["Florid"],
+    "sentences": [
+      "The doctor diagnosed her as anemic and prescribed iron supplements.",
+      "His anemic performance in the exam disappointed his parents.",
+      "The plant looked anemic due to lack of sunlight and nutrients."
+    ]
+  },
+  {
+    "id": 28,
+    "word": "Antagonist (n)",
+    "meaning": "প্রতিদ্বন্দ্বী/শত্রু",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Adversary", "Opponent", "Enemy"],
+    "antonyms": ["Ally", "Friend"],
+    "sentences": [
+      "The antagonist in the story was a cunning and ruthless villain.",
+      "He became her main antagonist in the political campaign.",
+      "The protagonist must defeat the antagonist to save the kingdom."
+    ]
+  },
+  {
+    "id": 29,
+    "word": "Apocryphal (adj)",
+    "meaning": "কৃত্রিম, সন্দেহজনক, জাল",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Fake", "Spurious", "Counterfeit"],
+    "antonyms": ["Genuine", "Authentic"],
+    "sentences": [
+      "The apocryphal story about the founder's childhood was widely believed.",
+      "Many apocryphal tales have been told about the ancient king.",
+      "The historian dismissed the document as apocryphal."
+    ]
+  },
+  {
+    "id": 30,
+    "word": "Applause (n)",
+    "meaning": "প্রশংসা",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Praise", "Compliments"],
+    "antonyms": ["Criticism"],
+    "sentences": [
+      "The performer received thunderous applause from the audience.",
+      "Her speech was met with enthusiastic applause.",
+      "The applause lasted for several minutes after the final curtain."
+    ]
+  },
+  {
+    "id": 31,
+    "word": "Apprehend (v)",
+    "meaning": "১. আশঙ্কা/দুশ্চিন্তা ২. গ্রেফতার করা ৩. বুঝতে পারা",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": [
+      "Anxiety",
+      "Concern",
+      "Misgiving",
+      "Arrest",
+      "Capture",
+      "Seize",
+      "Understand",
+      "Comprehend"
+    ],
+    "antonyms": [
+      "Apathy",
+      "Indifference",
+      "Release",
+      "Liberate",
+      "Free",
+      "Misunderstand"
+    ],
+    "sentences": [
+      "The police were able to apprehend the suspect within hours.",
+      "I apprehend that there might be difficulties with the new plan.",
+      "It took him time to apprehend the complex mathematical concept."
+    ]
+  },
+  {
+    "id": 32,
+    "word": "Archaic (adj)",
+    "meaning": "প্রাচীন",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Obsolete", "Out of date"],
+    "antonyms": ["New", "Novel", "Modern"],
+    "sentences": [
+      "The archaic language in the old manuscript was difficult to understand.",
+      "Many consider the company's archaic methods inefficient.",
+      "The archaic laws needed to be updated for modern society."
+    ]
+  },
+  {
+    "id": 33,
+    "word": "Articulate (v)",
+    "meaning": "স্পষ্ট উচ্চারণ করা",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Enunciate", "To say clearly"],
+    "antonyms": ["Mumble"],
+    "sentences": [
+      "She could articulate her thoughts clearly and persuasively.",
+      "The teacher asked the student to articulate each word properly.",
+      "He struggled to articulate his feelings about the situation."
+    ]
+  },
+  {
+    "id": 34,
+    "word": "Ascend (v)",
+    "meaning": "১. আরোহণ করা ২. উপরে উঠা",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Climb", "Mount", "Scale", "Rise", "Go up"],
+    "antonyms": ["Descend", "Fall", "Drop", "Go down"],
+    "sentences": [
+      "The hikers began to ascend the mountain at dawn.",
+      "She watched the balloon ascend into the clear blue sky.",
+      "The prince will ascend to the throne next month."
+    ]
+  },
+  {
+    "id": 35,
+    "word": "Ascetic (adj)",
+    "meaning": "কঠোর আত্মসংযমী",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Austere", "Abstemious", "Abstinent"],
+    "antonyms": ["Hedonistic"],
+    "sentences": [
+      "The monk lived an ascetic life in the mountain monastery.",
+      "His ascetic lifestyle included meditation and simple meals.",
+      "The ascetic philosopher rejected all material pleasures."
+    ]
+  },
+  {
+    "id": 36,
+    "word": "Truce (n)",
+    "meaning": "সাময়িক যুদ্ধ বিরতি",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Cease-Fire", "Armistice"],
+    "antonyms": ["War", "Fighting"],
+    "sentences": [
+      "The two armies agreed to a temporary truce during the negotiations.",
+      "After years of conflict, they finally called a truce.",
+      "The truce allowed civilians to evacuate the war-torn area."
+    ]
+  },
+  {
+    "id": 37,
+    "word": "Assent (v)",
+    "meaning": "একমত হওয়া",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Agree", "Acquiesce", "Concur"],
+    "antonyms": ["Dissent", "Disagree", "Oppose"],
+    "sentences": [
+      "All board members gave their assent to the new policy.",
+      "She nodded to show her assent to the proposal.",
+      "The committee's assent was required before proceeding."
+    ]
+  },
+  {
+    "id": 38,
+    "word": "Assuage (v)",
+    "meaning": "১. শান্ত করা ২. উপশম করা",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Pacify", "Appease", "Calm", "Alleviate", "Mitigate", "Ease"],
+    "antonyms": ["Excite", "Agitate", "Provoke", "Aggravate", "Worsen"],
+    "sentences": [
+      "The mother tried to assuage her child's fears about the storm.",
+      "Nothing could assuage his guilt over the mistake he had made.",
+      "The cool breeze helped assuage the heat of the summer day."
+    ]
+  },
+  {
+    "id": 39,
+    "word": "Auspicious (adj)",
+    "meaning": "অনুকূল",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Propitious", "Favorable"],
+    "antonyms": ["Unfavorable", "Ominous"],
+    "sentences": [
+      "The sunny weather was an auspicious sign for the wedding ceremony.",
+      "She chose an auspicious date to launch her new business.",
+      "The meeting began under auspicious circumstances."
+    ]
+  },
+  {
+    "id": 40,
+    "word": "Averse (adj)",
+    "meaning": "বিরূপ, অনিচ্ছুক",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Disinclined", "Loath", "Reluctant"],
+    "antonyms": ["Avid", "Eager", "Keen", "Ardent"],
+    "sentences": [
+      "He was averse to taking unnecessary risks in his investments.",
+      "She seemed averse to discussing her personal life.",
+      "The committee was not averse to considering alternative proposals."
+    ]
   }
 ]

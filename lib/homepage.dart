@@ -5,6 +5,7 @@ import 'package:vocab_learning/controller/word_controller.dart';
 import 'package:vocab_learning/controller/user_controller.dart';
 import 'package:vocab_learning/default_words_list.dart';
 import 'package:vocab_learning/pdf_view_page.dart';
+import 'package:vocab_learning/previous_wordList.dart';
 import 'package:vocab_learning/quiz/quiz_info.dart';
 import 'package:vocab_learning/quiz/quiz_page.dart';
 import 'package:vocab_learning/scramble_game.dart';
@@ -230,9 +231,9 @@ class QuizHomePage extends StatelessWidget {
                   ),
                   CategoryTile(
                     icon: Icons.language,
-                    label: "Search Online",
+                    label: "Exam Vocab",
                     onTap: () {
-                      Get.to(DictionaryScreen());
+                      Get.to(PreviousWordListScreen());
                     },
                   ),
                 

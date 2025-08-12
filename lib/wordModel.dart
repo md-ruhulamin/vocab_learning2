@@ -11,7 +11,7 @@ class Word {
   List<String> sentences;
 
   Word({
-    required this.id,
+    this.id = 1,
     required this.word,
     required this.meaning,
     this.isIdiom = false, // Default to false, can be set later if needed
