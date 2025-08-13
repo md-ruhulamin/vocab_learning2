@@ -1,332 +1,6 @@
 [
   {
     "id": 1,
-    "word": "Gay",
-    "meaning": "প্রফুল্ল, সপ্রতিভ",
-    "synonyms": ["Cheerful", "Joyful", "Merry", "Lewd"],
-    "antonyms": ["Depressed", "Glum", "Mournful", "Sullen"],
-    "sentences": ["She looked gay and full of life at the party."]
-  },
-  {
-    "id": 2,
-    "word": "Gallant",
-    "meaning": "সাহসী",
-    "synonyms": ["Brave", "Valiant", "Valorous"],
-    "antonyms": ["Craven", "Fearful"],
-    "sentences": ["The gallant soldier saved his comrades from danger."]
-  },
-  {
-    "id": 3,
-    "word": "Gargantuan",
-    "meaning": "প্রচণ্ড বড়",
-    "synonyms": ["Colossal", "Gigantic", "Massive"],
-    "antonyms": ["Minuscule", "Tiny", "Minute"],
-    "sentences": ["They served a gargantuan meal at the festival."]
-  },
-  {
-    "id": 4,
-    "word": "Gesture",
-    "meaning": "অঙ্গভঙ্গি",
-    "synonyms": ["Emblem", "Omen", "Symptom"],
-    "antonyms": ["(N) Explication", "(V) Explicate"],
-    "sentences": ["He made a kind gesture to help the old man cross the road."]
-  },
-  {
-    "id": 5,
-    "word": "Glamorous",
-    "meaning": "আকর্ষণীয়",
-    "synonyms": ["Fascinating", "Captivating", "Charming"],
-    "antonyms": ["Unattractive", "Dull"],
-    "sentences": ["She looked glamorous in her evening gown."]
-  },
-  {
-    "id": 6,
-    "word": "Gloom",
-    "meaning": "অন্ধকার, বিষণ্নতা",
-    "synonyms": ["Darkness", "Sadness"],
-    "antonyms": ["Light", "Brightness", "Joy", "Happiness"],
-    "sentences": ["The news cast a shadow of gloom over the city."]
-  },
-  {
-    "id": 7,
-    "word": "Glut",
-    "meaning": "যথেষ্টের বেশি খাওয়া",
-    "synonyms": ["Overeat", "Overdose", "Gorge"],
-    "antonyms": ["Starve", "Diet", "Fast"],
-    "sentences": ["They had a glut of food after the celebration."]
-  },
-  {
-    "id": 8,
-    "word": "Gluttony",
-    "meaning": "অতিভোজন",
-    "synonyms": ["Voracity", "Overeating"],
-    "antonyms": ["Dieting", "Starving", "Fasting"],
-    "sentences": ["His gluttony was evident at the buffet."]
-  },
-  {
-    "id": 9,
-    "word": "Gracious",
-    "meaning": "সদয়, বিনয়ী",
-    "synonyms": ["Courteous", "Polite"],
-    "antonyms": ["Haughty", "Arrogant"],
-    "sentences": ["She was gracious enough to invite everyone to her home."]
-  },
-  {
-    "id": 10,
-    "word": "Grandiloquent",
-    "meaning": "বাগাড়ম্বরপূর্ণ",
-    "synonyms": ["Pompous", "Showy", "Bombastic"],
-    "antonyms": ["Simple", "Humble", "Plain"],
-    "sentences": ["The politician's grandiloquent speech impressed few."]
-  },
-  {
-    "id": 11,
-    "word": "Gratify",
-    "meaning": "তৃপ্ত করা",
-    "synonyms": ["Please", "Satisfy", "Gladden", "Reward"],
-    "antonyms": ["Displease", "Dissatisfy", "Disappoint"],
-    "sentences": ["It will gratify him to know his efforts were appreciated."]
-  },
-  {
-    "id": 12,
-    "word": "Greedy",
-    "meaning": "প্রচণ্ড অর্থলোভী",
-    "synonyms": ["Money-Hungry"],
-    "antonyms": ["Generous", "Benevolent"],
-    "sentences": ["The greedy businessman exploited his workers."]
-  },
-  {
-    "id": 13,
-    "word": "Gullible",
-    "meaning": "বিশ্বাসপ্রবণ",
-    "synonyms": ["Credulous", "Susceptible", "Trusting", "Dupe"],
-    "antonyms": ["Suspicious", "Untrusting", "Hard to Convince"],
-    "sentences": ["He was so gullible that he believed every rumor."]
-  },
-  {
-    "id": 14,
-    "word": "Gregarious",
-    "meaning": "সামাজিক",
-    "synonyms": ["Sociable", "Friendly"],
-    "antonyms": ["Reclusive", "Lonely"],
-    "sentences": ["She is gregarious and loves attending parties."]
-  },
-  {
-    "id": 15,
-    "word": "Hypocrisy",
-    "meaning": "ভণ্ডামী",
-    "synonyms": ["Insincerity"],
-    "antonyms": ["Candor", "Sincerity"],
-    "sentences": ["His hypocrisy was revealed when he broke his own rules."]
-  },
-  {
-    "id": 16,
-    "word": "Absurd",
-    "meaning": "অযৌক্তিক/ হাস্যকর",
-    "synonyms": ["Unreasonable", "Illogical"],
-    "antonyms": ["Reasonable", "Sensible"],
-    "sentences": ["The idea of pigs flying is completely absurd."]
-  },
-  {
-    "id": 17,
-    "word": "Abandon",
-    "meaning": "ত্যাগ করা",
-    "synonyms": ["Discard", "Drop", "Forsake", "Quit", "Leave"],
-    "antonyms": ["Pursuit", "Quest"],
-    "sentences": ["They decided to abandon the old house."]
-  },
-  {
-    "word": "Abate",
-    "meaning": "হ্রাস করা/ সঞ্চার কমানো",
-    "synonyms": ["Subside", "Decrease", "Lessen", "Diminish"],
-    "antonyms": ["Magnify", "Increase", "Enlarge", "Ameliorate"],
-    "sentences": ["The storm began to abate after midnight."]
-  },
-  {
-    "word": "Abbreviate",
-    "meaning": "সংক্ষেপিত করা",
-    "synonyms": ["Shorten", "Abridge", "Trim", "Condense"],
-    "antonyms": ["Enlarge", "Expand", "Amplify"],
-    "sentences": ["We abbreviate 'Doctor' as 'Dr.'"]
-  },
-  {
-    "word": "Adulterate",
-    "meaning": "ভেজাল মেশানো",
-    "synonyms": ["Contaminate", "Pollute", "Amalgamate"],
-    "antonyms": ["Purify", "Clean", "Smoothen"],
-    "sentences": ["The milk was found to be adulterated with water."]
-  },
-  {
-    "word": "Accord",
-    "meaning": "সম্মতি হওয়া",
-    "synonyms": ["Admit", "Allow", "Grant", "Agree"],
-    "antonyms": ["Oppose", "Challenge", "Disallow"],
-    "sentences": ["The two sides finally reached an accord."]
-  },
-  {
-    "word": "Accumulate",
-    "meaning": "জমা হওয়া/ একত্র করা",
-    "synonyms": ["Gather", "Amass", "Assemble"],
-    "antonyms": ["Scatter", "Disperse", "Disseminate"],
-    "sentences": ["He managed to accumulate a lot of wealth over the years."]
-  },
-  {
-    "word": "Acknowledge",
-    "meaning": "স্বীকার করা",
-    "synonyms": ["Admit", "Certify", "Accept", "Endorse"],
-    "antonyms": ["Deny", "Refuse"],
-    "sentences": ["She refused to acknowledge her mistake."]
-  },
-  {
-    "word": "Assist",
-    "meaning": "সহায়তা করা",
-    "synonyms": ["Help", "Aid", "Support"],
-    "antonyms": ["Oppose", "Obstruct"],
-    "sentences": ["He assisted the old man to cross the road."]
-  },
-  {
-    "word": "Acme",
-    "meaning": "সর্বোচ্চ সীমা",
-    "synonyms": ["Summit", "Pinnacle", "Zenith"],
-    "antonyms": ["Lower Point", "Base", "Nadir"],
-    "sentences": ["Winning the championship was the acme of his career."]
-  },
-  {
-    "word": "Admiration",
-    "meaning": "প্রশংসা/ ভক্তি",
-    "synonyms": ["Appreciation", "Praise", "Glorification"],
-    "antonyms": ["Hate", "Contempt", "Disgust"],
-    "sentences": ["Her courage earned the admiration of the entire town."]
-  },
-  {
-    "word": "Anxious",
-    "meaning": "উদ্বিগ্ন",
-    "synonyms": ["Worried", "Alarmed", "Scared"],
-    "antonyms": ["Assured", "Content", "Unworried"],
-    "sentences": ["She was anxious about the exam results."]
-  },
-  {
-    "word": "Adopt",
-    "meaning": "স্থায়ীভাবে গ্রহণ করা",
-    "synonyms": ["Assume", "Accept", "Approve"],
-    "antonyms": ["Reject", "Disapprove"],
-    "sentences": ["They decided to adopt a child from the orphanage."]
-  },
-  {
-    "word": "Ambiguous",
-    "meaning": "অস্পষ্ট/ দ্ব্যর্থক",
-    "synonyms": ["Doubtful", "Dubious", "Enigmatic", "Puzzling"],
-    "antonyms": ["Clear", "Understandable", "Lucid"],
-    "sentences": ["His reply was ambiguous and left everyone confused."]
-  },
-  {
-    "word": "Anonymous",
-    "meaning": "নামহীন",
-    "synonyms": ["Nameless", "Unnamed"],
-    "antonyms": ["Named", "Signed"],
-    "sentences": ["The donation was made by an anonymous benefactor."]
-  },
-  {
-    "word": "Antipathy",
-    "meaning": "বিদ্বেষ/ ঘৃণা",
-    "synonyms": ["Hatred", "Hostility", "Revulsion"],
-    "antonyms": ["Admiration", "Respect", "Love"],
-    "sentences": ["He felt a deep antipathy toward dishonesty."]
-  },
-  {
-    "word": "Authentic",
-    "meaning": "প্রকৃত, খাঁটি",
-    "synonyms": ["Real", "Genuine", "Accredited"],
-    "antonyms": ["Spurious", "False", "Unauthorized"],
-    "sentences": ["The document was verified as authentic."]
-  },
-  {
-    "word": "Awkward",
-    "meaning": "আনাড়ি/ অপ্রস্তুত",
-    "synonyms": ["Ungainly", "Slovenly", "Not Skillful"],
-    "antonyms": ["Artful", "Adroit", "Skillful"],
-    "sentences": ["He felt awkward during the meeting."]
-  },
-  {
-    "word": "Amorphous",
-    "meaning": "নিরাকার/ অনিয়তাকার",
-    "synonyms": ["Formless", "Unembodied", "Incorporeal", "Unformed"],
-    "antonyms": ["Definite", "Distinctive", "Shaped"],
-    "sentences": ["The plan was still amorphous and lacked clear structure."]
-  },
-  {
-    "word": "Antecedent",
-    "meaning": "পূর্ববর্তী",
-    "synonyms": ["Anterior", "Precedent", "Precursory", "Foregoing"],
-    "antonyms": ["Current", "Following", "Subsequent"],
-    "sentences": ["Historical antecedents often shape modern decisions."]
-  },
-  {
-    "word": "Annuity",
-    "meaning": "বার্ষিক ভাতা",
-    "synonyms": ["Annual", "Anniversary"],
-    "antonyms": ["Monthly", "Daily"],
-    "sentences": ["He receives an annuity from his retirement fund."]
-  },
-  {
-    "word": "Anarchy",
-    "meaning": "অরাজকতা",
-    "synonyms": ["Harmony", "Lawfulness"],
-    "antonyms": ["Chaos", "Disorder", "Mess"],
-    "sentences": ["The collapse of the government led to anarchy."]
-  },
-  {
-    "word": "Atheist",
-    "meaning": "নাস্তিক",
-    "synonyms": ["Skeptic", "Infidel", "Misbeliever"],
-    "antonyms": ["Credent", "Believer"],
-    "sentences": ["An atheist does not believe in the existence of God."]
-  },
-  {
-    "word": "Autonomous",
-    "meaning": "স্বশাসিত",
-    "synonyms": ["Independent", "Self-explanatory"],
-    "antonyms": ["Subservient", "Dependent"],
-    "sentences": ["The region became autonomous after the peace agreement."]
-  },
-  {
-    "word": "Adept",
-    "meaning": "অত্যন্ত দক্ষ/ সুদক্ষ",
-    "synonyms": [
-      "Adroit",
-      "Dexterous",
-      "Proficient",
-      "Skilled",
-      "Expert",
-      "Deft"
-    ],
-    "antonyms": ["Awkward", "Unskilled", "Clumsy", "Inept", "Inexpert"],
-    "sentences": ["She is adept at solving complex problems."]
-  },
-  {
-    "word": "Admire",
-    "meaning": "প্রশংসা করা, উচ্চ মর্যাদায় রাখা",
-    "synonyms": ["Esteem", "Respect", "Praise", "Extol", "Eulogize", "Commend"],
-    "antonyms": ["Blame", "Censure", "Condemn"],
-    "sentences": ["I truly admire her dedication to work."]
-  },
-  {
-    "word": "Alert",
-    "meaning": "সতর্ক, মনোযোগী",
-    "synonyms": [
-      "Aware",
-      "Observant",
-      "Cautious",
-      "Vigilant",
-      "Watchful",
-      "Wary"
-    ],
-    "antonyms": ["Careless", "Unaware", "Ignorant", "Uninformed"],
-    "sentences": ["The guard stayed alert throughout the night."]
-  },
-
-  {
-    "id": 1,
     "word": "Annoy",
     "meaning": "জ্বালাতন/বিরক্ত করা",
     "isIdiom": false,
@@ -928,297 +602,1309 @@
       "She seemed averse to discussing her personal life.",
       "The committee was not averse to considering alternative proposals."
     ]
-  },{
-      "id": 41,
-      "word": "Banal (adj)",
-      "meaning": "গতানুগতিক, একঘেঁয়ে",
-      "isIdiom": false,
-      "isBookmarked": false,
-      "synonyms": ["Trite", "Hackneyed", "Prosaic", "Pedestrian"],
-      "antonyms": ["Stimulating", "New", "Novel", "Original"],
-      "sentences": [
-        "The movie's plot was so banal that many viewers left the theater early.",
-        "His banal observations about the weather failed to impress anyone.",
-        "The speech was full of banal phrases and clichéd expressions."
-      ]
-    },
-    {
-      "id": 42,
-      "word": "Belittle (v)",
-      "meaning": "ছোট/অবজ্ঞা করা",
-      "isIdiom": false,
-      "isBookmarked": false,
-      "synonyms": ["Deride", "Jeer", "Scorn", "Despise"],
-      "antonyms": ["Praise", "Magnify", "Glorify"],
-      "sentences": [
-        "She never tried to belittle her colleagues' achievements.",
-        "Don't belittle yourself - your contributions are valuable.",
-        "The teacher warned students not to belittle others' efforts."
-      ]
-    },
-    {
-      "id": 43,
-      "word": "Boisterous (adj)",
-      "meaning": "চিচ্চিপূর্ণ",
-      "isIdiom": false,
-      "isBookmarked": false,
-      "synonyms": ["Clamorous", "Uproarious"],
-      "antonyms": ["Peaceful", "Tranquil"],
-      "sentences": [
-        "The boisterous children played loudly in the playground.",
-        "The boisterous celebration lasted until dawn.",
-        "His boisterous laughter filled the entire room."
-      ]
-    },
-    {
-      "id": 44,
-      "word": "Barrier (n)",
-      "meaning": "বাধা, প্রতিবন্ধকতা",
-      "isIdiom": false,
-      "isBookmarked": false,
-      "synonyms": ["Bar", "Hindrance", "Barricade"],
-      "antonyms": ["Help", "Aid", "Support", "Assistance", "Backing"],
-      "sentences": [
-        "Language can be a significant barrier to communication.",
-        "The concrete barrier prevented cars from entering the pedestrian area.",
-        "Economic barriers often prevent access to quality education."
-      ]
-    },
-    {
-      "id": 45,
-      "word": "Baleful (adj)",
-      "meaning": "ভীতিকর, ক্ষতিকর",
-      "isIdiom": false,
-      "isBookmarked": false,
-      "synonyms": ["Ominous", "Malevolent"],
-      "antonyms": ["Salutary", "Benevolent"],
-      "sentences": [
-        "She gave him a baleful look that made him uncomfortable.",
-        "The baleful influence of the corrupt leader affected the entire organization.",
-        "Dark clouds cast a baleful shadow over the landscape."
-      ]
-    },
-    {
-      "id": 46,
-      "word": "Bellicose (adj)",
-      "meaning": "মারমুখো/যুদ্ধবাজ",
-      "isIdiom": false,
-      "isBookmarked": false,
-      "synonyms": ["Belligerent", "Hostile"],
-      "antonyms": ["Peaceful", "Pacify"],
-      "sentences": [
-        "His bellicose attitude made negotiations extremely difficult.",
-        "The bellicose nation threatened its neighbors with military action.",
-        "She avoided the bellicose customer who was shouting at the staff."
-      ]
-    },
-    {
-      "id": 47,
-      "word": "Bigotry (n)",
-      "meaning": "গোঁড়ামি/অসহিষ্ণুতা",
-      "isIdiom": false,
-      "isBookmarked": false,
-      "synonyms": ["Intolerance", "Prejudice"],
-      "antonyms": ["Broad-mindedness"],
-      "sentences": [
-        "Religious bigotry has caused many conflicts throughout history.",
-        "The organization works to combat racial bigotry and discrimination.",
-        "His bigotry prevented him from appreciating different cultures."
-      ]
-    },
-    {
-      "id": 48,
-      "word": "Benevolent (adj)",
-      "meaning": "দয়ালু/বদান্য",
-      "isIdiom": false,
-      "isBookmarked": false,
-      "synonyms": ["Kind", "Unselfish"],
-      "antonyms": ["Cruel", "Selfish", "Greedy"],
-      "sentences": [
-        "The benevolent king was loved by all his subjects.",
-        "Her benevolent nature led her to donate generously to charity.",
-        "The benevolent organization provides free healthcare to the poor."
-      ]
-    },
-    {
-      "id": 49,
-      "word": "Ban (n)",
-      "meaning": "নিষেধাজ্ঞা",
-      "isIdiom": false,
-      "isBookmarked": false,
-      "synonyms": ["Prohibition", "Restriction"],
-      "antonyms": ["Unrestricted", "Induct", "Unprohibited"],
-      "sentences": [
-        "The government imposed a ban on smoking in public places.",
-        "The ban on plastic bags has reduced environmental pollution.",
-        "There is a complete ban on cell phone use during the exam."
-      ]
-    },
-    {
-      "id": 50,
-      "word": "Brief (adj)",
-      "meaning": "সংক্ষিপ্ত",
-      "isIdiom": false,
-      "isBookmarked": false,
-      "synonyms": ["Short", "Succinct", "Concise", "Laconic"],
-      "antonyms": ["Loquacious", "Prolix", "Copious"],
-      "sentences": [
-        "Please keep your presentation brief - we have limited time.",
-        "The meeting was brief but very productive.",
-        "He gave a brief summary of the main points."
-      ]
-    },
-    {
-      "id": 51,
-      "word": "Brutal (adj)",
-      "meaning": "নিষ্ঠুর/পাশবিক",
-      "isIdiom": false,
-      "isBookmarked": false,
-      "synonyms": ["Cruel", "Inhuman"],
-      "antonyms": ["Kind", "Soft-hearted"],
-      "sentences": [
-        "The brutal attack shocked the entire community.",
-        "The prisoners faced brutal conditions in the old jail.",
-        "His brutal honesty sometimes hurt people's feelings."
-      ]
-    },
-    {
-      "id": 52,
-      "word": "Brittle (adj)",
-      "meaning": "ভঙ্গুর",
-      "isIdiom": false,
-      "isBookmarked": false,
-      "synonyms": ["Fragile", "Frangible", "Tenuous"],
-      "antonyms": ["Strong", "Enduring", "Resistible"],
-      "sentences": [
-        "The old paper was so brittle that it crumbled when touched.",
-        "Brittle bones are more prone to fractures in elderly people.",
-        "The brittle relationship between the two countries finally collapsed."
-      ]
-    },{
-      "id": 53,
-      "word": "Belligerent (adj)",
-      "meaning": "যুদ্ধমান/যুদ্ধবাজ",
-      "isIdiom": false,
-      "isBookmarked": false,
-      "synonyms": ["Militant", "Combatant"],
-      "antonyms": ["Calm", "Peaceful", "Cooperative"],
-      "sentences": [
-        "The belligerent customer refused to listen to the manager's explanation.",
-        "His belligerent behavior made it impossible to have a civil conversation.",
-        "The two nations maintained belligerent attitudes despite peace negotiations."
-      ]
-    },
-    {
-      "id": 54,
-      "word": "Bondage (n)",
-      "meaning": "দাসত্ব",
-      "isIdiom": false,
-      "isBookmarked": false,
-      "synonyms": ["Slavery"],
-      "antonyms": ["Liberty", "Freedom"],
-      "sentences": [
-        "The abolitionists fought to end the bondage of enslaved people.",
-        "She felt trapped in emotional bondage to her past mistakes.",
-        "The country struggled to break free from economic bondage to foreign powers."
-      ]
-    },
-    {
-      "id": 55,
-      "word": "Brevity (n)",
-      "meaning": "১. সংক্ষিপ্ততা ২. ক্ষণস্থায়ী",
-      "isIdiom": false,
-      "isBookmarked": false,
-      "synonyms": ["Shortness", "Pithiness", "Temporality", "Evanescence"],
-      "antonyms": ["Prolixity", "Verbosity", "Permanence"],
-      "sentences": [
-        "The brevity of his speech impressed the audience who expected a long lecture.",
-        "She appreciated the brevity of life and tried to make every moment count.",
-        "The report's brevity made it easy to read and understand quickly."
-      ]
-    },
-    {
-      "id": 56,
-      "word": "Barren (adj)",
-      "meaning": "অনুর্বর, বন্ধ্যা",
-      "isIdiom": false,
-      "isBookmarked": false,
-      "synonyms": ["Arid", "Infertile", "Sterile", "Unproductive", "Unfruitful"],
-      "antonyms": ["Fertile", "Fruitful", "Lush", "Productive", "Prolific"],
-      "sentences": [
-        "The barren desert stretched for miles without a single tree in sight.",
-        "The barren land could not support any crops despite the farmers' efforts.",
-        "Her barren imagination prevented her from writing creative stories."
-      ]
-    },
-    {
-      "id": 57,
-      "word": "Benefactor (n)",
-      "meaning": "উপকারক, দাতা",
-      "isIdiom": false,
-      "isBookmarked": false,
-      "synonyms": ["Donor", "Patron", "Sponsor", "Supporter"],
-      "antonyms": ["Malefactor", "Mischief Maker"],
-      "sentences": [
-        "The anonymous benefactor donated millions to build the new hospital.",
-        "She became a benefactor to many young artists struggling to make a living.",
-        "The university honored its greatest benefactor with a scholarship program."
-      ]
-    },
-    {
-      "id": 58,
-      "word": "Beneficial (adj)",
-      "meaning": "উপকারী, সহায়ক",
-      "isIdiom": false,
-      "isBookmarked": false,
-      "synonyms": ["Advantageous", "Conducive", "Congenial", "Favourable", "Helpful", "Useful"],
-      "antonyms": ["Dangerous", "Injurious", "Destructive", "Deleterious", "Detrimental", "Harmful"],
-      "sentences": [
-        "Regular exercise is beneficial for both physical and mental health.",
-        "The new policy proved beneficial for small business owners.",
-        "Eating vegetables is beneficial to maintaining a balanced diet."
-      ]
-    },
-    {
-      "id": 59,
-      "word": "Blame (v)",
-      "meaning": "দোষারোপ করা",
-      "isIdiom": false,
-      "isBookmarked": false,
-      "synonyms": ["Hold Responsible", "Condemn", "Censure", "Criticize", "Denounce"],
-      "antonyms": ["Praise", "Admire", "Thank"],
-      "sentences": [
-        "Don't blame others for your own mistakes and failures.",
-        "The investigation will determine who to blame for the accident.",
-        "She refused to blame anyone without having all the facts."
-      ]
-    },
-    {
-      "id": 60,
-      "word": "Blameworthy (adj)",
-      "meaning": "নিন্দনীয়",
-      "isIdiom": false,
-      "isBookmarked": false,
-      "synonyms": ["Responsible", "Guilty", "Culpable"],
-      "antonyms": ["Spotless", "Innocent"],
-      "sentences": [
-        "His blameworthy actions led to the company's financial losses.",
-        "The committee found the manager's conduct blameworthy and unprofessional.",
-        "While mistakes happen, deliberate negligence is truly blameworthy."
-      ]
-    },
-    {
-      "id": 61,
-      "word": "Boast (v)",
-      "meaning": "দর্প, অহমিকা",
-      "isIdiom": false,
-      "isBookmarked": false,
-      "synonyms": ["Brag", "Pride"],
-      "antonyms": ["Gentle", "Deprecate"],
-      "sentences": [
-        "He would often boast about his achievements to anyone who would listen.",
-        "The team could rightfully boast about their undefeated season.",
-        "She never liked to boast, preferring to let her work speak for itself."
-      ]
-    }
+  },
+  {
+    "id": 41,
+    "word": "Banal (adj)",
+    "meaning": "গতানুগতিক, একঘেঁয়ে",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Trite", "Hackneyed", "Prosaic", "Pedestrian"],
+    "antonyms": ["Stimulating", "New", "Novel", "Original"],
+    "sentences": [
+      "The movie's plot was so banal that many viewers left the theater early.",
+      "His banal observations about the weather failed to impress anyone.",
+      "The speech was full of banal phrases and clichéd expressions."
+    ]
+  },
+  {
+    "id": 42,
+    "word": "Belittle (v)",
+    "meaning": "ছোট/অবজ্ঞা করা",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Deride", "Jeer", "Scorn", "Despise"],
+    "antonyms": ["Praise", "Magnify", "Glorify"],
+    "sentences": [
+      "She never tried to belittle her colleagues' achievements.",
+      "Don't belittle yourself - your contributions are valuable.",
+      "The teacher warned students not to belittle others' efforts."
+    ]
+  },
+  {
+    "id": 43,
+    "word": "Boisterous (adj)",
+    "meaning": "চিচ্চিপূর্ণ",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Clamorous", "Uproarious"],
+    "antonyms": ["Peaceful", "Tranquil"],
+    "sentences": [
+      "The boisterous children played loudly in the playground.",
+      "The boisterous celebration lasted until dawn.",
+      "His boisterous laughter filled the entire room."
+    ]
+  },
+  {
+    "id": 44,
+    "word": "Barrier (n)",
+    "meaning": "বাধা, প্রতিবন্ধকতা",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Bar", "Hindrance", "Barricade"],
+    "antonyms": ["Help", "Aid", "Support", "Assistance", "Backing"],
+    "sentences": [
+      "Language can be a significant barrier to communication.",
+      "The concrete barrier prevented cars from entering the pedestrian area.",
+      "Economic barriers often prevent access to quality education."
+    ]
+  },
+  {
+    "id": 45,
+    "word": "Baleful (adj)",
+    "meaning": "ভীতিকর, ক্ষতিকর",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Ominous", "Malevolent"],
+    "antonyms": ["Salutary", "Benevolent"],
+    "sentences": [
+      "She gave him a baleful look that made him uncomfortable.",
+      "The baleful influence of the corrupt leader affected the entire organization.",
+      "Dark clouds cast a baleful shadow over the landscape."
+    ]
+  },
+  {
+    "id": 46,
+    "word": "Bellicose (adj)",
+    "meaning": "মারমুখো/যুদ্ধবাজ",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Belligerent", "Hostile"],
+    "antonyms": ["Peaceful", "Pacify"],
+    "sentences": [
+      "His bellicose attitude made negotiations extremely difficult.",
+      "The bellicose nation threatened its neighbors with military action.",
+      "She avoided the bellicose customer who was shouting at the staff."
+    ]
+  },
+  {
+    "id": 47,
+    "word": "Bigotry (n)",
+    "meaning": "গোঁড়ামি/অসহিষ্ণুতা",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Intolerance", "Prejudice"],
+    "antonyms": ["Broad-mindedness"],
+    "sentences": [
+      "Religious bigotry has caused many conflicts throughout history.",
+      "The organization works to combat racial bigotry and discrimination.",
+      "His bigotry prevented him from appreciating different cultures."
+    ]
+  },
+  {
+    "id": 48,
+    "word": "Benevolent (adj)",
+    "meaning": "দয়ালু/বদান্য",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Kind", "Unselfish"],
+    "antonyms": ["Cruel", "Selfish", "Greedy"],
+    "sentences": [
+      "The benevolent king was loved by all his subjects.",
+      "Her benevolent nature led her to donate generously to charity.",
+      "The benevolent organization provides free healthcare to the poor."
+    ]
+  },
+  {
+    "id": 49,
+    "word": "Ban (n)",
+    "meaning": "নিষেধাজ্ঞা",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Prohibition", "Restriction"],
+    "antonyms": ["Unrestricted", "Induct", "Unprohibited"],
+    "sentences": [
+      "The government imposed a ban on smoking in public places.",
+      "The ban on plastic bags has reduced environmental pollution.",
+      "There is a complete ban on cell phone use during the exam."
+    ]
+  },
+  {
+    "id": 50,
+    "word": "Brief (adj)",
+    "meaning": "সংক্ষিপ্ত",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Short", "Succinct", "Concise", "Laconic"],
+    "antonyms": ["Loquacious", "Prolix", "Copious"],
+    "sentences": [
+      "Please keep your presentation brief - we have limited time.",
+      "The meeting was brief but very productive.",
+      "He gave a brief summary of the main points."
+    ]
+  },
+  {
+    "id": 51,
+    "word": "Brutal (adj)",
+    "meaning": "নিষ্ঠুর/পাশবিক",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Cruel", "Inhuman"],
+    "antonyms": ["Kind", "Soft-hearted"],
+    "sentences": [
+      "The brutal attack shocked the entire community.",
+      "The prisoners faced brutal conditions in the old jail.",
+      "His brutal honesty sometimes hurt people's feelings."
+    ]
+  },
+  {
+    "id": 52,
+    "word": "Brittle (adj)",
+    "meaning": "ভঙ্গুর",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Fragile", "Frangible", "Tenuous"],
+    "antonyms": ["Strong", "Enduring", "Resistible"],
+    "sentences": [
+      "The old paper was so brittle that it crumbled when touched.",
+      "Brittle bones are more prone to fractures in elderly people.",
+      "The brittle relationship between the two countries finally collapsed."
+    ]
+  },
+  {
+    "id": 53,
+    "word": "Belligerent (adj)",
+    "meaning": "যুদ্ধমান/যুদ্ধবাজ",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Militant", "Combatant"],
+    "antonyms": ["Calm", "Peaceful", "Cooperative"],
+    "sentences": [
+      "The belligerent customer refused to listen to the manager's explanation.",
+      "His belligerent behavior made it impossible to have a civil conversation.",
+      "The two nations maintained belligerent attitudes despite peace negotiations."
+    ]
+  },
+  {
+    "id": 54,
+    "word": "Bondage (n)",
+    "meaning": "দাসত্ব",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Slavery"],
+    "antonyms": ["Liberty", "Freedom"],
+    "sentences": [
+      "The abolitionists fought to end the bondage of enslaved people.",
+      "She felt trapped in emotional bondage to her past mistakes.",
+      "The country struggled to break free from economic bondage to foreign powers."
+    ]
+  },
+  {
+    "id": 55,
+    "word": "Brevity (n)",
+    "meaning": "১. সংক্ষিপ্ততা ২. ক্ষণস্থায়ী",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Shortness", "Pithiness", "Temporality", "Evanescence"],
+    "antonyms": ["Prolixity", "Verbosity", "Permanence"],
+    "sentences": [
+      "The brevity of his speech impressed the audience who expected a long lecture.",
+      "She appreciated the brevity of life and tried to make every moment count.",
+      "The report's brevity made it easy to read and understand quickly."
+    ]
+  },
+  {
+    "id": 56,
+    "word": "Barren (adj)",
+    "meaning": "অনুর্বর, বন্ধ্যা",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Arid", "Infertile", "Sterile", "Unproductive", "Unfruitful"],
+    "antonyms": ["Fertile", "Fruitful", "Lush", "Productive", "Prolific"],
+    "sentences": [
+      "The barren desert stretched for miles without a single tree in sight.",
+      "The barren land could not support any crops despite the farmers' efforts.",
+      "Her barren imagination prevented her from writing creative stories."
+    ]
+  },
+  {
+    "id": 57,
+    "word": "Benefactor (n)",
+    "meaning": "উপকারক, দাতা",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Donor", "Patron", "Sponsor", "Supporter"],
+    "antonyms": ["Malefactor", "Mischief Maker"],
+    "sentences": [
+      "The anonymous benefactor donated millions to build the new hospital.",
+      "She became a benefactor to many young artists struggling to make a living.",
+      "The university honored its greatest benefactor with a scholarship program."
+    ]
+  },
+  {
+    "id": 58,
+    "word": "Beneficial (adj)",
+    "meaning": "উপকারী, সহায়ক",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": [
+      "Advantageous",
+      "Conducive",
+      "Congenial",
+      "Favourable",
+      "Helpful",
+      "Useful"
+    ],
+    "antonyms": [
+      "Dangerous",
+      "Injurious",
+      "Destructive",
+      "Deleterious",
+      "Detrimental",
+      "Harmful"
+    ],
+    "sentences": [
+      "Regular exercise is beneficial for both physical and mental health.",
+      "The new policy proved beneficial for small business owners.",
+      "Eating vegetables is beneficial to maintaining a balanced diet."
+    ]
+  },
+  {
+    "id": 59,
+    "word": "Blame (v)",
+    "meaning": "দোষারোপ করা",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": [
+      "Hold Responsible",
+      "Condemn",
+      "Censure",
+      "Criticize",
+      "Denounce"
+    ],
+    "antonyms": ["Praise", "Admire", "Thank"],
+    "sentences": [
+      "Don't blame others for your own mistakes and failures.",
+      "The investigation will determine who to blame for the accident.",
+      "She refused to blame anyone without having all the facts."
+    ]
+  },
+  {
+    "id": 60,
+    "word": "Blameworthy (adj)",
+    "meaning": "নিন্দনীয়",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Responsible", "Guilty", "Culpable"],
+    "antonyms": ["Spotless", "Innocent"],
+    "sentences": [
+      "His blameworthy actions led to the company's financial losses.",
+      "The committee found the manager's conduct blameworthy and unprofessional.",
+      "While mistakes happen, deliberate negligence is truly blameworthy."
+    ]
+  },
+  {
+    "id": 61,
+    "word": "Boast (v)",
+    "meaning": "দর্প, অহমিকা",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Brag", "Pride"],
+    "antonyms": ["Gentle", "Deprecate"],
+    "sentences": [
+      "He would often boast about his achievements to anyone who would listen.",
+      "The team could rightfully boast about their undefeated season.",
+      "She never liked to boast, preferring to let her work speak for itself."
+    ]
+  },
+
+  {
+    "id": 62,
+    "word": "Gay",
+    "meaning": "প্রফুল্ল, সপ্রতিভ",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Cheerful", "Joyful", "Merry", "Lewd"],
+    "antonyms": ["Depressed", "Glum", "Mournful", "Sullen"],
+    "sentences": [
+      "She looked gay and full of life at the party.",
+      "The gay decorations brightened up the entire room.",
+      "His gay laughter echoed through the garden."
+    ]
+  },
+  {
+    "id": 63,
+    "word": "Gallant",
+    "meaning": "সাহসী",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Brave", "Valiant", "Valorous"],
+    "antonyms": ["Craven", "Fearful"],
+    "sentences": [
+      "The gallant soldier saved his comrades from danger.",
+      "He made a gallant effort to rescue the drowning child.",
+      "Her gallant response to criticism impressed everyone."
+    ]
+  },
+  {
+    "id": 64,
+    "word": "Gargantuan",
+    "meaning": "প্রচণ্ড বড়",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Colossal", "Gigantic", "Massive"],
+    "antonyms": ["Minuscule", "Tiny", "Minute"],
+    "sentences": [
+      "They served a gargantuan meal at the festival.",
+      "The gargantuan building dominated the city skyline.",
+      "She faced a gargantuan task of organizing the event."
+    ]
+  },
+  {
+    "id": 65,
+    "word": "Gesture",
+    "meaning": "অঙ্গভঙ্গি",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Emblem", "Omen", "Symptom"],
+    "antonyms": ["Explication", "Explicate"],
+    "sentences": [
+      "He made a kind gesture to help the old man cross the road.",
+      "Her gesture of waving goodbye was touching.",
+      "The simple gesture meant more than words could express."
+    ]
+  },
+  {
+    "id": 66,
+    "word": "Glamorous",
+    "meaning": "আকর্ষণীয়",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Fascinating", "Captivating", "Charming"],
+    "antonyms": ["Unattractive", "Dull"],
+    "sentences": [
+      "She looked glamorous in her evening gown.",
+      "The glamorous lifestyle of celebrities attracts many fans.",
+      "The hotel's glamorous ballroom was perfect for the wedding."
+    ]
+  },
+  {
+    "id": 67,
+    "word": "Gloom",
+    "meaning": "অন্ধকার, বিষণ্নতা",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Darkness", "Sadness"],
+    "antonyms": ["Light", "Brightness", "Joy", "Happiness"],
+    "sentences": [
+      "The news cast a shadow of gloom over the city.",
+      "Despite the gloom outside, she remained cheerful.",
+      "The room was filled with gloom after hearing the bad news."
+    ]
+  },
+  {
+    "id": 68,
+    "word": "Glut",
+    "meaning": "যথেষ্টের বেশি খাওয়া",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Overeat", "Overdose", "Gorge"],
+    "antonyms": ["Starve", "Diet", "Fast"],
+    "sentences": [
+      "They had a glut of food after the celebration.",
+      "The market experienced a glut of cheap imported goods.",
+      "Don't glut yourself with sweets before dinner."
+    ]
+  },
+  {
+    "id": 69,
+    "word": "Gluttony",
+    "meaning": "অতিভোজন",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Voracity", "Overeating"],
+    "antonyms": ["Dieting", "Starving", "Fasting"],
+    "sentences": [
+      "His gluttony was evident at the buffet.",
+      "Gluttony is considered one of the seven deadly sins.",
+      "The king's gluttony led to his poor health."
+    ]
+  },
+  {
+    "id": 70,
+    "word": "Gracious",
+    "meaning": "সদয়, বিনয়ী",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Courteous", "Polite"],
+    "antonyms": ["Haughty", "Arrogant"],
+    "sentences": [
+      "She was gracious enough to invite everyone to her home.",
+      "The gracious host made everyone feel welcome.",
+      "His gracious acceptance of defeat impressed the audience."
+    ]
+  },
+  {
+    "id": 71,
+    "word": "Grandiloquent",
+    "meaning": "বাগাড়ম্বরপূর্ণ",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Pompous", "Showy", "Bombastic"],
+    "antonyms": ["Simple", "Humble", "Plain"],
+    "sentences": [
+      "The politician's grandiloquent speech impressed few.",
+      "His grandiloquent style of writing was hard to understand.",
+      "The grandiloquent language made the simple message confusing."
+    ]
+  },
+  {
+    "id": 72,
+    "word": "Gratify",
+    "meaning": "তৃপ্ত করা",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Please", "Satisfy", "Gladden", "Reward"],
+    "antonyms": ["Displease", "Dissatisfy", "Disappoint"],
+    "sentences": [
+      "It will gratify him to know his efforts were appreciated.",
+      "The success of the project will gratify all stakeholders.",
+      "Nothing could gratify her more than seeing her children happy."
+    ]
+  },
+  {
+    "id": 73,
+    "word": "Greedy",
+    "meaning": "প্রচণ্ড অর্থলোভী",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Money-Hungry"],
+    "antonyms": ["Generous", "Benevolent"],
+    "sentences": [
+      "The greedy businessman exploited his workers.",
+      "Don't be greedy - share your toys with others.",
+      "His greedy nature cost him many friendships."
+    ]
+  },
+  {
+    "id": 74,
+    "word": "Gullible",
+    "meaning": "বিশ্বাসপ্রবণ",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Credulous", "Susceptible", "Trusting", "Dupe"],
+    "antonyms": ["Suspicious", "Untrusting", "Hard to Convince"],
+    "sentences": [
+      "He was so gullible that he believed every rumor.",
+      "The gullible tourist was easily cheated by the vendor.",
+      "Her gullible nature made her vulnerable to scams."
+    ]
+  },
+  {
+    "id": 75,
+    "word": "Gregarious",
+    "meaning": "সামাজিক",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Sociable", "Friendly"],
+    "antonyms": ["Reclusive", "Lonely"],
+    "sentences": [
+      "She is gregarious and loves attending parties.",
+      "The gregarious child made friends easily at school.",
+      "His gregarious personality made him popular at work."
+    ]
+  },
+  {
+    "id": 76,
+    "word": "Hypocrisy",
+    "meaning": "ভণ্ডামী",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Insincerity"],
+    "antonyms": ["Candor", "Sincerity"],
+    "sentences": [
+      "His hypocrisy was revealed when he broke his own rules.",
+      "The politician's hypocrisy angered the voters.",
+      "She couldn't stand the hypocrisy of her colleagues."
+    ]
+  },
+  {
+    "id": 77,
+    "word": "Absurd",
+    "meaning": "অযৌক্তিক/হাস্যকর",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Unreasonable", "Illogical"],
+    "antonyms": ["Reasonable", "Sensible"],
+    "sentences": [
+      "The idea of pigs flying is completely absurd.",
+      "His absurd behavior made everyone laugh.",
+      "It's absurd to think that money grows on trees."
+    ]
+  },
+  {
+    "id": 78,
+    "word": "Abandon",
+    "meaning": "ত্যাগ করা",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Discard", "Drop", "Forsake", "Quit", "Leave"],
+    "antonyms": ["Pursuit", "Quest"],
+    "sentences": [
+      "They decided to abandon the old house.",
+      "Never abandon your dreams no matter how difficult they seem.",
+      "The captain was the last to abandon the sinking ship."
+    ]
+  },
+  {
+    "id": 79,
+    "word": "Abate",
+    "meaning": "হ্রাস করা/সঞ্চার কমানো",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Subside", "Decrease", "Lessen", "Diminish"],
+    "antonyms": ["Magnify", "Increase", "Enlarge", "Ameliorate"],
+    "sentences": [
+      "The storm began to abate after midnight.",
+      "His anger slowly began to abate as time passed.",
+      "The medicine helped to abate her fever."
+    ]
+  },
+  {
+    "id": 80,
+    "word": "Abbreviate",
+    "meaning": "সংক্ষেপিত করা",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Shorten", "Abridge", "Trim", "Condense"],
+    "antonyms": ["Enlarge", "Expand", "Amplify"],
+    "sentences": [
+      "We abbreviate 'Doctor' as 'Dr.'",
+      "Please abbreviate your speech due to time constraints.",
+      "The company decided to abbreviate the lengthy report."
+    ]
+  },
+  {
+    "id": 81,
+    "word": "Adulterate",
+    "meaning": "ভেজাল মেশানো",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Contaminate", "Pollute", "Amalgamate"],
+    "antonyms": ["Purify", "Clean", "Smoothen"],
+    "sentences": [
+      "The milk was found to be adulterated with water.",
+      "Some vendors adulterate spices to increase their profits.",
+      "The pure gold was adulterated with cheaper metals."
+    ]
+  },
+  {
+    "id": 82,
+    "word": "Accord",
+    "meaning": "সম্মতি হওয়া",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Admit", "Allow", "Grant", "Agree"],
+    "antonyms": ["Oppose", "Challenge", "Disallow"],
+    "sentences": [
+      "The two sides finally reached an accord.",
+      "The peace accord was signed after months of negotiation.",
+      "All members were in accord with the new proposal."
+    ]
+  },
+  {
+    "id": 83,
+    "word": "Accumulate",
+    "meaning": "জমা হওয়া/একত্র করা",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Gather", "Amass", "Assemble"],
+    "antonyms": ["Scatter", "Disperse", "Disseminate"],
+    "sentences": [
+      "He managed to accumulate a lot of wealth over the years.",
+      "Dust tends to accumulate in unused rooms.",
+      "She began to accumulate evidence for her research."
+    ]
+  },
+  {
+    "id": 84,
+    "word": "Acknowledge",
+    "meaning": "স্বীকার করা",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Admit", "Certify", "Accept", "Endorse"],
+    "antonyms": ["Deny", "Refuse"],
+    "sentences": [
+      "She refused to acknowledge her mistake.",
+      "The company acknowledged the customer's complaint.",
+      "He was acknowledged as the best player of the tournament."
+    ]
+  },
+  {
+    "id": 85,
+    "word": "Assist",
+    "meaning": "সহায়তা করা",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Help", "Aid", "Support"],
+    "antonyms": ["Oppose", "Obstruct"],
+    "sentences": [
+      "He assisted the old man to cross the road.",
+      "The nurse will assist the doctor during surgery.",
+      "Can you assist me with this heavy box?"
+    ]
+  },
+  {
+    "id": 86,
+    "word": "Acme",
+    "meaning": "সর্বোচ্চ সীমা",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Summit", "Pinnacle", "Zenith"],
+    "antonyms": ["Lower Point", "Base", "Nadir"],
+    "sentences": [
+      "Winning the championship was the acme of his career.",
+      "The acme of beauty was displayed in the sunset.",
+      "She reached the acme of success in her profession."
+    ]
+  },
+  {
+    "id": 87,
+    "word": "Admiration",
+    "meaning": "প্রশংসা/ভক্তি",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Appreciation", "Praise", "Glorification"],
+    "antonyms": ["Hate", "Contempt", "Disgust"],
+    "sentences": [
+      "Her courage earned the admiration of the entire town.",
+      "He looked at the painting with admiration.",
+      "The teacher's admiration motivated the students to work harder."
+    ]
+  },
+  {
+    "id": 88,
+    "word": "Anxious",
+    "meaning": "উদ্বিগ্ন",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Worried", "Alarmed", "Scared"],
+    "antonyms": ["Assured", "Content", "Unworried"],
+    "sentences": [
+      "She was anxious about the exam results.",
+      "The anxious mother waited for news about her son.",
+      "His anxious expression revealed his worry."
+    ]
+  },
+  {
+    "id": 89,
+    "word": "Adopt",
+    "meaning": "স্থায়ীভাবে গ্রহণ করা",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Assume", "Accept", "Approve"],
+    "antonyms": ["Reject", "Disapprove"],
+    "sentences": [
+      "They decided to adopt a child from the orphanage.",
+      "The company will adopt new security measures.",
+      "Many countries adopt democratic systems of government."
+    ]
+  },
+  {
+    "id": 90,
+    "word": "Ambiguous",
+    "meaning": "অস্পষ্ট/দ্ব্যর্থক",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Doubtful", "Dubious", "Enigmatic", "Puzzling"],
+    "antonyms": ["Clear", "Understandable", "Lucid"],
+    "sentences": [
+      "His reply was ambiguous and left everyone confused.",
+      "The ambiguous instructions led to several mistakes.",
+      "Her ambiguous smile made it hard to guess her thoughts."
+    ]
+  },
+  {
+    "id": 91,
+    "word": "Anonymous",
+    "meaning": "নামহীন",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Nameless", "Unnamed"],
+    "antonyms": ["Named", "Signed"],
+    "sentences": [
+      "The donation was made by an anonymous benefactor.",
+      "An anonymous letter was sent to the police.",
+      "The writer chose to remain anonymous."
+    ]
+  },
+  {
+    "id": 92,
+    "word": "Antipathy",
+    "meaning": "বিদ্বেষ/ঘৃণা",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Hatred", "Hostility", "Revulsion"],
+    "antonyms": ["Admiration", "Respect", "Love"],
+    "sentences": [
+      "He felt a deep antipathy toward dishonesty.",
+      "There was mutual antipathy between the two rivals.",
+      "Her antipathy for violence was well known."
+    ]
+  },
+  {
+    "id": 93,
+    "word": "Authentic",
+    "meaning": "প্রকৃত, খাঁটি",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Real", "Genuine", "Accredited"],
+    "antonyms": ["Spurious", "False", "Unauthorized"],
+    "sentences": [
+      "The document was verified as authentic.",
+      "She preferred authentic Italian cuisine over imitations.",
+      "The museum displays only authentic artifacts."
+    ]
+  },
+  {
+    "id": 94,
+    "word": "Awkward",
+    "meaning": "আনাড়ি/অপ্রস্তুত",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Ungainly", "Slovenly", "Not Skillful"],
+    "antonyms": ["Artful", "Adroit", "Skillful"],
+    "sentences": [
+      "He felt awkward during the meeting.",
+      "The awkward silence made everyone uncomfortable.",
+      "Her awkward movements showed she was nervous."
+    ]
+  },
+  {
+    "id": 95,
+    "word": "Amorphous",
+    "meaning": "নিরাকার/অনিয়তাকার",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Formless", "Unembodied", "Incorporeal", "Unformed"],
+    "antonyms": ["Definite", "Distinctive", "Shaped"],
+    "sentences": [
+      "The plan was still amorphous and lacked clear structure.",
+      "The cloud had an amorphous shape that kept changing.",
+      "His amorphous ideas needed more concrete development."
+    ]
+  },
+  {
+    "id": 96,
+    "word": "Antecedent",
+    "meaning": "পূর্ববর্তী",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Anterior", "Precedent", "Precursory", "Foregoing"],
+    "antonyms": ["Current", "Following", "Subsequent"],
+    "sentences": [
+      "Historical antecedents often shape modern decisions.",
+      "The antecedent events led to the current crisis.",
+      "We need to study the antecedent factors of this problem."
+    ]
+  },
+  {
+    "id": 97,
+    "word": "Annuity",
+    "meaning": "বার্ষিক ভাতা",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Annual", "Anniversary"],
+    "antonyms": ["Monthly", "Daily"],
+    "sentences": [
+      "He receives an annuity from his retirement fund.",
+      "The insurance company offers a fixed annuity plan.",
+      "Her annuity provides steady income during retirement."
+    ]
+  },
+  {
+    "id": 98,
+    "word": "Anarchy",
+    "meaning": "অরাজকতা",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Chaos", "Disorder", "Mess"],
+    "antonyms": ["Harmony", "Lawfulness"],
+    "sentences": [
+      "The collapse of the government led to anarchy.",
+      "Without proper leadership, the organization fell into anarchy.",
+      "The students' anarchy disrupted the entire school."
+    ]
+  },
+  {
+    "id": 99,
+    "word": "Atheist",
+    "meaning": "নাস্তিক",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Skeptic", "Infidel", "Misbeliever"],
+    "antonyms": ["Credent", "Believer"],
+    "sentences": [
+      "An atheist does not believe in the existence of God.",
+      "The atheist philosopher challenged traditional religious beliefs.",
+      "She openly declared herself to be an atheist."
+    ]
+  },
+  {
+    "id": 100,
+    "word": "Autonomous",
+    "meaning": "স্বশাসিত",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Independent", "Self-explanatory"],
+    "antonyms": ["Subservient", "Dependent"],
+    "sentences": [
+      "The region became autonomous after the peace agreement.",
+      "Autonomous vehicles will revolutionize transportation.",
+      "The university operates as an autonomous institution."
+    ]
+  },
+  {
+    "id": 101,
+    "word": "Adept",
+    "meaning": "অত্যন্ত দক্ষ/সুদক্ষ",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": [
+      "Adroit",
+      "Dexterous",
+      "Proficient",
+      "Skilled",
+      "Expert",
+      "Deft"
+    ],
+    "antonyms": ["Awkward", "Unskilled", "Clumsy", "Inept", "Inexpert"],
+    "sentences": [
+      "She is adept at solving complex problems.",
+      "The adept musician played the difficult piece flawlessly.",
+      "He became adept in multiple programming languages."
+    ]
+  },
+  {
+    "id": 102,
+    "word": "Admire",
+    "meaning": "প্রশংসা করা, উচ্চ মর্যাদায় রাখা",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Esteem", "Respect", "Praise", "Extol", "Eulogize", "Commend"],
+    "antonyms": ["Blame", "Censure", "Condemn"],
+    "sentences": [
+      "I truly admire her dedication to work.",
+      "Many people admire his courage in difficult situations.",
+      "The students admire their teacher's vast knowledge."
+    ]
+  },
+  {
+    "id": 103,
+    "word": "Alert",
+    "meaning": "সতর্ক, মনোযোগী",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": [
+      "Aware",
+      "Observant",
+      "Cautious",
+      "Vigilant",
+      "Watchful",
+      "Wary"
+    ],
+    "antonyms": ["Careless", "Unaware", "Ignorant", "Uninformed"],
+    "sentences": [
+      "The guard stayed alert throughout the night.",
+      "Alert drivers can avoid many accidents on the road.",
+      "She remained alert during the important meeting."
+    ]
+  },
+
+  {
+    "id": 104,
+    "word": "Castigate",
+    "meaning": "ভৎর্সনা/নিন্দা করা",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Chastise", "Upbraid", "Reproach"],
+    "antonyms": ["Praise", "Laud", "Eulogize"],
+    "sentences": [
+      "The teacher castigated the student for not doing homework.",
+      "The critics castigated the movie for its poor plot.",
+      "He was castigated by his boss for the mistake."
+    ]
+  },
+  {
+    "id": 105,
+    "word": "Chastise",
+    "meaning": "শাস্তি দেয়া",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Reprimand", "Discipline", "Punish"],
+    "antonyms": ["Reward", "Compensation"],
+    "sentences": [
+      "The coach chastised the players for their poor performance.",
+      "Parents should not chastise their children in public.",
+      "She was chastised for arriving late to the meeting."
+    ]
+  },
+  {
+    "id": 106,
+    "word": "Cogent",
+    "meaning": "অকাট্য",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Convincing", "Persuasive"],
+    "antonyms": ["Unconvincing", "Unsound"],
+    "sentences": [
+      "He presented a cogent argument for the proposal.",
+      "Her cogent reasoning convinced the jury.",
+      "The lawyer made a cogent case for his client."
+    ]
+  },
+  {
+    "id": 107,
+    "word": "Coherent",
+    "meaning": "সঙ্গতিপূর্ণ",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Organized", "Systematic"],
+    "antonyms": ["Confusing", "Chaotic"],
+    "sentences": [
+      "The professor gave a coherent explanation of the theory.",
+      "His speech was coherent and easy to follow.",
+      "She presented a coherent plan for the project."
+    ]
+  },
+  {
+    "id": 108,
+    "word": "Colossal",
+    "meaning": "বিশাল",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Vast", "Mammoth", "Gigantic", "Large"],
+    "antonyms": ["Tiny", "Minuscule", "Minute"],
+    "sentences": [
+      "The project required a colossal amount of money.",
+      "He made a colossal mistake in his calculations.",
+      "The colossal statue attracted many tourists."
+    ]
+  },
+  {
+    "id": 109,
+    "word": "Commodious",
+    "meaning": "জায়গাবহুল/প্রশস্ত",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Roomy", "Spacious", "Capacious"],
+    "antonyms": ["Discontented"],
+    "sentences": [
+      "They moved into a more commodious apartment.",
+      "The commodious hall could accommodate many guests.",
+      "His commodious office impressed the visitors."
+    ]
+  },
+  {
+    "id": 110,
+    "word": "Composure",
+    "meaning": "১. স্থিরতা/ধৈর্য ২. শান্ত অবস্থা",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Poise", "Aplomb", "Calmness", "Serenity"],
+    "antonyms": ["Discomposure", "Hot-headedness"],
+    "sentences": [
+      "She maintained her composure during the crisis.",
+      "His composure under pressure was remarkable.",
+      "The speaker lost his composure when heckled."
+    ]
+  },
+  {
+    "id": 111,
+    "word": "Concur",
+    "meaning": "একমত হওয়া",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Agree", "Coincide", "Correspond"],
+    "antonyms": ["Disagree", "Diverge"],
+    "sentences": [
+      "I concur with your opinion on this matter.",
+      "All committee members concurred with the decision.",
+      "The experts concur that this is the best solution."
+    ]
+  },
+  {
+    "id": 112,
+    "word": "Considerate",
+    "meaning": "বুদ্ধিবিবেচক",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Thoughtful", "Kind", "Caring"],
+    "antonyms": ["Thoughtless", "Careless"],
+    "sentences": [
+      "He is very considerate towards his elderly neighbors.",
+      "A considerate driver always follows traffic rules.",
+      "She made a considerate gesture by bringing flowers."
+    ]
+  },
+  {
+    "id": 113,
+    "word": "Conversant",
+    "meaning": "পরিচিত, অবগত",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Acquainted", "Familiar", "Known"],
+    "antonyms": ["Ignorant", "Unknown"],
+    "sentences": [
+      "She is conversant with modern technology.",
+      "He became conversant with the local customs quickly.",
+      "The lawyer is conversant with international law."
+    ]
+  },
+  {
+    "id": 114,
+    "word": "Conviction",
+    "meaning": "দৃঢ় বিশ্বাস",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Firm belief", "Confidence"],
+    "antonyms": ["Doubt", "Suspicious"],
+    "sentences": [
+      "He spoke with great conviction about his beliefs.",
+      "Her conviction in the cause never wavered.",
+      "The lawyer argued the case with strong conviction."
+    ]
+  },
+  {
+    "id": 115,
+    "word": "Cramped",
+    "meaning": "গাদাগাদি/সংকীর্ণ",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Crowded", "Restricted"],
+    "antonyms": ["Spacious", "Roomy"],
+    "sentences": [
+      "The apartment felt cramped with so much furniture.",
+      "Working in cramped conditions affects productivity.",
+      "The cramped subway car made commuting unpleasant."
+    ]
+  },
+  {
+    "id": 116,
+    "word": "Crass",
+    "meaning": "অমার্জিত/অভদ্র",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Coarse", "Crude", "Uncouth"],
+    "antonyms": ["Refined", "Polished"],
+    "sentences": [
+      "His crass behavior offended everyone at the party.",
+      "Making crass jokes is inappropriate in professional settings.",
+      "The comedian's crass humor didn't appeal to the audience."
+    ]
+  },
+  {
+    "id": 117,
+    "word": "Crestfallen",
+    "meaning": "মনমরা, নিরাশ",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Downcast", "Dejected", "Depressed"],
+    "antonyms": ["Elated", "Delighted", "Glad"],
+    "sentences": [
+      "He looked crestfallen after hearing the bad news.",
+      "The team appeared crestfallen after losing the match.",
+      "She felt crestfallen when her application was rejected."
+    ]
+  },
+  {
+    "id": 118,
+    "word": "Culpable",
+    "meaning": "নিন্দনীয়",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Blameworthy", "Censurable"],
+    "antonyms": ["Innocent"],
+    "sentences": [
+      "The investigation found him culpable for the accident.",
+      "Both parties were equally culpable in the dispute.",
+      "The company was held culpable for environmental damage."
+    ]
+  },
+  {
+    "id": 119,
+    "word": "Cursory",
+    "meaning": "দ্রুত চোখ বুলানো",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Hasty", "Perfunctory", "Superficial"],
+    "antonyms": ["Careful", "Thorough"],
+    "sentences": [
+      "He gave the document only a cursory glance.",
+      "A cursory examination revealed several errors.",
+      "The cursory inspection missed important details."
+    ]
+  },
+  {
+    "id": 120,
+    "word": "Candid",
+    "meaning": "অকপট, মনের খোলা",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Frank", "Outspoken", "Sincere"],
+    "antonyms": ["Artful", "Crafty"],
+    "sentences": [
+      "She gave a candid interview about her experiences.",
+      "His candid opinion helped us make the right decision.",
+      "The manager appreciated his candid feedback."
+    ]
+  },
+  {
+    "id": 121,
+    "word": "Candor",
+    "meaning": "অকপটতা, সততা",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Frankness", "Sincerity"],
+    "antonyms": ["Diplomacy", "Dishonesty"],
+    "sentences": [
+      "I appreciate your candor in this difficult situation.",
+      "His candor sometimes made people uncomfortable.",
+      "The politician's candor won him many supporters."
+    ]
+  },
+  {
+    "id": 122,
+    "word": "Capable",
+    "meaning": "দক্ষ, সক্ষম",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Able", "Competent", "Skilled"],
+    "antonyms": ["Unable", "Incompetent"],
+    "sentences": [
+      "She is capable of handling multiple projects simultaneously.",
+      "The team hired capable professionals for the job.",
+      "He proved himself capable under pressure."
+    ]
+  },
+  {
+    "id": 123,
+    "word": "Careless",
+    "meaning": "অসতর্ক",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Negligent", "Slapdash"],
+    "antonyms": ["Careful", "Attentive"],
+    "sentences": [
+      "His careless driving caused the accident.",
+      "She made several careless mistakes on the test.",
+      "Being careless with money led to his financial problems."
+    ]
+  },
+  {
+    "id": 124,
+    "word": "Chaos",
+    "meaning": "বিশৃঙ্খলা",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": [
+      "Anarchy",
+      "Confusion",
+      "Disarray",
+      "Disorder",
+      "Mess",
+      "Turmoil",
+      "Tumult"
+    ],
+    "antonyms": ["Arrangement", "Discipline", "Order", "Control"],
+    "sentences": [
+      "The office was in complete chaos after the fire alarm.",
+      "Traffic chaos resulted from the sudden road closure.",
+      "The revolution brought chaos to the entire country."
+    ]
+  },
+  {
+    "id": 125,
+    "word": "Coalesce",
+    "meaning": "একীভূত/একত্র করা",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Unify", "Unite", "Combine"],
+    "antonyms": ["Separate", "Divide"],
+    "sentences": [
+      "The different groups began to coalesce around a common goal.",
+      "Several small companies decided to coalesce into one corporation.",
+      "The ideas gradually coalesced into a comprehensive plan."
+    ]
+  },
+  {
+    "id": 126,
+    "word": "Cautious",
+    "meaning": "সতর্ক",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Careful", "Alert"],
+    "antonyms": ["Careless", "Inattentive"],
+    "sentences": [
+      "She was cautious when crossing the busy street.",
+      "The cautious investor avoided risky stocks.",
+      "He gave a cautious response to the controversial question."
+    ]
+  },
+  {
+    "id": 127,
+    "word": "Calamity",
+    "meaning": "দুর্যোগ, দুঃখ",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Mishap", "Misery", "Distress", "Disaster", "Affliction"],
+    "antonyms": ["Comfort", "Benediction", "Favor", "Boon"],
+    "sentences": [
+      "The earthquake was a great calamity for the region.",
+      "Economic calamity struck the country during the recession.",
+      "The family faced one calamity after another."
+    ]
+  },
+  {
+    "id": 128,
+    "word": "Charitable",
+    "meaning": "দানশীল/সদয়/ক্ষমাশীল",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Generous", "Forgiving", "Humane", "Benign", "Beneficent"],
+    "antonyms": ["Miserly", "Unkind", "Malevolent"],
+    "sentences": [
+      "She made a charitable donation to the orphanage.",
+      "His charitable nature made him beloved in the community.",
+      "The wealthy businessman was known for his charitable works."
+    ]
+  },
+  {
+    "id": 129,
+    "word": "Catastrophe",
+    "meaning": "আকস্মিক দুর্ঘটনা/চরম পরিণতি",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Disaster", "Calamity", "Final Outcome"],
+    "antonyms": ["Comfort", "Favor"],
+    "sentences": [
+      "The nuclear accident was an environmental catastrophe.",
+      "The company's bankruptcy was a financial catastrophe.",
+      "Climate change could lead to a global catastrophe."
+    ]
+  },
+  {
+    "id": 130,
+    "word": "Capricious",
+    "meaning": "খামরখয়াল",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Fickle", "Changeable", "Whimsical"],
+    "antonyms": ["Firm", "Stable", "Constant"],
+    "sentences": [
+      "Her capricious nature made it difficult to predict her decisions.",
+      "The weather has been quite capricious this month.",
+      "His capricious behavior confused his friends."
+    ]
+  }
 ]

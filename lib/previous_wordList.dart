@@ -526,7 +526,7 @@ class _PrevWordFlashCardState extends State<PrevWordFlashCard> {
             ),
             if (showFlipCard)
               SizedBox(
-                height: MediaQuery.of(context).size.height * 0.33,
+                height: MediaQuery.of(context).size.height * 0.40,
                 child: Center(
                   child: Padding(
                     padding: const EdgeInsets.all(10.0),
