@@ -2703,7 +2703,8 @@
       "They lived in dreadful conditions during the war.",
       "The patient was in dreadful pain after the accident."
     ]
-  }, {
+  },
+  {
     "id": 187,
     "word": "Dastard",
     "meaning": "কাপুরুষ",
@@ -2899,7 +2900,7 @@
       "The politician’s duplicity shocked the public."
     ]
   },
-    {
+  {
     "id": 201,
     "word": "Eccentric",
     "meaning": "অদ্ভুত",
@@ -3045,7 +3046,14 @@
     "meaning": "গভীর আগ্রহ",
     "isIdiom": false,
     "isBookmarked": false,
-    "synonyms": ["Earnestness", "Excitement", "Fanaticism", "Fervency", "Fervor", "Zeal"],
+    "synonyms": [
+      "Earnestness",
+      "Excitement",
+      "Fanaticism",
+      "Fervency",
+      "Fervor",
+      "Zeal"
+    ],
     "antonyms": ["Apathy", "Ennui", "Unconcern"],
     "sentences": [
       "She showed great enthusiasm for learning new skills.",
@@ -3079,7 +3087,14 @@
     "id": 214,
     "word": "Eternal",
     "meaning": "অনন্ত / চিরস্থায়ী",
-    "synonyms": ["Ceaseless", "Everlasting", "Infinite", "Perpetual", "Endless", "Permanent"],
+    "synonyms": [
+      "Ceaseless",
+      "Everlasting",
+      "Infinite",
+      "Perpetual",
+      "Endless",
+      "Permanent"
+    ],
     "antonyms": ["Ephemeral", "Finite", "Temporal", "Transient", "Temporary"],
     "sentences": [
       "Truth is eternal and cannot be destroyed.",
@@ -3117,6 +3132,583 @@
     "sentences": [
       "His erratic behavior worried his friends.",
       "The erratic weather caused travel delays."
+    ]
+  },
+
+  {
+    "id": 218,
+    "word": "Exploit",
+    "meaning": "১. সশোষণ করা ২. বীরত্বপূর্ণ কাজ",
+    "synonyms": [
+      "Manipulate",
+      "Utilize",
+      "Handle",
+      "Manage",
+      "Achievement",
+      "Feat",
+      "Deed"
+    ],
+    "antonyms": ["Ignore", "Neglect", "Waste", "Failure", "Defeat"],
+    "sentences": [
+      "The company tried to exploit the workers by paying low wages.",
+      "His exploit in saving the drowning child made him a hero."
+    ]
+  },
+  {
+    "id": 219,
+    "word": "Expose",
+    "meaning": "প্রকাশ করা",
+    "synonyms": ["Reveal", "Disclose", "Divulge"],
+    "antonyms": ["Hide", "Conceal", "Cover"],
+    "sentences": [
+      "The journalist worked to expose the corruption scandal.",
+      "Don't expose your skin to direct sunlight for too long."
+    ]
+  },
+  {
+    "id": 220,
+    "word": "Equivocal",
+    "meaning": "দ্বিঅর্থক/অনিশ্চিত",
+    "synonyms": ["Ambiguous", "Vague", "Unclear"],
+    "antonyms": ["Precise", "Definite"],
+    "sentences": [
+      "His equivocal response left everyone confused.",
+      "The test results were equivocal and required further examination."
+    ]
+  },
+  {
+    "id": 221,
+    "word": "Eulogy",
+    "meaning": "প্রশংসাপূর্ণ উক্তি",
+    "synonyms": ["Encomium", "Panegyric"],
+    "antonyms": ["Criticism", "Censure"],
+    "sentences": [
+      "He delivered a heartfelt eulogy at his grandfather's funeral.",
+      "The eulogy praised her contributions to the community."
+    ]
+  },
+  {
+    "id": 222,
+    "word": "Everlasting",
+    "meaning": "চিরস্থায়ী/অনন্ত",
+    "synonyms": ["Eternal", "Perpetual", "Permanent"],
+    "antonyms": ["Ephemeral", "Fleeting"],
+    "sentences": [
+      "Their love seemed everlasting and true.",
+      "The mountains stand as everlasting monuments to nature's power."
+    ]
+  },
+  {
+    "id": 223,
+    "word": "Extraneous",
+    "meaning": "১. অপ্রাসঙ্গিক ২. বিদেশি",
+    "synonyms": ["Not Germane", "Foreign", "Alien", "Exotic"],
+    "antonyms": ["Germane", "Relevant", "Indigenous"],
+    "sentences": [
+      "Please remove any extraneous information from your report.",
+      "The extraneous noise made it difficult to concentrate."
+    ]
+  },
+  {
+    "id": 224,
+    "word": "Elated",
+    "meaning": "অত্যন্ত উল্লাসিত",
+    "synonyms": ["Overjoyed", "Jubilant", "Joyful"],
+    "antonyms": ["Sad", "Dejected"],
+    "sentences": [
+      "She was elated when she received the job offer.",
+      "The team felt elated after winning the championship."
+    ]
+  },
+  {
+    "id": 225,
+    "word": "Engender",
+    "meaning": "উৎপাদন করা",
+    "synonyms": ["Generate", "Produce"],
+    "antonyms": ["Destroy", "Obliterate"],
+    "sentences": [
+      "The new policy will engender trust between employees and management.",
+      "His harsh words engendered resentment among his colleagues."
+    ]
+  },
+  {
+    "id": 226,
+    "word": "Ephemeral",
+    "meaning": "ক্ষণস্থায়ী",
+    "synonyms": ["Passing", "Temporary", "Transitory"],
+    "antonyms": ["Eternal", "Lasting", "Perpetual"],
+    "sentences": [
+      "The beauty of cherry blossoms is ephemeral but memorable.",
+      "Fame can be ephemeral in the entertainment industry."
+    ]
+  },
+  {
+    "id": 227,
+    "word": "Exaggeration",
+    "meaning": "অতিরঞ্জন, চাপাবাজি",
+    "synonyms": ["Hyperbole", "Overstatement"],
+    "antonyms": ["Understatement", "Sarcasm"],
+    "sentences": [
+      "His story was full of exaggeration and hardly believable.",
+      "Without exaggeration, this is the best meal I've ever had."
+    ]
+  },
+  {
+    "id": 228,
+    "word": "Exorbitant",
+    "meaning": "অত্যধিক",
+    "synonyms": ["Excessive", "Too Much"],
+    "antonyms": ["Reasonable", "Moderate"],
+    "sentences": [
+      "The hotel charged exorbitant prices during the festival.",
+      "His exorbitant demands made negotiation impossible."
+    ]
+  },
+  {
+    "id": 229,
+    "word": "Exonerate",
+    "meaning": "অভিযোগ হতে মুক্তি দেয়া",
+    "synonyms": ["Acquit", "Absolve", "Exculpate", "Free"],
+    "antonyms": ["Prove Guilty", "Convict"],
+    "sentences": [
+      "New evidence helped exonerate the wrongly accused man.",
+      "The investigation exonerated her of all charges."
+    ]
+  },
+  {
+    "id": 230,
+    "word": "Extol",
+    "meaning": "প্রশংসা করা",
+    "synonyms": ["Praise", "Eulogize", "Exalt", "Laud"],
+    "antonyms": ["Belittle", "Criticize"],
+    "sentences": [
+      "The critics extolled the virtues of the new play.",
+      "She extolled her teacher's patience and dedication."
+    ]
+  },
+  {
+    "id": 231,
+    "word": "Facile",
+    "meaning": "সহজ সাধ্য",
+    "synonyms": ["Weak", "Easy", "Docile", "Flexible"],
+    "antonyms": ["Sturdy", "Difficult", "Determined", "Inflexible"],
+    "sentences": [
+      "His facile explanation didn't convince anyone.",
+      "The problem seemed complex but had a facile solution."
+    ]
+  },
+  {
+    "id": 232,
+    "word": "Facilitate",
+    "meaning": "সহজতর করা",
+    "synonyms": ["Expedite", "Make easier"],
+    "antonyms": ["Hinder", "Deter"],
+    "sentences": [
+      "The new software will facilitate communication between departments.",
+      "Good planning can facilitate the completion of any project."
+    ]
+  },
+  {
+    "id": 233,
+    "word": "Facsimile",
+    "meaning": "হুবহু প্রতিলিপি",
+    "synonyms": ["Copy", "Duplicate", "Replica"],
+    "antonyms": ["Original", "Real"],
+    "sentences": [
+      "The museum displayed a facsimile of the ancient manuscript.",
+      "Please send a facsimile of your identification documents."
+    ]
+  },
+  {
+    "id": 234,
+    "word": "Familiar",
+    "meaning": "সুপরিচিত, প্রচলিত",
+    "synonyms": ["Common", "Well-known"],
+    "antonyms": ["Unknown", "Unfamiliar"],
+    "sentences": [
+      "His face looked familiar but I couldn't remember his name.",
+      "The song had a familiar melody that reminded me of childhood."
+    ]
+  },
+  {
+    "id": 235,
+    "word": "Fanciful",
+    "meaning": "কল্পনাপ্রিয়",
+    "synonyms": ["Eccentric", "Humorous", "Capricious", "Whimsical"],
+    "antonyms": ["Literal", "Real", "Realistic", "Accurate", "Truthful"],
+    "sentences": [
+      "Her fanciful stories delighted the children.",
+      "The architect's fanciful design was impractical to build."
+    ]
+  },
+  {
+    "id": 236,
+    "word": "Fascinating",
+    "meaning": "আকর্ষণীয়/মনোরম",
+    "synonyms": ["Charming", "Interesting"],
+    "antonyms": ["Boring", "Dull"],
+    "sentences": [
+      "The documentary about ocean life was absolutely fascinating.",
+      "She told fascinating stories about her travels around the world."
+    ]
+  },
+  {
+    "id": 237,
+    "word": "Facetious",
+    "meaning": "হাসি",
+    "synonyms": ["Humorous", "Jocular"],
+    "antonyms": ["Solemn"],
+    "sentences": [
+      "His facetious remarks lightened the mood during the meeting.",
+      "Don't be so facetious when discussing serious matters."
+    ]
+  },
+  {
+    "id": 238,
+    "word": "Fastidious",
+    "meaning": "খুঁতখুঁতে",
+    "synonyms": ["Meticulous", "Painstaking"],
+    "antonyms": ["Careless", "Easygoing"],
+    "sentences": [
+      "She is fastidious about keeping her workspace clean.",
+      "His fastidious attention to detail made him an excellent editor."
+    ]
+  },
+  {
+    "id": 239,
+    "word": "Fatuous",
+    "meaning": "বোকা/বোকামি",
+    "synonyms": ["Asinine", "Inane", "Silly", "Idiotic"],
+    "antonyms": ["Judicious", "Prudent", "Sage"],
+    "sentences": [
+      "His fatuous comments showed his lack of understanding.",
+      "The fatuous decision led to serious consequences."
+    ]
+  },
+  {
+    "id": 240,
+    "word": "Favoritism",
+    "meaning": "পক্ষপাতিত্ব",
+    "synonyms": ["Partiality", "Bias", "Prejudice"],
+    "antonyms": ["Neutrality", "Impartiality"],
+    "sentences": [
+      "The teacher was accused of showing favoritism towards certain students.",
+      "Favoritism in the workplace can damage team morale."
+    ]
+  },
+  {
+    "id": 241,
+    "word": "Feasible",
+    "meaning": "বাস্তবায়ন যোগ্য",
+    "synonyms": ["Practicable", "Workable"],
+    "antonyms": ["Impossible", "Impractical"],
+    "sentences": [
+      "The proposal seems feasible with the current budget.",
+      "Is it feasible to complete this project by next month?"
+    ]
+  },
+  {
+    "id": 242,
+    "word": "Feeble",
+    "meaning": "দুর্বল/অযোগ্য",
+    "synonyms": ["Frail", "Exhausted", "Faint", "Weak", "Dull"],
+    "antonyms": ["Forceful", "Stout", "Strong", "Vigorous"],
+    "sentences": [
+      "His feeble attempt at humor fell flat.",
+      "The old man's voice was feeble but determined."
+    ]
+  },
+  {
+    "id": 243,
+    "word": "Fertile",
+    "meaning": "উর্বর/প্রসূ",
+    "synonyms": [
+      "Productive",
+      "Fruitful",
+      "Rich",
+      "Luxuriant",
+      "Prolific",
+      "Fecund",
+      "Conducive"
+    ],
+    "antonyms": ["Unproductive", "Fruitless", "Barren", "Sterile"],
+    "sentences": [
+      "The fertile valley produced abundant crops.",
+      "Her fertile imagination created wonderful stories."
+    ]
+  },
+  {
+    "id": 244,
+    "word": "Fervour",
+    "meaning": "উৎসাহ",
+    "synonyms": ["Ardor", "Zeal"],
+    "antonyms": ["Apathy"],
+    "sentences": [
+      "She spoke with great fervour about environmental protection.",
+      "The religious fervour of the crowd was evident."
+    ]
+  },
+  {
+    "id": 245,
+    "word": "Feverish",
+    "meaning": "অতি ব্যাকুল",
+    "synonyms": ["Zealous", "Ardent"],
+    "antonyms": ["Nonchalant"],
+    "sentences": [
+      "There was feverish activity in the office before the deadline.",
+      "His feverish pace of work impressed his colleagues."
+    ]
+  },
+  {
+    "id": 246,
+    "word": "Fickle",
+    "meaning": "খেয়ালি, চঞ্চল",
+    "synonyms": ["Capricious", "Fanciful"],
+    "antonyms": ["Firm", "Steady", "Stable"],
+    "sentences": [
+      "Her fickle nature made it hard to predict her decisions.",
+      "The fickle weather changed from sunny to stormy within hours."
+    ]
+  },{
+    "id": 247,
+    "word": "Fidelity",
+    "meaning": "বিশ্বস্ততা",
+    "synonyms": ["Faithfulness", "Integrity", "Loyalty", "Honesty", "Truthfulness"],
+    "antonyms": ["Infidelity", "Disloyalty", "Treachery", "Faithlessness", "Dishonesty"],
+    "sentences": [
+      "His fidelity to his principles never wavered.",
+      "The dog's fidelity to its owner was remarkable."
+    ]
+  },
+  {
+    "id": 248,
+    "word": "Flamboyant",
+    "meaning": "আড়ম্বরপূর্ণ",
+    "synonyms": ["Showy", "Ornate"],
+    "antonyms": ["Simple"],
+    "sentences": [
+      "His flamboyant personality made him the center of attention.",
+      "The flamboyant decorations were perfect for the celebration."
+    ]
+  },
+  {
+    "id": 249,
+    "word": "Flatter",
+    "meaning": "তোষামোদ করা",
+    "synonyms": ["Over-Praise", "Cajole"],
+    "antonyms": ["Censure"],
+    "sentences": [
+      "Don't try to flatter me with false compliments.",
+      "He would flatter his boss to get a promotion."
+    ]
+  },
+  {
+    "id": 250,
+    "word": "Flaunt",
+    "meaning": "জাহির করা",
+    "synonyms": ["Show Off", "Exhibit"],
+    "antonyms": ["Conceal", "Hide"],
+    "sentences": [
+      "She loved to flaunt her expensive jewelry.",
+      "He would flaunt his knowledge at every opportunity."
+    ]
+  },
+  {
+    "id": 251,
+    "word": "Flexible",
+    "meaning": "নমনীয়",
+    "synonyms": ["Elastic", "Easy", "Changeable", "Yielding"],
+    "antonyms": ["Hard", "Rigid", "Inflexible", "Tough", "Stiff"],
+    "sentences": [
+      "The company has flexible working hours for employees.",
+      "Yoga helps keep your body flexible and healthy."
+    ]
+  },
+  {
+    "id": 252,
+    "word": "Flimsy",
+    "meaning": "পাতলা",
+    "synonyms": ["Thin", "Delicate", "Slight", "Frail"],
+    "antonyms": ["Strong", "Brawny"],
+    "sentences": [
+      "The flimsy excuse didn't convince anyone.",
+      "The flimsy paper tore easily in the wind."
+    ]
+  },
+  {
+    "id": 253,
+    "word": "Florid",
+    "meaning": "বর্ণোজ্জ্বল",
+    "synonyms": ["Ornate", "Flowery", "Adorned"],
+    "antonyms": ["Pallid", "Bare", "Chaste", "Unadorned"],
+    "sentences": [
+      "His florid writing style was full of elaborate descriptions.",
+      "The florid complexion indicated good health."
+    ]
+  },
+  {
+    "id": 254,
+    "word": "Flourishing",
+    "meaning": "উন্নতি/সমৃদ্ধশীল",
+    "synonyms": ["Prospering", "Thriving"],
+    "antonyms": ["Declining", "Failing"],
+    "sentences": [
+      "The flourishing business expanded to new markets.",
+      "Art and culture were flourishing during that period."
+    ]
+  },
+  {
+    "id": 255,
+    "word": "Fluctuate",
+    "meaning": "১. ওঠানামা করা ২. মনস্থির না হওয়া",
+    "synonyms": ["Change Often", "Waver", "Vacillate"],
+    "antonyms": ["Remain Steady", "Be Resolute", "Determine"],
+    "sentences": [
+      "Stock prices fluctuate throughout the trading day.",
+      "His mood would fluctuate between happy and sad."
+    ]
+  },
+  {
+    "id": 256,
+    "word": "Folly",
+    "meaning": "মূর্খতা/বোকামি",
+    "synonyms": ["Foolishness", "Idiocy", "Silliness", "Stupidity", "Imprudence"],
+    "antonyms": ["Prudence", "Discretion"],
+    "sentences": [
+      "It would be folly to ignore the warning signs.",
+      "His folly in investing all his money led to bankruptcy."
+    ]
+  },
+  {
+    "id": 257,
+    "word": "Formidable",
+    "meaning": "ভীতিকর/দুর্দান্ত",
+    "synonyms": ["Dreadful", "Horrible"],
+    "antonyms": ["Enjoyable", "Pleasant"],
+    "sentences": [
+      "The mountain presented a formidable challenge to climbers.",
+      "She was a formidable opponent in the chess tournament."
+    ]
+  },
+  {
+    "id": 258,
+    "word": "Fragile",
+    "meaning": "ভঙ্গুর",
+    "synonyms": ["Breakable", "Brittle", "Feeble", "Frail", "Weak", "Frangible"],
+    "antonyms": ["Adhere", "Persist", "Stick"],
+    "sentences": [
+      "Handle the fragile glassware with care.",
+      "The fragile ecosystem needs protection from pollution."
+    ]
+  },
+  {
+    "id": 259,
+    "word": "Frightful",
+    "meaning": "ভীতিজনক",
+    "synonyms": ["Awful", "Terrible", "Dreadful", "Alarming"],
+    "antonyms": ["Attractive", "Beautiful", "Lovely", "Pleasant"],
+    "sentences": [
+      "The frightful storm caused widespread damage.",
+      "He had a frightful experience in the haunted house."
+    ]
+  },
+  {
+    "id": 260,
+    "word": "Frugal",
+    "meaning": "মিতব্যয়ী",
+    "synonyms": ["Economical", "Stingy", "Thrifty"],
+    "antonyms": ["Extravagant", "Wasteful"],
+    "sentences": [
+      "His frugal lifestyle helped him save money for retirement.",
+      "The frugal meal was simple but nutritious."
+    ]
+  },
+  {
+    "id": 261,
+    "word": "Funereal",
+    "meaning": "শোকাবহ",
+    "synonyms": ["Mournful", "Dismal", "Obsequies"],
+    "antonyms": ["Cheerful", "Gay"],
+    "sentences": [
+      "The funereal atmosphere made everyone feel sad.",
+      "He spoke in a funereal tone about the tragedy."
+    ]
+  },
+  {
+    "id": 262,
+    "word": "Furtive",
+    "meaning": "গোপনকৃত/চোরা",
+    "synonyms": ["Stealthy", "Clandestine", "Secret"],
+    "antonyms": ["Unconcealed", "Open"],
+    "sentences": [
+      "She cast furtive glances around the room.",
+      "His furtive behavior aroused suspicion."
+    ]
+  },
+  {
+    "id": 263,
+    "word": "Futile",
+    "meaning": "অকার্যকর/বৃথা",
+    "synonyms": ["Ineffective", "Vain"],
+    "antonyms": ["Effective", "Successful"],
+    "sentences": [
+      "All attempts to revive the patient proved futile.",
+      "It's futile to argue with someone who won't listen."
+    ]
+  },
+  {
+    "id": 264,
+    "word": "Fuzzy",
+    "meaning": "ধূসর/অস্পষ্ট",
+    "synonyms": ["Blurred", "Indistinct", "Hazy"],
+    "antonyms": ["Clear", "Sharp"],
+    "sentences": [
+      "The picture was fuzzy and hard to see.",
+      "He had a fuzzy memory of the event."
+    ]
+  },
+  {
+    "id": 265,
+    "word": "Fidelity",
+    "meaning": "বিশ্বস্ততা",
+    "synonyms": ["Faithfulness", "Loyalty"],
+    "antonyms": ["Disloyalty", "Treachery"],
+    "sentences": [
+      "He showed great fidelity to his country.",
+      "Her fidelity to her husband was unquestionable."
+    ]
+  },
+  {
+    "id": 266,
+    "word": "Flamboyant",
+    "meaning": "দৃষ্টিনন্দন/বর্ণিল",
+    "synonyms": ["Showy", "Extravagant", "Ostentatious"],
+    "antonyms": ["Plain", "Simple", "Unadorned"],
+    "sentences": [
+      "The artist's flamboyant style attracted many admirers.",
+      "She wore a flamboyant dress that turned heads at the party."
+    ]
+  },
+  {
+    "id": 267,
+    "word": "Flawless",
+    "meaning": "নিখুঁত/অপরিশুদ্ধ",
+    "synonyms": ["Perfect", "Impeccable"],
+    "antonyms": ["Imperfect", "Defective"],
+    "sentences": [
+      "Her performance was flawless and received a standing ovation.",
+      "The diamond was flawless, with no visible inclusions."
+    ]
+  },
+  {
+    "id": 268,
+    "word": "Fluctuate",
+    "meaning": "অস্থিরতা/হঠাৎ পরিবর্তন",
+    "synonyms": ["Vary", "Change", "Shift"],
+    "antonyms": ["Stabilize", "Remain Constant"],
+    "sentences": [
+      "The stock prices fluctuate daily.",
+      "His mood tends to fluctuate based on the weather."
     ]
   }
 ]
