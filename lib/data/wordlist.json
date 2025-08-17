@@ -1895,8 +1895,505 @@
   },
   {
     "id": 130,
+    "word": "Comprehend",
+    "meaning": "উপলব্ধি করা",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Grasp", "Apprehend", "Understand"],
+    "antonyms": ["Exclude", "Misapprehend", "Mistake"],
+    "sentences": [
+      "It took him time to comprehend the complexity of the problem.",
+      "She could not comprehend why he left so suddenly.",
+      "The students struggled to comprehend the advanced mathematics."
+    ]
+  },
+  {
+    "id": 131,
+    "word": "Compulsory",
+    "meaning": "বাধ্যতামূলক",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Mandatory", "Obligatory"],
+    "antonyms": ["Voluntary", "Optional"],
+    "sentences": [
+      "Wearing seatbelts is compulsory in most countries.",
+      "Military service is compulsory for all young men.",
+      "The course includes both compulsory and optional subjects."
+    ]
+  },
+  {
+    "id": 132,
+    "word": "Copious",
+    "meaning": "প্রচুর",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Plentiful", "Abundant", "Ample", "Bountiful", "Profuse"],
+    "antonyms": ["Scarce", "Deficient", "Scanty", "Rare"],
+    "sentences": [
+      "The writer took copious notes during the interview.",
+      "There was copious rainfall this monsoon season.",
+      "She provided copious evidence to support her claim."
+    ]
+  },
+  {
+    "id": 133,
+    "word": "Contaminate",
+    "meaning": "দূষিত করা",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Pollute", "Adulterate"],
+    "antonyms": ["Purify"],
+    "sentences": [
+      "Industrial waste can contaminate the water supply.",
+      "The food was contaminated with harmful bacteria.",
+      "Radioactive materials contaminated the surrounding area."
+    ]
+  },
+  {
+    "id": 134,
+    "word": "Carnivorous",
+    "meaning": "মাংসাশী",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Cannibal", "Flesh-Eating"],
+    "antonyms": ["Vegetarian"],
+    "sentences": [
+      "Lions are carnivorous animals that hunt for meat.",
+      "The carnivorous plant traps insects for nutrition.",
+      "Most carnivorous dinosaurs had sharp teeth for tearing flesh."
+    ]
+  },
+  {
+    "id": 135,
+    "word": "Conceal",
+    "meaning": "লুকাইয়া/গুপ্ত করা",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Hide", "Cover", "Mask", "Veil"],
+    "antonyms": ["Reveal", "Disclose"],
+    "sentences": [
+      "He tried to conceal his disappointment with a smile.",
+      "The witness decided to conceal important information.",
+      "Dense fog concealed the mountain peaks from view."
+    ]
+  },
+  {
+    "id": 136,
+    "word": "Constructive",
+    "meaning": "গঠনমূলক",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Beneficial", "Productive"],
+    "antonyms": ["Destructive", "Useless"],
+    "sentences": [
+      "The teacher gave constructive feedback on the essay.",
+      "We need constructive criticism, not just complaints.",
+      "The meeting led to constructive discussions about reforms."
+    ]
+  },
+  {
+    "id": 137,
+    "word": "Contradict",
+    "meaning": "অস্বীকার করা",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Deny", "Oppose", "Refute"],
+    "antonyms": ["Corroborate", "Support"],
+    "sentences": [
+      "The witness testimonies contradict each other.",
+      "Please don't contradict me in front of the guests.",
+      "His actions contradict his stated beliefs."
+    ]
+  },
+  {
+    "id": 138,
+    "word": "Convict",
+    "meaning": "দোষারী সাব্যস্ত দেয়া",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Condemn", "Find guilty"],
+    "antonyms": ["Find innocent"],
+    "sentences": [
+      "The jury voted to convict the defendant of theft.",
+      "Strong evidence helped convict the criminal.",
+      "It's difficult to convict someone without proper evidence."
+    ]
+  },
+  {
+    "id": 139,
+    "word": "Crisis",
+    "meaning": "সঙ্কটকাল, সংকট",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Catastrophe", "Calamity", "Disaster"],
+    "antonyms": ["Good fortune", "Benefit", "Blessing"],
+    "sentences": [
+      "The country faced a severe economic crisis.",
+      "The hospital dealt with a staffing crisis during the pandemic.",
+      "Every crisis presents both challenges and opportunities."
+    ]
+  },
+  {
+    "id": 140,
+    "word": "Cacophonous",
+    "meaning": "শ্রুতিকটু, বেসুরো",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Inharmonious", "Harsh"],
+    "antonyms": ["Euphonious"],
+    "sentences": [
+      "The cacophonous noise from the construction site was unbearable.",
+      "The band's cacophonous performance disappointed the audience.",
+      "Traffic created a cacophonous symphony in the busy street."
+    ]
+  },
+  {
+    "id": 141,
+    "word": "Callous",
+    "meaning": "নির্দয়",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Unsympathetic", "Cruel"],
+    "antonyms": ["Compassionate"],
+    "sentences": [
+      "His callous remarks hurt her feelings deeply.",
+      "The dictator showed callous disregard for human rights.",
+      "She was shocked by his callous attitude toward the poor."
+    ]
+  },
+  {
+    "id": 142,
+    "word": "Circumspect",
+    "meaning": "বিচক্ষণ/সতর্ক",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Prudent", "Judicious", "Discreet"],
+    "antonyms": ["Rash", "Reckless"],
+    "sentences": [
+      "She was circumspect in her dealings with the new client.",
+      "The diplomat gave a circumspect response to the sensitive question.",
+      "Being circumspect helped him avoid making costly mistakes."
+    ]
+  },
+  {
+    "id": 143,
+    "word": "Clandestine",
+    "meaning": "গুপ্ত/লুকায়িত",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Secret", "Covert", "Furtive"],
+    "antonyms": ["Open", "Revealed", "Frank"],
+    "sentences": [
+      "The agents conducted a clandestine operation behind enemy lines.",
+      "They held clandestine meetings to plan the revolution.",
+      "The clandestine affair was eventually discovered by his wife."
+    ]
+  },
+  {
+    "id": 144,
+    "word": "Coerce",
+    "meaning": "বাধ্য করা",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Force", "Compel", "Oblige"],
+    "antonyms": ["Request"],
+    "sentences": [
+      "The kidnappers tried to coerce him into revealing the password.",
+      "No one should coerce you into making a decision you're uncomfortable with.",
+      "The government cannot coerce citizens to vote for a particular candidate."
+    ]
+  },
+  {
+    "id": 145,
+    "word": "Compulsion",
+    "meaning": "জবরদস্তি",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Coercion", "Pressure"],
+    "antonyms": ["Voluntary", "By Choice"],
+    "sentences": [
+      "He felt a strong compulsion to help the homeless man.",
+      "The confession was obtained under compulsion and is not valid.",
+      "She had a compulsion to check the door three times before leaving."
+    ]
+  },
+  {
+    "id": 146,
+    "word": "Commence",
+    "meaning": "আরম্ভ করা",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Begin", "Inaugurate", "Initiate"],
+    "antonyms": ["Finish", "Terminate", "Cease"],
+    "sentences": [
+      "The ceremony will commence at 9 AM sharp.",
+      "Construction work will commence next Monday.",
+      "The university will commence its new academic session in January."
+    ]
+  },
+  {
+    "id": 147,
+    "word": "Commend",
+    "meaning": "প্রশংসা করা",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Praise", "Extol", "Laud", "Acclaim"],
+    "antonyms": ["Criticize", "Censure"],
+    "sentences": [
+      "The principal commended the students for their excellent performance.",
+      "I commend you for your honesty in this difficult situation.",
+      "The officer was commended for his bravery during the rescue operation."
+    ]
+  },
+  {
+    "id": 148,
+    "word": "Competent",
+    "meaning": "যোগ্য, সক্ষম, দক্ষ",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Skilled", "Proficient", "Capable"],
+    "antonyms": ["Incompetent", "Unfit"],
+    "sentences": [
+      "She is a competent lawyer who handles complex cases.",
+      "We need competent staff to manage this important project.",
+      "The competent doctor quickly diagnosed the patient's condition."
+    ]
+  },
+  {
+    "id": 149,
+    "word": "Compliant",
+    "meaning": "বাধ্য",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Obedient", "Docile", "Amenable"],
+    "antonyms": ["Recalcitrant", "Unruly"],
+    "sentences": [
+      "The new software is compliant with international security standards.",
+      "Children should be compliant with school rules and regulations.",
+      "The company must be compliant with all environmental regulations."
+    ]
+  },
+  {
+    "id": 150,
+    "word": "Comply",
+    "meaning": "মেনে চলা",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Conform", "Obey", "Observe"],
+    "antonyms": ["Disobey", "Resist"],
+    "sentences": [
+      "All employees must comply with the company's dress code.",
+      "Drivers who refuse to comply with traffic laws face heavy fines.",
+      "The restaurant had to comply with new health and safety guidelines."
+    ]
+  },
+  {
+    "id": 151,
+    "word": "Concern",
+    "meaning": "উদ্বেগ/দুশ্চিন্তা",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Anxiety", "Apprehension"],
+    "antonyms": ["Indifference"],
+    "sentences": [
+      "There is growing concern about climate change effects.",
+      "Her parents expressed concern about her late nights at work.",
+      "The doctor's concern was evident when he saw the test results."
+    ]
+  },
+  {
+    "id": 152,
+    "word": "Compel",
+    "meaning": "বাধ্য করা",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Enforce", "Oblige", "Drive"],
+    "antonyms": ["Set free", "Thwart", "Baffle"],
+    "sentences": [
+      "The evidence will compel the jury to reach a guilty verdict.",
+      "Poverty compelled him to work two jobs to support his family.",
+      "The new law compels companies to report their carbon emissions."
+    ]
+  },
+  {
+    "id": 153,
+    "word": "Clarify",
+    "meaning": "স্পষ্টভাবে করা",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Elucidate", "Explicate", "Explain"],
+    "antonyms": ["Obscure"],
+    "sentences": [
+      "Could you clarify what you mean by 'immediate action'?",
+      "The teacher clarified the confusing parts of the lesson.",
+      "The spokesperson clarified the company's position on the matter."
+    ]
+  },
+  {
+    "id": 154,
+    "word": "Clumsy",
+    "meaning": "বেঢপু/আনাড়ী",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Bungling", "Inept", "Awkward"],
+    "antonyms": ["Adroit", "Deft", "Dexterous"],
+    "sentences": [
+      "His clumsy attempt to fix the computer made things worse.",
+      "She felt clumsy wearing high heels for the first time.",
+      "The clumsy waiter spilled coffee on the customer's shirt."
+    ]
+  },
+  {
+    "id": 155,
+    "word": "Dilemma",
+    "meaning": "বিপজ্জনক অবস্থা",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Predicament", "Catch", "Quandary"],
+    "antonyms": ["Solution", "Resolution"],
+    "sentences": [
+      "She faced a moral dilemma when asked to lie for her friend.",
+      "The company is in a financial dilemma and may have to close.",
+      "His dilemma was whether to accept the job offer or stay in college."
+    ]
+  },
+  {
+    "id": 156,
+    "word": "Deliberate",
+    "meaning": "সুবিচিন্তিত, স্বেচ্ছাকৃত",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Intentional", "Premeditated", "Preplanned", "Intended"],
+    "antonyms": ["Accidental", "Rash", "Hurried"],
+    "sentences": [
+      "His deliberate actions showed careful planning and thought.",
+      "The attack was deliberate, not an accident as claimed.",
+      "She made a deliberate choice to pursue medicine over engineering."
+    ]
+  },
+  {
+    "id": 157,
+    "word": "Deny",
+    "meaning": "অগ্রাহ্য, অস্বীকার করা",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": [
+      "Contradict",
+      "Refute",
+      "Rebuff",
+      "Reject",
+      "Refuse",
+      "Decline"
+    ],
+    "antonyms": ["Admit", "Confess", "Acknowledge"],
+    "sentences": [
+      "The suspect continued to deny his involvement in the crime.",
+      "You cannot deny the importance of education in today's world.",
+      "The government denied all allegations of corruption."
+    ]
+  },
+  {
+    "id": 158,
+    "word": "Durable",
+    "meaning": "টেকসই, স্থায়ী",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Enduring", "Long lasting"],
+    "antonyms": ["Brittle", "Fragile"],
+    "sentences": [
+      "This furniture is made of durable materials that last for decades.",
+      "We need a durable solution to the traffic problem.",
+      "The durable friendship between the two countries spans centuries."
+    ]
+  },
+  {
+    "id": 159,
+    "word": "Deter",
+    "meaning": "নিবৃত্ত করা",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Prevent", "Obstruct", "Stop"],
+    "antonyms": ["Assist", "Aid"],
+    "sentences": [
+      "The high security cameras deter shoplifters from stealing.",
+      "Bad weather did not deter the hikers from completing their journey.",
+      "The strict penalties are meant to deter people from breaking the law."
+    ]
+  },
+  {
+    "id": 160,
+    "word": "Decay",
+    "meaning": "ক্ষয়/পতন",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Decline", "Collapse", "Downfall"],
+    "antonyms": ["Growth", "Strength", "Robustness"],
+    "sentences": [
+      "The old building shows signs of decay after years of neglect.",
+      "Tooth decay can be prevented with proper dental hygiene.",
+      "The moral decay of society is a growing concern for many."
+    ]
+  },
+  {
+    "id": 161,
+    "word": "Demonstrate",
+    "meaning": "প্রদর্শন করা",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Manifest", "Explain"],
+    "antonyms": ["Veil", "Mystify", "Perplex", "Mask"],
+    "sentences": [
+      "The teacher will demonstrate the experiment to the class.",
+      "His actions demonstrate his commitment to environmental causes.",
+      "The protesters gathered to demonstrate against the new policy."
+    ]
+  },
+  {
+    "id": 162,
+    "word": "Deprive",
+    "meaning": "বঞ্চিত করা",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Debar", "Hinder", "Divest", "Separate"],
+    "antonyms": ["Add", "Assist", "Refund", "Repay"],
+    "sentences": [
+      "The accident deprived him of his ability to walk.",
+      "War can deprive children of their basic right to education.",
+      "The drought deprived the farmers of a good harvest this year."
+    ]
+  },
+  {
+    "id": 163,
+    "word": "Desperate",
+    "meaning": "মরিয়া/বেপরোয়া",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Daring", "Reckless", "Hopeless", "Irretrievable"],
+    "antonyms": ["Calm", "Peaceful", "Hopeful"],
+    "sentences": [
+      "The desperate mother searched everywhere for her missing child.",
+      "In desperate times, people often make poor decisions.",
+      "His desperate attempt to save the company ultimately failed."
+    ]
+  },
+  {
+    "id": 164,
+    "word": "Diligence",
+    "meaning": "অধ্যবসায়/পরিশ্রম",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Assiduity", "Industry", "Intensity"],
+    "antonyms": ["Laziness", "Indolence", "Sluggishness"],
+    "sentences": [
+      "Her diligence in studying paid off when she topped the exam.",
+      "The project's success was due to the team's diligence and hard work.",
+      "With diligence and persistence, you can achieve any goal."
+    ]
+  },
+  {
+    "id": 165,
     "word": "Capricious",
-    "meaning": "খামরখয়াল",
+    "meaning": "খামখেয়ালী",
     "isIdiom": false,
     "isBookmarked": false,
     "synonyms": ["Fickle", "Changeable", "Whimsical"],
@@ -1905,6 +2402,721 @@
       "Her capricious nature made it difficult to predict her decisions.",
       "The weather has been quite capricious this month.",
       "His capricious behavior confused his friends."
+    ]
+  },
+  {
+    "id": 166,
+    "word": "Doctrine (n)",
+    "meaning": "মতবাদ/বিশ্বাস",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Precept", "Dogma", "Tenet", "Credence"],
+    "antonyms": [
+      "Schism",
+      "Heterodoxy",
+      "Falsehood",
+      "Incredulity",
+      "Skepticism"
+    ],
+    "sentences": [
+      "The religious doctrine was strictly followed by the community.",
+      "Her political doctrine emphasizes equality and justice.",
+      "Many students debated the validity of the new doctrine."
+    ]
+  },
+  {
+    "id": 167,
+    "word": "Dispute (n)",
+    "meaning": "বিতর্ক/বিতণ্ডা",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Argument", "Disagreement", "Contest", "Variance"],
+    "antonyms": ["Agree", "Accordance", "Congruity"],
+    "sentences": [
+      "The land dispute between the neighbors lasted for years.",
+      "They had a dispute about how to divide the profits.",
+      "The manager resolved the dispute quickly."
+    ]
+  },
+  {
+    "id": 168,
+    "word": "Dissent (v)",
+    "meaning": "মতভেদ/ভিন্নমত হওয়া",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Disagree", "Contend", "Dispute", "Demur"],
+    "antonyms": ["Agree", "Approve", "Credit", "Endorse"],
+    "sentences": [
+      "Several members chose to dissent from the majority opinion.",
+      "He voiced his dissent against the new company policy.",
+      "Freedom of speech allows people to dissent peacefully."
+    ]
+  },
+  {
+    "id": 169,
+    "word": "Distract (v)",
+    "meaning": "অন্যমনস্ক করা/হতবুদ্ধি করা",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Perplex", "Bewilder", "Confuse", "Mystify", "Embarrass"],
+    "antonyms": ["Placate", "Mollify", "Assuage", "Mitigate", "Conciliate"],
+    "sentences": [
+      "The noise outside began to distract the students from their exam.",
+      "He tried to distract her with a funny story.",
+      "Don’t let minor issues distract you from your goals."
+    ]
+  },
+  {
+    "id": 170,
+    "word": "Dearth",
+    "meaning": "দুষ্প্রাপ্যতা",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Scarcity", "Paucity", "Shortage"],
+    "antonyms": ["Abundance", "Plethora"],
+    "sentences": [
+      "There was a dearth of food during the famine.",
+      "The project was delayed due to a dearth of resources.",
+      "The country suffers from a dearth of skilled workers."
+    ]
+  },
+  {
+    "id": 171,
+    "word": "Decry",
+    "meaning": "নিন্দা করা",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Censure", "Disparage"],
+    "antonyms": ["Extol", "Laud", "Praise"],
+    "sentences": [
+      "The policy was decried by human rights groups.",
+      "She decried the lack of transparency in the government.",
+      "Critics decry his new novel as poorly written."
+    ]
+  },
+  {
+    "id": 172,
+    "word": "Defamatory",
+    "meaning": "মানহানিকর কাজ",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Libelous", "Slanderous"],
+    "antonyms": ["Admiring", "Laudatory"],
+    "sentences": [
+      "The newspaper was sued for publishing defamatory statements.",
+      "He filed a case against the defamatory article.",
+      "Spreading defamatory rumors can ruin reputations."
+    ]
+  },
+  {
+    "id": 173,
+    "word": "Dejected",
+    "meaning": "মনমরা/হতাশ",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Dispirited", "Despondent"],
+    "antonyms": ["Happy", "Elated", "Content"],
+    "sentences": [
+      "She felt dejected after failing the exam.",
+      "He looked dejected when his team lost the match.",
+      "Despite being dejected, she tried to stay positive."
+    ]
+  },
+  {
+    "id": 174,
+    "word": "Deleterious",
+    "meaning": "ক্ষতিকর",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Detrimental", "Harmful"],
+    "antonyms": ["Beneficial", "Helpful"],
+    "sentences": [
+      "Smoking has a deleterious effect on health.",
+      "The new policy could have deleterious consequences.",
+      "Overusing chemicals is deleterious to the soil."
+    ]
+  },
+  {
+    "id": 175,
+    "word": "Denounce",
+    "meaning": "সদালোচনা করা",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Condemn", "Censure", "Vilify"],
+    "antonyms": ["Commend", "Extol", "Laud"],
+    "sentences": [
+      "The leader denounced the attack as cowardly.",
+      "She denounced corruption in the government.",
+      "Many activists denounce violence in any form."
+    ]
+  },
+  {
+    "id": 176,
+    "word": "Deprecate",
+    "meaning": "বিরুদ্ধ মত বা সমালোচনা করা",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Disapprove", "Condemn", "Criticize"],
+    "antonyms": ["Endorse", "Approve", "Support"],
+    "sentences": [
+      "Many parents deprecate the use of violent video games.",
+      "The teacher deprecated cheating in any form.",
+      "She deprecated his rude behavior in public."
+    ]
+  },
+  {
+    "id": 177,
+    "word": "Depressed",
+    "meaning": "মনমরা",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Dispirited", "Dejected", "Gloomy"],
+    "antonyms": ["Elated", "Cheerful", "Joyful"],
+    "sentences": [
+      "He felt depressed after failing the exam.",
+      "Rainy weather often makes people feel depressed.",
+      "She looked depressed despite her recent success."
+    ]
+  },
+  {
+    "id": 178,
+    "word": "Despise",
+    "meaning": "অবজ্ঞা/ঘৃণা করা",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Scorn", "Loathe", "Abhor"],
+    "antonyms": ["Admire", "Esteem", "Respect"],
+    "sentences": [
+      "I despise people who tell lies.",
+      "She despised the injustice she saw around her.",
+      "They despised his arrogance and pride."
+    ]
+  },
+  {
+    "id": 179,
+    "word": "Didactic",
+    "meaning": "শিক্ষামূলক",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Educational", "Instructive", "Informative"],
+    "antonyms": ["Unsound", "Erroneous", "Misinstructive"],
+    "sentences": [
+      "The book has a didactic tone meant to teach children moral lessons.",
+      "His speech was both entertaining and didactic.",
+      "She wrote a didactic story to inspire young readers."
+    ]
+  },
+  {
+    "id": 180,
+    "word": "Din",
+    "meaning": "তীব্র শব্দ/হট্টগোল",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Clamor", "Uproar", "Hubbub"],
+    "antonyms": ["Quiet", "Silence", "Calm"],
+    "sentences": [
+      "The din of traffic kept him awake all night.",
+      "We couldn’t hear each other over the din in the marketplace.",
+      "The teacher struggled to speak above the din of the classroom."
+    ]
+  },
+  {
+    "id": 181,
+    "word": "Disparage",
+    "meaning": "অবজ্ঞা/সহজে নেওয়া",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Criticize", "Belittle", "Deride"],
+    "antonyms": ["Applaud", "Extol", "Praise"],
+    "sentences": [
+      "He never missed a chance to disparage his rival.",
+      "Don’t disparage others’ efforts; encourage them instead.",
+      "The article seemed to disparage women in leadership."
+    ]
+  },
+  {
+    "id": 182,
+    "word": "Disparity",
+    "meaning": "অসাম্য/অমিল",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Inequality", "Dissimilarity", "Imbalance"],
+    "antonyms": ["Harmony", "Accord", "Equality"],
+    "sentences": [
+      "There is still a disparity in pay between men and women.",
+      "The disparity in wealth is growing wider each year.",
+      "Education can help reduce social disparity."
+    ]
+  },
+  {
+    "id": 183,
+    "word": "Dispute",
+    "meaning": "বিতর্ক/সংঘাত",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Challenge", "Disagree", "Argue"],
+    "antonyms": ["Agree", "Concur", "Accord"],
+    "sentences": [
+      "The two companies are in a legal dispute.",
+      "He disputed the accuracy of the report.",
+      "There was a dispute between neighbors over land boundaries."
+    ]
+  },
+  {
+    "id": 184,
+    "word": "Docile",
+    "meaning": "আজ্ঞাবহ/সহজে নিয়ন্ত্রিত",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Obedient", "Compliant", "Submissive"],
+    "antonyms": ["Unruly", "Disobedient", "Stubborn"],
+    "sentences": [
+      "The dog is very docile and friendly.",
+      "Children are more docile when treated with kindness.",
+      "She preferred a docile partner who would listen to her."
+    ]
+  },
+  {
+    "id": 185,
+    "word": "Dormant",
+    "meaning": "সুপ্ত/অচল",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Inactive", "Sleeping", "Latent"],
+    "antonyms": ["Active", "Awake", "Alert"],
+    "sentences": [
+      "The volcano has been dormant for years.",
+      "Her talents lay dormant until she found the right mentor.",
+      "Seeds remain dormant during winter."
+    ]
+  },
+  {
+    "id": 186,
+    "word": "Dreadful",
+    "meaning": "ভয়ঙ্কর/ভয়াবহ",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Terrible", "Horrible", "Tragic"],
+    "antonyms": ["Delightful", "Pleasant", "Enjoyable"],
+    "sentences": [
+      "The movie was so dreadful that people left the theater early.",
+      "They lived in dreadful conditions during the war.",
+      "The patient was in dreadful pain after the accident."
+    ]
+  }, {
+    "id": 187,
+    "word": "Dastard",
+    "meaning": "কাপুরুষ",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Cowardly", "Craven", "Timorous"],
+    "antonyms": ["Brave", "Gallant", "Valiant"],
+    "sentences": [
+      "Only a dastard would betray his own friends.",
+      "He acted like a dastard, fleeing from danger.",
+      "The dastard move cost the team their honor."
+    ]
+  },
+  {
+    "id": 188,
+    "word": "Daunt",
+    "meaning": "ভীত/নিরুৎসাহিত করা",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Intimidate", "Frighten", "Discourage"],
+    "antonyms": ["Encourage", "Hearten", "Reassure"],
+    "sentences": [
+      "The challenge did not daunt her; she kept moving forward.",
+      "He was daunted by the size of the mountain.",
+      "Nothing could daunt the brave soldier."
+    ]
+  },
+  {
+    "id": 189,
+    "word": "Debacle",
+    "meaning": "পতন/চরম পরাজয়",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Disaster", "Collapse", "Fiasco"],
+    "antonyms": ["Success", "Victory", "Achievement"],
+    "sentences": [
+      "The event turned into a financial debacle.",
+      "Their strategy led to a complete debacle.",
+      "The company recovered quickly after last year’s debacle."
+    ]
+  },
+  {
+    "id": 190,
+    "word": "Desultory",
+    "meaning": "এলোমেলো/অসংলগ্ন",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Indiscriminate", "Random", "Aimless"],
+    "antonyms": ["Planned", "Organized", "Systematic"],
+    "sentences": [
+      "The meeting was long and desultory, without a clear outcome.",
+      "He made a desultory attempt to explain his mistake.",
+      "Her desultory reading habits prevented deep knowledge in one field."
+    ]
+  },
+  {
+    "id": 191,
+    "word": "Diligent",
+    "meaning": "পরিশ্রমী",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Industrious", "Hardworking", "Assiduous", "Persevering"],
+    "antonyms": ["Lazy", "Indolent", "Slothful", "Apathetic"],
+    "sentences": [
+      "She is diligent in her studies.",
+      "A diligent worker was promoted to team leader.",
+      "With diligent effort, success is guaranteed."
+    ]
+  },
+  {
+    "id": 192,
+    "word": "Discontented",
+    "meaning": "অতৃপ্ত/অসন্তুষ্ট",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Dissatisfied", "Unhappy", "Restless"],
+    "antonyms": ["Satisfied", "Content", "Pleased"],
+    "sentences": [
+      "He felt discontented with his current job.",
+      "The crowd grew discontented with the delay.",
+      "She looked discontented despite the success."
+    ]
+  },
+  {
+    "id": 193,
+    "word": "Dishevelled",
+    "meaning": "অগোছালো/অবিন্যস্ত",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Unkempt", "Ruffled", "Disorderly"],
+    "antonyms": ["Neat", "Tidy", "Unruffled"],
+    "sentences": [
+      "He arrived dishevelled after running through the rain.",
+      "Her hair looked dishevelled after a long day.",
+      "The room was dishevelled with clothes everywhere."
+    ]
+  },
+  {
+    "id": 194,
+    "word": "Disinterested",
+    "meaning": "নিরপেক্ষ/অপক্ষপাতদুষ্ট",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Impartial", "Neutral", "Unbiased"],
+    "antonyms": ["Biased", "Prejudiced", "Partial"],
+    "sentences": [
+      "A judge must remain disinterested in the case.",
+      "She gave a disinterested opinion about the conflict.",
+      "The referee was praised for being fair and disinterested."
+    ]
+  },
+  {
+    "id": 195,
+    "word": "Disparate",
+    "meaning": "অসদৃশ/ভিন্ন",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Dissimilar", "Different", "Distinct"],
+    "antonyms": ["Similar", "Alike", "Akin"],
+    "sentences": [
+      "The two cultures are completely disparate.",
+      "They discussed disparate ideas during the debate.",
+      "Disparate opinions made it hard to reach an agreement."
+    ]
+  },
+  {
+    "id": 196,
+    "word": "Disperse",
+    "meaning": "ছড়িয়ে দেওয়া/বিস্তার করা",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Extend", "Scatter", "Spread"],
+    "antonyms": ["Amass", "Gather", "Assemble"],
+    "sentences": [
+      "The police dispersed the crowd peacefully.",
+      "Seeds disperse in the wind.",
+      "He used a fan to disperse the smoke."
+    ]
+  },
+  {
+    "id": 197,
+    "word": "Dissent",
+    "meaning": "মতভেদ করা/অসন্মতি প্রকাশ করা",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Disagree", "Oppose", "Differ"],
+    "antonyms": ["Agree", "Concur", "Coincide"],
+    "sentences": [
+      "Several members dissented from the final decision.",
+      "He voiced his dissent during the meeting.",
+      "The dissent was recorded in the official report."
+    ]
+  },
+  {
+    "id": 198,
+    "word": "Distinguished",
+    "meaning": "প্রতিষ্ঠিত/খ্যাতিমান",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Famous", "Celebrated", "Renowned"],
+    "antonyms": ["Unknown", "Unfamiliar", "Obscure"],
+    "sentences": [
+      "He is a distinguished professor of history.",
+      "The award went to a distinguished scientist.",
+      "She belongs to a distinguished family."
+    ]
+  },
+  {
+    "id": 199,
+    "word": "Dulcet",
+    "meaning": "মধুর/শ্রুতিমধুর",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Mellifluous", "Melodious", "Sweet-sounding"],
+    "antonyms": ["Harsh", "Discordant", "Unpleasant"],
+    "sentences": [
+      "The dulcet tones of the piano filled the room.",
+      "She sang in a dulcet voice.",
+      "He loved the dulcet sound of her laughter."
+    ]
+  },
+  {
+    "id": 200,
+    "word": "Duplicity",
+    "meaning": "কপটতা/ছলনা",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Deceit", "Deception", "Fraud", "Pretence"],
+    "antonyms": ["Frankness", "Candor", "Openness"],
+    "sentences": [
+      "They were accused of duplicity in the negotiations.",
+      "Her duplicity cost her the trust of her friends.",
+      "The politician’s duplicity shocked the public."
+    ]
+  },
+    {
+    "id": 201,
+    "word": "Eccentric",
+    "meaning": "অদ্ভুত",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Peculiar", "Odd", "Strange"],
+    "antonyms": ["Common", "Ordinary"],
+    "sentences": [
+      "The old man was known for his eccentric habits.",
+      "Her eccentric style made her stand out in the crowd.",
+      "Scientists are often thought to be eccentric thinkers."
+    ]
+  },
+  {
+    "id": 202,
+    "word": "Ecstasy",
+    "meaning": "পেমানি/উচ্ছ্বাস",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Elation", "Rapture", "Euphoria"],
+    "antonyms": ["Agony", "Depression"],
+    "sentences": [
+      "She was in ecstasy after hearing the good news.",
+      "Winning the championship filled him with ecstasy.",
+      "The crowd shouted in ecstasy during the concert."
+    ]
+  },
+  {
+    "id": 203,
+    "word": "Effortless",
+    "meaning": "সহজ, অনায়াস",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Facile", "Easy", "Simplistic"],
+    "antonyms": ["Hard", "Difficult", "Tough"],
+    "sentences": [
+      "He made an effortless throw that stunned the audience.",
+      "Her dance moves looked effortless and graceful.",
+      "Learning languages seemed effortless to her."
+    ]
+  },
+  {
+    "id": 204,
+    "word": "Eligible",
+    "meaning": "মনোনয়নের যোগ্য",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Fit to be chosen", "Suitable"],
+    "antonyms": ["Ineligible", "Disqualified"],
+    "sentences": [
+      "He is eligible to vote in the upcoming election.",
+      "Only eligible candidates will be considered for the job.",
+      "She was declared eligible for the scholarship."
+    ]
+  },
+  {
+    "id": 205,
+    "word": "Eloquent",
+    "meaning": "বাকপটু",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Persuasive", "Expressive"],
+    "antonyms": ["Inarticulate", "Mumbling"],
+    "sentences": [
+      "The lawyer gave an eloquent speech in court.",
+      "Her eloquent writing moved many readers.",
+      "He is known for his eloquent style of speaking."
+    ]
+  },
+  {
+    "id": 206,
+    "word": "Endanger",
+    "meaning": "বিপদগ্রস্ত/বিপন্ন করা",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Imperil", "Jeopardize"],
+    "antonyms": ["Protect", "Defend"],
+    "sentences": [
+      "Pollution can endanger marine life.",
+      "His reckless driving could endanger others.",
+      "Cutting down forests endangers many species."
+    ]
+  },
+  {
+    "id": 207,
+    "word": "Endorsement",
+    "meaning": "অনুমোদন/সমর্থন",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Approbation", "Commendation", "Consent", "Sanction"],
+    "antonyms": ["Censure", "Reprimand", "Reproach"],
+    "sentences": [
+      "The product gained popularity after the celebrity’s endorsement.",
+      "Her idea received full endorsement from the board.",
+      "He gave his endorsement to the new project."
+    ]
+  },
+  {
+    "id": 208,
+    "word": "Endurance",
+    "meaning": "সহনশীলতা, ধৈর্য",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Stamina", "Durability", "Patience"],
+    "antonyms": ["Frailty", "Weakness"],
+    "sentences": [
+      "Marathon running requires great endurance.",
+      "His endurance during hardship inspired others.",
+      "The athlete showed amazing endurance throughout the race."
+    ]
+  },
+  {
+    "id": 209,
+    "word": "Endure",
+    "meaning": "সহ্য করা/স্থায়ী হওয়া",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Sustain", "Tolerate", "Undergo", "Persist"],
+    "antonyms": ["Falter", "Succumb", "Wane", "Disperse"],
+    "sentences": [
+      "He had to endure many difficulties in his life.",
+      "The tradition has endured for centuries.",
+      "She endured the pain without complaining."
+    ]
+  },
+  {
+    "id": 210,
+    "word": "Enmity",
+    "meaning": "শত্রুতা, বিরোধ",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Animosity", "Hostility", "Malice"],
+    "antonyms": ["Friendship", "Amity", "Affinity"],
+    "sentences": [
+      "There was long-standing enmity between the two families.",
+      "Political enmity divided the nation.",
+      "He tried to resolve the enmity with kindness."
+    ]
+  },
+  {
+    "id": 211,
+    "word": "Enthusiasm",
+    "meaning": "গভীর আগ্রহ",
+    "isIdiom": false,
+    "isBookmarked": false,
+    "synonyms": ["Earnestness", "Excitement", "Fanaticism", "Fervency", "Fervor", "Zeal"],
+    "antonyms": ["Apathy", "Ennui", "Unconcern"],
+    "sentences": [
+      "She showed great enthusiasm for learning new skills.",
+      "The crowd cheered with enthusiasm.",
+      "His enthusiasm motivated the whole team."
+    ]
+  },
+  {
+    "id": 212,
+    "word": "Erroneous",
+    "meaning": "ভ্রান্ত",
+    "synonyms": ["Faulty", "Improper", "Aberrant", "Iniquitous"],
+    "antonyms": ["Correct", "Right", "Proper"],
+    "sentences": [
+      "His conclusion was erroneous due to a calculation mistake.",
+      "It is erroneous to believe that success comes without effort."
+    ]
+  },
+  {
+    "id": 213,
+    "word": "Essential",
+    "meaning": "অপরিহার্য",
+    "synonyms": ["Crucial", "Indispensable", "Vital", "Important", "Necessary"],
+    "antonyms": ["Unimportant", "Trivial", "Petty", "Minor"],
+    "sentences": [
+      "Water is essential for human survival.",
+      "Discipline is essential for achieving success."
+    ]
+  },
+  {
+    "id": 214,
+    "word": "Eternal",
+    "meaning": "অনন্ত / চিরস্থায়ী",
+    "synonyms": ["Ceaseless", "Everlasting", "Infinite", "Perpetual", "Endless", "Permanent"],
+    "antonyms": ["Ephemeral", "Finite", "Temporal", "Transient", "Temporary"],
+    "sentences": [
+      "Truth is eternal and cannot be destroyed.",
+      "They vowed to have eternal friendship."
+    ]
+  },
+  {
+    "id": 215,
+    "word": "Excess",
+    "meaning": "মাত্রাতিরিক্ত, বাড়তি উৎপাদন",
+    "synonyms": ["Surplus", "Excessive", "Extra"],
+    "antonyms": ["Inadequate", "Scarce"],
+    "sentences": [
+      "The company produced an excess of goods.",
+      "Too much sugar intake is harmful in excess."
+    ]
+  },
+  {
+    "id": 216,
+    "word": "Execute",
+    "meaning": "সম্পাদন করা / প্রাণদণ্ড দেওয়া",
+    "synonyms": ["Accomplish", "Achieve", "Consummate", "Perform"],
+    "antonyms": ["Block", "Defeat", "Unaccomplished"],
+    "sentences": [
+      "The manager will execute the new plan tomorrow.",
+      "The criminal was executed for his crimes."
+    ]
+  },
+  {
+    "id": 217,
+    "word": "Erratic",
+    "meaning": "অসংগত / খামখেয়ালি",
+    "synonyms": ["Abnormal", "Irregular", "Capricious", "Odd"],
+    "antonyms": ["Peculiar", "Natural", "Stable", "Consistent"],
+    "sentences": [
+      "His erratic behavior worried his friends.",
+      "The erratic weather caused travel delays."
     ]
   }
 ]
